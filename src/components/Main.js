@@ -1,6 +1,5 @@
-import logo from './logo.svg';
-import { Component } from 'react';
-import './App.css';
+import { useState, useEffect } from 'react';
+import '../App.css';
 import Months from './months.js';
 
 let issues = {  
@@ -46,52 +45,26 @@ let issues = {
   },
 };
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      error: null,
-      isLoaded: false, //false
-      issueSelected: false, //false
-      issues: []
-    };
-  }
+const Main = () => {
+    const [error,setError] = useState(null);
+    const [isLoaded,setIsLoaded] = useState(false);
+    const [issueSelected,setIssueSelected] = useState(false);
+    const [issues,setIssues] = useState([]);
 
-  componentDidMount() {
-    this.setState({
-      issues: issues,
-      isLoaded: true
-    })
-    // fetch("https://api.example.com/items")
-    //   .then(res => res.json())
-    //   .then(
-    //     (result) => {
-    //       this.setState({
-    //         isLoaded: true,
-    //         items: result.items
-    //       });
-    //     },
-    //     // Note: it's important to handle errors here
-    //     // instead of a catch() block so that we don't swallow
-    //     // exceptions from actual bugs in components.
-    //     (error) => {
-    //       this.setState({
-    //         isLoaded: true,
-    //         error
-    //       });
-    //     }
-    //   )
-  }
+  useEffect(() => {
+    setIssues(issues);
+    setIsLoaded(true);
+  },[]);
 
-  displaySelectedIssue() {
+  const displaySelectedIssue = () => {
     return <div>Hello</div>
   }
 
-  generateIssues(year, month) {
+  const generateIssues = (year, month) => {
     return <div>hello</div>
   }
 
-  generateMonths(year) {
+  const generateMonths = (year) => {
     let months = []
     for (let month in issues[year]) months.push(month)
     let monthListings = months.map((month) => {
@@ -106,7 +79,7 @@ class App extends Component {
   }
 
   // TODO: once we have a couple years down, might be beneficial to have all years collapsed, then on click drop down months
-  generateListings() {
+  const generateListings = () => {
     let years = []
     for (let year in issues) years.push(year)
     let yearListings = years.reverse().map((year) => {
@@ -121,22 +94,18 @@ class App extends Component {
     return yearListings
   }
 
-  render() {
-    const { error, isLoaded, items } = this.state;
-    const issueSelected = this.state.issueSelected;
-    if (error) {
+  if (error) {
       return <div>Error: {error.message}</div>;
-    } else if (!isLoaded) {
+  } else if (!isLoaded) {
       return <div>Loading...</div>;
-    } else {
+  } else {
       return (
-        <div>
+      <div>
           { issueSelected && this.displaySelectedIssue() }
           { this.generateListings() }
-        </div>
+      </div>
       );
-    }
   }
 }
 
-export default App;
+export default Main;
