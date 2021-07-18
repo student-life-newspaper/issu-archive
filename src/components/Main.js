@@ -127,7 +127,7 @@ const Main = () => {
   return (
     <>
       <FeaturedIssue issueName="Latest Issue" embed={issues['Latest Issue']['2020-10-02']} />
-      {issues['Featured Issues'][0] && listFeaturedIssues(issues['Featured Issues'])}
+      {issues['Featured Issues'] && listFeaturedIssues(issues['Featured Issues'])}
       { issueSelected && displaySelectedIssue() }
       { generateListings() }
     </>
