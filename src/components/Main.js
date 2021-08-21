@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import '../App.css';
-import moment from 'moment';
 import FeaturedIssue from './FeaturedIssue';
 import PreviousIssues from './PreviousIssues';
 
@@ -24,15 +23,23 @@ const pulledIssues = {
   'Previous Issues': {
     standardIssues: [
       {
-        date: '2019/10/02',
+        date: '2018/11/29',
         embed: '<iframe allowfullscreen="true" allow="fullscreen" style="border:none;width:100%;height:500px;" src="//e.issuu.com/embed.html?d=student_life_at_wash_u_november_19__2020&amp;hideIssuuLogo=true&amp;logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&amp;u=washustudentlife"></iframe>',
       },
       {
-        date: '2019/10/08',
+        date: '2019/11/19',
         embed: '<iframe allowfullscreen="true" allow="fullscreen" style="border:none;width:100%;height:500px;" src="//e.issuu.com/embed.html?d=student_life_at_wash_u_november_19__2020&amp;hideIssuuLogo=true&amp;logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&amp;u=washustudentlife"></iframe>',
       },
       {
-        date: '2020/04/02',
+        date: '2019/10/03',
+        embed: '<iframe allowfullscreen="true" allow="fullscreen" style="border:none;width:100%;height:500px;" src="//e.issuu.com/embed.html?d=student_life_at_wash_u_november_19__2020&amp;hideIssuuLogo=true&amp;logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&amp;u=washustudentlife"></iframe>',
+      },
+      {
+        date: '2019/10/07',
+        embed: '<iframe allowfullscreen="true" allow="fullscreen" style="border:none;width:100%;height:500px;" src="//e.issuu.com/embed.html?d=student_life_at_wash_u_november_19__2020&amp;hideIssuuLogo=true&amp;logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&amp;u=washustudentlife"></iframe>',
+      },
+      {
+        date: '2020/03/02',
         embed: '<iframe allowfullscreen="true" allow="fullscreen" style="border:none;width:100%;height:500px;" src="//e.issuu.com/embed.html?d=student_life_at_wash_u_november_19__2020&amp;hideIssuuLogo=true&amp;logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&amp;u=washustudentlife"></iframe>',
       },
     ],
@@ -49,8 +56,8 @@ const pulledIssues = {
 const Main = () => {
   const [error, setError] = useState(null);
   const [isLoaded, setIsLoaded] = useState(false);
-  const [issueSelected, setIssueSelected] = useState(false);
-  const [formattedIssues, setFormattedIssues] = useState(pulledIssues);
+  const [selectedIssue, setSelectedIssue] = useState(null);
+  const [formattedIssues, setFormattedIssues] = useState(null);
   const [issues, setIssues] = useState(pulledIssues);
 
   useEffect(() => {
@@ -80,7 +87,7 @@ const Main = () => {
         embed: standardIssue.embed,
       });
     });
-    
+
     setFormattedIssues(previousIssues);
     setIsLoaded(true);
   }, []);
@@ -104,9 +111,12 @@ const Main = () => {
   }
   return (
     <>
-      {/* <FeaturedIssue issueName="Latest Issue" embed={issues['Latest Issue'].embed} />
-      {issues['Featured Issues'] && listFeaturedIssues(issues['Featured Issues'])} */}
-      {issues['Previous Issues'] && <PreviousIssues previousIssues={issues['Previous Issues']} />}
+      <FeaturedIssue issueName="Latest Issue" embed={issues['Latest Issue'].embed} />
+      {issues['Featured Issues'] && listFeaturedIssues(issues['Featured Issues'])}
+      {selectedIssue
+        && <FeaturedIssue issueName={selectedIssue.date} embed={selectedIssue.embed} />}
+      {formattedIssues
+        && <PreviousIssues issues={formattedIssues} setSelectedIssue={setSelectedIssue} />}
     </>
   );
 };
