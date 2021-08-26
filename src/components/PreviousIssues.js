@@ -49,6 +49,7 @@ const columnAccordionTheme = makeStyles({
 });
 
 const IndividualIssues = (issuesArray, setSelectedIssue) => {
+  console.log(issuesArray)
   const classes = columnAccordionTheme();
   const options = {
     year: 'numeric', month: 'long', day: 'numeric',
@@ -126,7 +127,10 @@ const SubdivisionAccordion = (subdivisions, year, setSelectedIssue) => (
           {division}
         </AccordionSummary>
         <AccordionDetails className={classes.flexColumn}>
-          {MonthAccordion(e[1], e[0], year, setSelectedIssue)}
+          {e[0] !== 'Fall' || e[0] !== 'Spring'
+            ? IndividualIssues(e[1], setSelectedIssue)
+            : MonthAccordion(e[1], e[0], year, setSelectedIssue)
+          }
         </AccordionDetails>
       </Accordion>
     );
@@ -151,6 +155,7 @@ const PreviousIssues = ({ issues, setSelectedIssue }) => {
             aria-controls={`${year}-content`}
             id={`${year}-header`}
           >
+            {console.log(e)}
             {year}
           </AccordionSummary>
           <AccordionDetails className={classes.flexColumn}>

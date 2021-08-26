@@ -11,12 +11,12 @@ const pulledIssues = {
   'Featured Issues': [
     {
       issueName: 'Housing Guide',
-      pubDate: '2020/09/04',
+      date: '2020/09/04',
       embed: '<iframe allowfullscreen="true" allow="fullscreen" style="border:none;width:100%;height:500px;" src="//e.issuu.com/embed.html?d=student_life_at_wash_u_november_19__2020&amp;hideIssuuLogo=true&amp;logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&amp;u=washustudentlife"></iframe>',
     },
     {
       issueName: 'Starting Line',
-      pubDate: '2020/08/02',
+      date: '2020/08/02',
       embed: '<iframe allowfullscreen="true" allow="fullscreen" style="border:none;width:100%;height:500px;" src="//e.issuu.com/embed.html?d=student_life_at_wash_u_november_19__2020&amp;hideIssuuLogo=true&amp;logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&amp;u=washustudentlife"></iframe>',
     },
   ],
@@ -88,6 +88,29 @@ const Main = () => {
       });
     });
 
+    Object.entries(pulledIssues['Previous Issues'].specialIssues).forEach((specialIssue) => {
+      const issueData = specialIssue[1];
+      const issueJSDate = new Date(issueData.date);
+      const issueMonth = 'Special';
+      const issueYear = issueJSDate.getFullYear();
+      const issueSchoolYear = (issueJSDate.getMonth() + 1) <= 6
+        ? `${(issueYear - 1).toString()}-${issueYear.toString()}`
+        : `${issueYear.toString()}-${(issueYear + 1).toString()}`;
+      const issueSeason = 'Special Issues';
+
+      if (!previousIssues[issueSchoolYear]) previousIssues[issueSchoolYear] = {};
+      if (!previousIssues[issueSchoolYear][issueSeason]) {
+        previousIssues[issueSchoolYear][issueSeason] = [];
+      }
+      // if (!previousIssues[issueSchoolYear][issueSeason][issueMonth]) {
+      //   previousIssues[issueSchoolYear][issueSeason][issueMonth] = [];
+      // }
+      previousIssues[issueSchoolYear][issueSeason].push({
+        date: issueData.date,
+        embed: issueData.embed,
+      });
+    });
+
     setFormattedIssues(previousIssues);
     setIsLoaded(true);
   }, []);
@@ -111,8 +134,8 @@ const Main = () => {
   }
   return (
     <>
-      <FeaturedIssue issueName="Latest Issue" embed={issues['Latest Issue'].embed} />
-      {issues['Featured Issues'] && listFeaturedIssues(issues['Featured Issues'])}
+      {/* <FeaturedIssue issueName="Latest Issue" embed={issues['Latest Issue'].embed} />
+      {issues['Featured Issues'] && listFeaturedIssues(issues['Featured Issues'])} */}
       {selectedIssue
         && <FeaturedIssue issueName={selectedIssue.date} embed={selectedIssue.embed} />}
       {formattedIssues
