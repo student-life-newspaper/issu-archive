@@ -73,7 +73,7 @@ const IndividualIssues = ({ issuesArray, setSelectedIssue, specialCategory }) =>
     );
   });
   return (
-    <Grid container className={classes.root} spacing={2}>
+    <Grid container className={classes.root} spacing={2} justifyContent="center">
       {issues}
     </Grid>
   );
