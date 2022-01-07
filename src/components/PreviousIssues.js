@@ -24,7 +24,7 @@ const issueSchoolYear = (date) => {
     ? `${(issueYear - 1).toString()}-${issueYear.toString()}`
     : `${issueYear.toString()}-${(issueYear + 1).toString()}`;
 };
-const issueArchiveDate = (date) => [date.substr(2, 2), date.substr(5, 2), date.substr(8, 2)].join('-');
+const issueArchiveDate = (date) => [date.substr(0, 4), date.substr(5, 2), date.substr(8, 2)].join('-');
 
 const columnAccordionTheme = makeStyles({
   flexColumn: {
@@ -48,22 +48,25 @@ const columnAccordionTheme = makeStyles({
   },
 });
 
-const IndividualIssues = (issuesArray, setSelectedIssue) => {
+const IndividualIssues = (issuesArray, setSelectedIssue, specialCategory) => {
   const classes = columnAccordionTheme();
   const options = {
     year: 'numeric', month: 'long', day: 'numeric',
   };
+  const dateString = (date) => new Date(date).toLocaleDateString('en-US', options);
   const issues = issuesArray.map((e) => {
     const { date, embed } = e;
-    const dateString = new Date(date).toLocaleDateString('en-US', options);
-    const thumbnailUrl = `url(${THUMBNAIL_URL}${issueSchoolYear(date)}/thumbs/${issueArchiveDate(date)}.jpg)`;
+    // const dateString = new Date(date).toLocaleDateString('en-US', options);
+    const thumbnailUrl = (specialCategory)
+      ? `url(${THUMBNAIL_URL}${issueSchoolYear(date)}/thumbs/${e.thumbURL}.jpg)`
+      : `url(${THUMBNAIL_URL}${issueSchoolYear(date)}/thumbs/${issueArchiveDate(date)}.jpg)`;
     return (
       <Grid key={date} item>
         <CardActionArea onClick={() => setSelectedIssue({ date: dateString, embed })}>
           <Paper className={classes.thumbnailWrapper}>
             <Box style={{ backgroundImage: thumbnailUrl }} className={classes.thumbnail} />
             <Box className={classes.dateText}>
-              {dateString}
+              {(specialCategory) ? e.issueName : dateString(date)}
             </Box>
           </Paper>
         </CardActionArea>
@@ -98,7 +101,7 @@ const MonthAccordion = (months, division, year, setSelectedIssue) => {
             {month}
           </AccordionSummary>
           <AccordionDetails className={classes.flexColumn}>
-            {IndividualIssues(e[1], setSelectedIssue)}
+            {IndividualIssues(e[1], setSelectedIssue, false)}
           </AccordionDetails>
         </Accordion>
       );
@@ -127,7 +130,7 @@ const SubdivisionAccordion = (subdivisions, year, setSelectedIssue) => (
         <AccordionDetails className={classes.flexColumn}>
           {division === 'Fall' || division === 'Spring'
             ? MonthAccordion(e[1], e[0], year, setSelectedIssue)
-            : IndividualIssues(e[1], setSelectedIssue)}
+            : IndividualIssues(e[1], setSelectedIssue, true)}
         </AccordionDetails>
       </Accordion>
     );
