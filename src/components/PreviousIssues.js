@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import PropTypes from 'prop-types';
 import {
   Accordion,
   AccordionDetails,
@@ -48,7 +47,7 @@ const columnAccordionTheme = makeStyles({
   },
 });
 
-const IndividualIssues = (issuesArray, setSelectedIssue, specialCategory) => {
+const IndividualIssues = ({ issuesArray, setSelectedIssue, specialCategory }) => {
   const classes = columnAccordionTheme();
   const options = {
     year: 'numeric', month: 'long', day: 'numeric',
@@ -56,17 +55,17 @@ const IndividualIssues = (issuesArray, setSelectedIssue, specialCategory) => {
   const dateString = (date) => new Date(date).toLocaleDateString('en-US', options);
   const issues = issuesArray.map((e) => {
     const { date, embed } = e;
-    // const dateString = new Date(date).toLocaleDateString('en-US', options);
     const thumbnailUrl = (specialCategory)
       ? `url(${THUMBNAIL_URL}${issueSchoolYear(date)}/thumbs/${e.thumbURL}.jpg)`
       : `url(${THUMBNAIL_URL}${issueSchoolYear(date)}/thumbs/${issueArchiveDate(date)}.jpg)`;
+    const issueName = (specialCategory) ? e.issueName : dateString(date);
     return (
       <Grid key={date} item>
-        <CardActionArea onClick={() => setSelectedIssue({ date: dateString, embed })}>
+        <CardActionArea onClick={() => setSelectedIssue({ date: issueName, embed })}>
           <Paper className={classes.thumbnailWrapper}>
             <Box style={{ backgroundImage: thumbnailUrl }} className={classes.thumbnail} />
             <Box className={classes.dateText}>
-              {(specialCategory) ? e.issueName : dateString(date)}
+              {issueName}
             </Box>
           </Paper>
         </CardActionArea>
@@ -80,11 +79,13 @@ const IndividualIssues = (issuesArray, setSelectedIssue, specialCategory) => {
   );
 };
 
-const MonthAccordion = (months, division, year, setSelectedIssue) => {
+const MonthAccordion = ({
+  months, division, year, setSelectedIssue,
+}) => {
   const [monthExpanded, setMonthExpanded] = useState(false);
   const classes = columnAccordionTheme();
-  const handleMonthChange = (panel) => (event, isExpanded) => {
-    setMonthExpanded(isExpanded ? panel : false);
+  const handleMonthChange = (panel) => {
+    setMonthExpanded(monthExpanded === panel ? false : panel);
   };
 
   return Object.entries(months)
@@ -92,7 +93,11 @@ const MonthAccordion = (months, division, year, setSelectedIssue) => {
     .map((e) => {
       const month = e[0];
       return (
-        <Accordion expanded={monthExpanded === `panel-${year}-${division}-${month}`} onChange={handleMonthChange(`panel-${year}-${division}-${month}`)}>
+        <Accordion
+          expanded={monthExpanded === `panel-${year}-${division}-${month}`}
+          onChange={() => handleMonthChange(`panel-${year}-${division}-${month}`)}
+          key={`panel-${year}-${division}-${month}`}
+        >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls={`${year}-${division}-${month}-content`}
@@ -101,55 +106,74 @@ const MonthAccordion = (months, division, year, setSelectedIssue) => {
             {month}
           </AccordionSummary>
           <AccordionDetails className={classes.flexColumn}>
-            {IndividualIssues(e[1], setSelectedIssue, false)}
+            {monthExpanded === `panel-${year}-${division}-${month}` && <IndividualIssues issuesArray={e[1]} setSelectedIssue={setSelectedIssue} specialCategory={false} />}
           </AccordionDetails>
         </Accordion>
       );
     });
 };
 
-const SubdivisionAccordion = (subdivisions, year, setSelectedIssue) => (
-  Object.entries(subdivisions).map((e) => {
-    const [subExpanded, setSubExpanded] = useState(false);
-    const classes = columnAccordionTheme();
+const SubdivisionAccordion = ({ subdivisions, year, setSelectedIssue }) => {
+  const [expanded, setExpanded] = useState(false);
+  const classes = columnAccordionTheme();
 
-    const handleSubdivisionChange = (panel) => (event, isExpanded) => {
-      setSubExpanded(isExpanded ? panel : false);
-    };
+  const handleChange = (panel) => {
+    setExpanded(expanded === panel ? false : panel);
+  };
 
-    const division = e[0];
-    return (
-      <Accordion expanded={subExpanded === `panel-${year}-${division}`} onChange={handleSubdivisionChange(`panel-${year}-${division}`)}>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls={`${year}-${division}-content`}
-          id={`${year}-${division}-header`}
+  return (
+    Object.entries(subdivisions).map((e) => {
+      const division = e[0];
+      return (
+        <Accordion
+          expanded={expanded === `panel-${year}-${division}`}
+          onChange={() => handleChange(`panel-${year}-${division}`)}
+          key={`panel-${year}-${division}`}
         >
-          {division}
-        </AccordionSummary>
-        <AccordionDetails className={classes.flexColumn}>
-          {division === 'Fall' || division === 'Spring'
-            ? MonthAccordion(e[1], e[0], year, setSelectedIssue)
-            : IndividualIssues(e[1], setSelectedIssue, true)}
-        </AccordionDetails>
-      </Accordion>
-    );
-  })
-);
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls={`${year}-${division}-content`}
+            id={`${year}-${division}-header`}
+          >
+            {division}
+          </AccordionSummary>
+          <AccordionDetails className={classes.flexColumn}>
+            {expanded === `panel-${year}-${division}`
+              && (division === 'Fall' || division === 'Spring'
+                ? (
+                  <MonthAccordion
+                    months={e[1]}
+                    division={e[0]}
+                    year={year}
+                    setSelectedIssue={setSelectedIssue}
+                  />
+                ) : (
+                  <IndividualIssues
+                    issuesArray={e[1]}
+                    setSelectedIssue={setSelectedIssue}
+                    specialCategory
+                  />
+                ))}
+          </AccordionDetails>
+        </Accordion>
+      );
+    })
+  );
+};
 
 const PreviousIssues = ({ issues, setSelectedIssue }) => {
   const [expanded, setExpanded] = useState(false);
   const classes = columnAccordionTheme();
 
-  const handleChange = (panel) => (event, isExpanded) => {
-    setExpanded(isExpanded ? panel : false);
+  const handleChange = (panel) => {
+    setExpanded(expanded === panel ? false : panel);
   };
 
   const yearsAccordion = () => {
     const elements = Object.entries(issues).map((e) => {
       const year = e[0];
       return (
-        <Accordion expanded={expanded === `panel-${year}`} onChange={handleChange(`panel-${year}`)}>
+        <Accordion expanded={expanded === `panel-${year}`} onChange={() => handleChange(`panel-${year}`)} key={`panel-${year}`}>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls={`${year}-content`}
@@ -158,7 +182,14 @@ const PreviousIssues = ({ issues, setSelectedIssue }) => {
             {year}
           </AccordionSummary>
           <AccordionDetails className={classes.flexColumn}>
-            {SubdivisionAccordion(e[1], year, setSelectedIssue)}
+            {expanded === `panel-${year}`
+              && (
+                <SubdivisionAccordion
+                  subdivisions={e[1]}
+                  year={year}
+                  setSelectedIssue={setSelectedIssue}
+                />
+              )}
           </AccordionDetails>
         </Accordion>
       );
@@ -174,8 +205,3 @@ const PreviousIssues = ({ issues, setSelectedIssue }) => {
 };
 
 export default PreviousIssues;
-
-PreviousIssues.propTypes = {
-  issues: PropTypes.objectOf(PropTypes.string).isRequired,
-  setSelectedIssue: PropTypes.func.isRequired,
-};
