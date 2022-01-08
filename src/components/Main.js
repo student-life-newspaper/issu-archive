@@ -10,7 +10,8 @@ const Main = () => {
   const [issues, setIssues] = useState(null);
 
   useEffect(() => {
-    fetch('https://raw.githubusercontent.com/student-life-newspaper/issu-archive/main/public/issues.json')
+    // fetch('https://raw.githubusercontent.com/student-life-newspaper/issu-archive/main/public/issues.json')
+    fetch(`${process.env.PUBLIC_URL}/issues.json`)
       .then((response) => response.json())
       .then((pulledIssues) => {
         setIssues(pulledIssues);

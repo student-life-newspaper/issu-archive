@@ -40,6 +40,13 @@ const columnAccordionTheme = makeStyles({
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
   },
+  thumbnailFit: {
+    height: 300,
+    width: 200,
+    backgroundSize: 'contain',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: '50%',
+  },
   dateText: {
     textAlign: 'center',
     fontWeight: 'bold',
@@ -63,7 +70,10 @@ const IndividualIssues = ({ issuesArray, setSelectedIssue, specialCategory }) =>
       <Grid key={date} item>
         <CardActionArea onClick={() => setSelectedIssue({ date: issueName, embed })}>
           <Paper className={classes.thumbnailWrapper}>
-            <Box style={{ backgroundImage: thumbnailUrl }} className={classes.thumbnail} />
+            <Box
+              style={{ backgroundImage: thumbnailUrl }}
+              className={specialCategory ? classes.thumbnailFit : classes.thumbnail}
+            />
             <Box className={classes.dateText}>
               {issueName}
             </Box>
