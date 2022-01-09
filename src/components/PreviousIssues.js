@@ -10,6 +10,7 @@ import {
   Paper,
 } from '@material-ui/core';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import SelectedIssueModal from './SelectedIssueModal';
 
 const THUMBNAIL_URL = 'https://studlife.com/media/pdf/';
 
@@ -54,8 +55,16 @@ const columnAccordionTheme = makeStyles({
   },
 });
 
-const IndividualIssues = ({ issuesArray, setSelectedIssue, specialCategory }) => {
+const IndividualIssues = ({ issuesArray, specialCategory }) => {
+  const [modalOpen, setModalOpen] = useState(false);
+  const [issueSelected, setIssueSelected] = useState({});
   const classes = columnAccordionTheme();
+
+  const handleIssueSelect = (issueData) => {
+    setModalOpen(true);
+    setIssueSelected(issueData);
+  };
+
   const options = {
     year: 'numeric', month: 'long', day: 'numeric',
   };
@@ -68,7 +77,7 @@ const IndividualIssues = ({ issuesArray, setSelectedIssue, specialCategory }) =>
     const issueName = (specialCategory) ? e.issueName : dateString(date);
     return (
       <Grid key={date} item>
-        <CardActionArea onClick={() => setSelectedIssue({ date: issueName, embed })}>
+        <CardActionArea onClick={() => handleIssueSelect({ issueName, embed })}>
           <Paper className={classes.thumbnailWrapper}>
             <Box
               style={{ backgroundImage: thumbnailUrl }}
@@ -83,14 +92,22 @@ const IndividualIssues = ({ issuesArray, setSelectedIssue, specialCategory }) =>
     );
   });
   return (
-    <Grid container className={classes.root} spacing={2} justifyContent="center">
-      {issues}
-    </Grid>
+    <>
+      <SelectedIssueModal
+        issueName={issueSelected.issueName}
+        embed={issueSelected.embed}
+        modalOpen={modalOpen}
+        setModalOpen={setModalOpen}
+      />
+      <Grid container className={classes.root} spacing={2} justifyContent="center">
+        {issues}
+      </Grid>
+    </>
   );
 };
 
 const MonthAccordion = ({
-  months, division, year, setSelectedIssue,
+  months, division, year,
 }) => {
   const [monthExpanded, setMonthExpanded] = useState(false);
   const classes = columnAccordionTheme();
@@ -116,14 +133,14 @@ const MonthAccordion = ({
             {month}
           </AccordionSummary>
           <AccordionDetails className={classes.flexColumn}>
-            {monthExpanded === `panel-${year}-${division}-${month}` && <IndividualIssues issuesArray={e[1]} setSelectedIssue={setSelectedIssue} specialCategory={false} />}
+            {monthExpanded === `panel-${year}-${division}-${month}` && <IndividualIssues issuesArray={e[1]} specialCategory={false} />}
           </AccordionDetails>
         </Accordion>
       );
     });
 };
 
-const SubdivisionAccordion = ({ subdivisions, year, setSelectedIssue }) => {
+const SubdivisionAccordion = ({ subdivisions, year }) => {
   const [expanded, setExpanded] = useState(false);
   const classes = columnAccordionTheme();
 
@@ -155,12 +172,10 @@ const SubdivisionAccordion = ({ subdivisions, year, setSelectedIssue }) => {
                     months={e[1]}
                     division={e[0]}
                     year={year}
-                    setSelectedIssue={setSelectedIssue}
                   />
                 ) : (
                   <IndividualIssues
                     issuesArray={e[1]}
-                    setSelectedIssue={setSelectedIssue}
                     specialCategory
                   />
                 ))}
@@ -171,7 +186,7 @@ const SubdivisionAccordion = ({ subdivisions, year, setSelectedIssue }) => {
   );
 };
 
-const PreviousIssues = ({ issues, setSelectedIssue }) => {
+const PreviousIssues = ({ issues }) => {
   const [expanded, setExpanded] = useState(false);
   const classes = columnAccordionTheme();
 
@@ -197,7 +212,6 @@ const PreviousIssues = ({ issues, setSelectedIssue }) => {
                 <SubdivisionAccordion
                   subdivisions={e[1]}
                   year={year}
-                  setSelectedIssue={setSelectedIssue}
                 />
               )}
           </AccordionDetails>

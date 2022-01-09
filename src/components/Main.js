@@ -6,7 +6,6 @@ import PreviousIssues from './PreviousIssues';
 const Main = () => {
   const [error, setError] = useState(null);
   const [isLoaded, setIsLoaded] = useState(false);
-  const [selectedIssue, setSelectedIssue] = useState(null);
   const [issues, setIssues] = useState(null);
 
   useEffect(() => {
@@ -43,10 +42,8 @@ const Main = () => {
     <>
       <FeaturedIssue issueName="Latest Issue" embed={issues['Latest Issue'].embed} />
       {issues['Featured Issues'] && listFeaturedIssues(issues['Featured Issues'])}
-      {selectedIssue
-        && <FeaturedIssue issueName={selectedIssue.date} embed={selectedIssue.embed} />}
       {issues['Previous Issues']
-        && <PreviousIssues issues={issues['Previous Issues']} setSelectedIssue={setSelectedIssue} />}
+        && <PreviousIssues issues={issues['Previous Issues']} />}
     </>
   );
 };
