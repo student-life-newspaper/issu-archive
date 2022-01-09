@@ -1,12 +1,46 @@
 import React, { useState, useEffect } from 'react';
 import '../App.css';
+import queryString from 'query-string';
 import FeaturedIssue from './FeaturedIssue';
 import PreviousIssues from './PreviousIssues';
+import SelectedIssueModal from './SelectedIssueModal';
 
 const Main = () => {
   const [error, setError] = useState(null);
   const [isLoaded, setIsLoaded] = useState(false);
   const [issues, setIssues] = useState(null);
+  const [modalOpen, setModalOpen] = useState(false);
+  const [issueFromURL, setIssueFromURL] = useState({});
+
+  useEffect(() => {
+    const parseQueryString = () => {
+      const parsed = queryString.parse(window.location.search);
+      const {
+        year, category, month, date, isSpecial,
+      } = parsed;
+
+      if (!year || !category || !date) return;
+      if (!month && !isSpecial) return;
+
+      const containerArray = isSpecial
+        ? issues['Previous Issues'][year][category]
+        : issues['Previous Issues'][year][category][month];
+      const filteredIssues = containerArray.filter((i) => i.date === date);
+
+      if (filteredIssues.length === 1) {
+        const issueObj = filteredIssues[0];
+        const dateOptions = {
+          year: 'numeric', month: 'long', day: 'numeric',
+        };
+        if (!isSpecial) {
+          issueObj.issueName = new Date(date).toLocaleDateString('en-US', dateOptions);
+        }
+        setIssueFromURL(issueObj);
+        setModalOpen(true);
+      }
+    };
+    if (window.location.search && issues) parseQueryString(window.location.search);
+  }, [issues]);
 
   useEffect(() => {
     // fetch('https://raw.githubusercontent.com/student-life-newspaper/issu-archive/main/public/issues.json')
@@ -15,6 +49,7 @@ const Main = () => {
       .then((pulledIssues) => {
         setIssues(pulledIssues);
         setIsLoaded(true);
+        // if (window.location.search) parseQueryString(window.location.search);
       })
       .catch(() => {
         setError(true);
@@ -40,6 +75,14 @@ const Main = () => {
   }
   return (
     <>
+      {modalOpen && (
+        <SelectedIssueModal
+          issueName={issueFromURL.issueName}
+          embed={issueFromURL.embed}
+          modalOpen
+          setModalOpen={setModalOpen}
+        />
+      )}
       <FeaturedIssue issueName="Latest Issue" embed={issues['Latest Issue'].embed} />
       {issues['Featured Issues'] && listFeaturedIssues(issues['Featured Issues'])}
       {issues['Previous Issues']
