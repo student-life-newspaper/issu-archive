@@ -34,6 +34,10 @@ const Main = () => {
         };
         if (!isSpecial) {
           issueObj.issueName = new Date(date).toLocaleDateString('en-US', dateOptions);
+          issueObj.isSpecial = false;
+        } else {
+          issueObj.isSpecial = true;
+          issueObj.category = category;
         }
         setIssueFromURL(issueObj);
         setModalOpen(true);
@@ -49,7 +53,6 @@ const Main = () => {
       .then((pulledIssues) => {
         setIssues(pulledIssues);
         setIsLoaded(true);
-        // if (window.location.search) parseQueryString(window.location.search);
       })
       .catch(() => {
         setError(true);
@@ -75,10 +78,9 @@ const Main = () => {
   }
   return (
     <>
-      {modalOpen && (
+      {(modalOpen && issueFromURL !== {}) && (
         <SelectedIssueModal
-          issueName={issueFromURL.issueName}
-          embed={issueFromURL.embed}
+          issueObj={issueFromURL}
           modalOpen
           setModalOpen={setModalOpen}
         />

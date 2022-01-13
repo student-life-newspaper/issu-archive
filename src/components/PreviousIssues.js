@@ -11,19 +11,10 @@ import {
 } from '@material-ui/core';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import SelectedIssueModal from './SelectedIssueModal';
+import { issueSchoolYear, monthArr } from './utils';
 
 const THUMBNAIL_URL = 'https://studlife.com/media/pdf/';
 
-const monthArr = ['January', 'February', 'March', 'April', 'May', 'June',
-  'July', 'August', 'September', 'October', 'November', 'December'];
-
-const issueSchoolYear = (date) => {
-  const issueJSDate = new Date(date);
-  const issueYear = issueJSDate.getFullYear();
-  return (issueJSDate.getMonth() + 1) <= 6
-    ? `${(issueYear - 1).toString()}-${issueYear.toString()}`
-    : `${issueYear.toString()}-${(issueYear + 1).toString()}`;
-};
 const issueArchiveDate = (date) => [date.substr(0, 4), date.substr(5, 2), date.substr(8, 2)].join('-');
 
 const columnAccordionTheme = makeStyles({
@@ -70,21 +61,21 @@ const IndividualIssues = ({ issuesArray, specialCategory }) => {
   };
   const dateString = (date) => new Date(date).toLocaleDateString('en-US', options);
   const issues = issuesArray.map((e) => {
-    const { date, embed } = e;
+    const { date } = e;
     const thumbnailUrl = (specialCategory)
       ? `url(${THUMBNAIL_URL}${issueSchoolYear(date)}/thumbs/${e.thumbURL}.jpg)`
       : `url(${THUMBNAIL_URL}${issueSchoolYear(date)}/thumbs/${issueArchiveDate(date)}.jpg)`;
-    const issueName = (specialCategory) ? e.issueName : dateString(date);
+    e.issueName = (specialCategory) ? e.issueName : dateString(date);
     return (
       <Grid key={date} item>
-        <CardActionArea onClick={() => handleIssueSelect({ issueName, embed })}>
+        <CardActionArea onClick={() => handleIssueSelect(e)}>
           <Paper className={classes.thumbnailWrapper}>
             <Box
               style={{ backgroundImage: thumbnailUrl }}
               className={specialCategory ? classes.thumbnailFit : classes.thumbnail}
             />
             <Box className={classes.dateText}>
-              {issueName}
+              {e.issueName}
             </Box>
           </Paper>
         </CardActionArea>
@@ -93,12 +84,13 @@ const IndividualIssues = ({ issuesArray, specialCategory }) => {
   });
   return (
     <>
-      <SelectedIssueModal
-        issueName={issueSelected.issueName}
-        embed={issueSelected.embed}
-        modalOpen={modalOpen}
-        setModalOpen={setModalOpen}
-      />
+      {modalOpen && (
+        <SelectedIssueModal
+          issueObj={issueSelected}
+          modalOpen={modalOpen}
+          setModalOpen={setModalOpen}
+        />
+      )}
       <Grid container className={classes.root} spacing={2} justifyContent="center">
         {issues}
       </Grid>
