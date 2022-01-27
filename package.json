@@ -1,6 +1,6 @@
 {
   "name": "issu-archive",
-  "homepage": "http://localhost:3000/pdf/",
+  "homepage": "https://studlife.com/pdf/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

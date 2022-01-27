@@ -44,6 +44,10 @@ const columnAccordionTheme = makeStyles({
     fontWeight: 'bold',
     marginTop: '8px',
   },
+  accordionSummary: {
+    fontSize: '1.5em',
+    fontWeight: '400',
+  },
 });
 
 const IndividualIssues = ({ issuesArray, specialCategory }) => {
@@ -121,6 +125,7 @@ const MonthAccordion = ({
             expandIcon={<ExpandMoreIcon />}
             aria-controls={`${year}-${division}-${month}-content`}
             id={`${year}-${division}-${month}-header`}
+            className={classes.accordionSummary}
           >
             {month}
           </AccordionSummary>
@@ -153,6 +158,7 @@ const SubdivisionAccordion = ({ subdivisions, year }) => {
             expandIcon={<ExpandMoreIcon />}
             aria-controls={`${year}-${division}-content`}
             id={`${year}-${division}-header`}
+            className={classes.accordionSummary}
           >
             {division}
           </AccordionSummary>
@@ -196,7 +202,7 @@ const PreviousIssues = ({ issues }) => {
             aria-controls={`${year}-content`}
             id={`${year}-header`}
           >
-            {year}
+            <span className={classes.accordionSummary}>{year}</span>
           </AccordionSummary>
           <AccordionDetails className={classes.flexColumn}>
             {expanded === `panel-${year}`
@@ -215,7 +221,17 @@ const PreviousIssues = ({ issues }) => {
 
   return (
     <>
+      <h1 className="article-headline" style={{ marginTop: '50px', marginBottom: 0 }}>Previous Issues</h1>
+      <div className="horizontal-divider-red" />
       {yearsAccordion()}
+      <p style={{ marginTop: '2em' }}>
+        <em>
+          For PDFs before the 2020-2021 school year, visit the
+          {' '}
+          <a href="/pdf-archive" style={{ textDecoration: 'underline' }}>PDF archive</a>
+          .
+        </em>
+      </p>
     </>
   );
 };
