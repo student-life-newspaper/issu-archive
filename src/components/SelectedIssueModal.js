@@ -39,12 +39,12 @@ const SelectedIssueModal = ({
 
   const generateLink = () => {
     if (issueObj.isSpecial) {
-      return `https://studlife.com/pdf?year=${issueSchoolYear(issueObj.date)}&category=${issueObj.category}&date=${issueObj.date}&isSpecial=${true}`;
+      return `https://studlife.com/pdf?iaYear=${issueSchoolYear(issueObj.date)}&iaCategory=${issueObj.category}&iaDate=${issueObj.date}&iaIsSpecial=${true}`;
     }
     const issueJSDate = new Date(issueObj.date);
     const semester = (issueJSDate.getMonth() + 1) <= 6 ? 'Spring' : 'Fall';
     const month = monthArr[issueJSDate.getMonth()];
-    return `https://studlife.com/pdf?year=${issueSchoolYear(issueObj.date)}&category=${semester}&month=${month}&date=${issueObj.date}`;
+    return `https://studlife.com/pdf?iaYear=${issueSchoolYear(issueObj.date)}&iaCategory=${semester}&iaMonth=${month}&iaDate=${issueObj.date}`;
   };
 
   const open = Boolean(anchorEl);

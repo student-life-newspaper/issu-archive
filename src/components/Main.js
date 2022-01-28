@@ -16,28 +16,28 @@ const Main = () => {
     const parseQueryString = () => {
       const parsed = queryString.parse(window.location.search);
       const {
-        year, category, month, date, isSpecial,
+        iaYear, iaCategory, iaMonth, iaDate, iaIsSpecial,
       } = parsed;
 
-      if (!year || !category || !date) return;
-      if (!month && !isSpecial) return;
+      if (!iaYear || !iaCategory || !iaDate) return;
+      if (!iaMonth && !iaIsSpecial) return;
 
-      const containerArray = isSpecial
-        ? issues['Previous Issues'][year][category]
-        : issues['Previous Issues'][year][category][month];
-      const filteredIssues = containerArray.filter((i) => i.date === date);
+      const containerArray = iaIsSpecial
+        ? issues['Previous Issues'][iaYear][iaCategory]
+        : issues['Previous Issues'][iaYear][iaCategory][iaMonth];
+      const filteredIssues = containerArray.filter((i) => i.date === iaDate);
 
       if (filteredIssues.length === 1) {
         const issueObj = filteredIssues[0];
         const dateOptions = {
           year: 'numeric', month: 'long', day: 'numeric',
         };
-        if (!isSpecial) {
-          issueObj.issueName = new Date(date).toLocaleDateString('en-US', dateOptions);
+        if (!iaIsSpecial) {
+          issueObj.issueName = new Date(iaDate).toLocaleDateString('en-US', dateOptions);
           issueObj.isSpecial = false;
         } else {
           issueObj.isSpecial = true;
-          issueObj.category = category;
+          issueObj.category = iaCategory;
         }
         setIssueFromURL(issueObj);
         setModalOpen(true);
@@ -47,8 +47,8 @@ const Main = () => {
   }, [issues]);
 
   useEffect(() => {
-    // fetch('https://raw.githubusercontent.com/student-life-newspaper/issu-archive/main/public/issues.json')
-    fetch(`${process.env.PUBLIC_URL}/issues.json`)
+    fetch('https://raw.githubusercontent.com/student-life-newspaper/issu-archive/main/public/issues.json')
+    // fetch(`${process.env.PUBLIC_URL}/issues.json`)
       .then((response) => response.json())
       .then((pulledIssues) => {
         setIssues(pulledIssues);
