@@ -5,10 +5,12 @@ import ReactHtmlParser from 'react-html-parser';
 import {
   Box,
   Button,
+  IconButton,
   Modal,
   Popover,
   Tooltip,
 } from '@material-ui/core';
+import CloseIcon from '@material-ui/icons/Close';
 import { issueSchoolYear, monthArr } from './utils';
 
 const style = {
@@ -58,7 +60,12 @@ const SelectedIssueModal = ({
         aria-describedby="modal-modal-description"
       >
         <Box sx={style}>
-          <h1 className="article-headline">{issueObj.issueName}</h1>
+          <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>
+            <h1 className="article-headline">{issueObj.issueName}</h1>
+            <IconButton onClick={handleClose}>
+              <CloseIcon />
+            </IconButton>
+          </Box>
           <Box sx={{ mb: 1 }}>
             {ReactHtmlParser(issueObj.embed)}
           </Box>
