@@ -22,6 +22,7 @@ const style = {
   bgcolor: 'background.paper',
   boxShadow: 24,
   p: 2,
+  maxHeight: '80vh',
 };
 
 const SelectedIssueModal = ({
@@ -66,10 +67,10 @@ const SelectedIssueModal = ({
               <CloseIcon />
             </IconButton>
           </Box>
-          <Box sx={{ mb: 1 }}>
+          <Box sx={{ mb: 1 }} id="modal-embed-wrapper">
             {ReactHtmlParser(issueObj.embed)}
           </Box>
-          <Box sx={{ display: 'inline' }}>
+          <Box id="modal-buttons-wrapper">
             <Button aria-describedby={id} variant="contained" onClick={handleLinkClick}>
               Link to this issue
             </Button>
@@ -85,30 +86,30 @@ const SelectedIssueModal = ({
             >
               <Box p={2}>{generateLink()}</Box>
             </Popover>
-          </Box>
 
-          <Tooltip
-            PopperProps={{
-              disablePortal: true,
-            }}
-            onClose={() => setCopied(false)}
-            open={copied}
-            disableFocusListener
-            disableHoverListener
-            disableTouchListener
-            title="Copied"
-          >
-            <CopyToClipboard
-              text={generateLink()}
-              onCopy={() => setCopied(true)}
+            <Tooltip
+              PopperProps={{
+                disablePortal: true,
+              }}
+              onClose={() => setCopied(false)}
+              open={copied}
+              disableFocusListener
+              disableHoverListener
+              disableTouchListener
+              title="Copied"
             >
-              <Box sx={{ ml: 2, display: 'inline' }}>
-                <Button aria-describedby="copy-to-clipboard" variant="contained">
-                  Copy link
-                </Button>
-              </Box>
-            </CopyToClipboard>
-          </Tooltip>
+              <CopyToClipboard
+                text={generateLink()}
+                onCopy={() => setCopied(true)}
+              >
+                <Box sx={{ ml: 2, display: 'inline' }}>
+                  <Button aria-describedby="copy-to-clipboard" variant="contained">
+                    Copy link
+                  </Button>
+                </Box>
+              </CopyToClipboard>
+            </Tooltip>
+          </Box>
 
         </Box>
       </Modal>
