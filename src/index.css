@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#modal-embed-wrapper > div {
+  padding-top: min(60vh, 500px) !important;
+}
+
+#modal-buttons-wrapper {
+  display: flex;
+}
