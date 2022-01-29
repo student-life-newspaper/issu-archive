@@ -61,7 +61,7 @@ const Main = () => {
 
   const listFeaturedIssues = (featuredIssues) => {
     const featuredIssueComponents = featuredIssues.map((i) => (
-      <FeaturedIssue issueName={i.issueName} embed={i.embed} />
+      <FeaturedIssue issueName={i.issueName} embed={i.embed} key={`fi-${i}`} />
     ));
     return (<>{featuredIssueComponents}</>);
   };
