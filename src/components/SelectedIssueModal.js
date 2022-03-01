@@ -41,8 +41,8 @@ const SelectedIssueModal = ({
   };
 
   const generateLink = () => {
-    if (issueObj.isSpecial) {
-      return `https://studlife.com/pdf?iaYear=${issueSchoolYear(issueObj.date)}&iaCategory=${issueObj.category}&iaDate=${issueObj.date}&iaIsSpecial=${true}`;
+    if (issueObj.specialCategory) {
+      return `https://studlife.com/pdf?iaYear=${issueSchoolYear(issueObj.date)}&iaCategory=${issueObj.specialCategory}&iaDate=${issueObj.date}&iaIsSpecial=${true}`;
     }
     const issueJSDate = new Date(issueObj.date);
     const semester = (issueJSDate.getMonth() + 1) <= 6 ? 'Spring' : 'Fall';

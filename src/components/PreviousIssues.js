@@ -57,7 +57,10 @@ const IndividualIssues = ({ issuesArray, specialCategory }) => {
 
   const handleIssueSelect = (issueData) => {
     setModalOpen(true);
-    setIssueSelected(issueData);
+    const t = issueData;
+    t.specialCategory = specialCategory;
+    console.log(t);
+    setIssueSelected(t);
   };
 
   const options = {
@@ -174,7 +177,7 @@ const SubdivisionAccordion = ({ subdivisions, year }) => {
                 ) : (
                   <IndividualIssues
                     issuesArray={e[1]}
-                    specialCategory
+                    specialCategory={division}
                   />
                 ))}
           </AccordionDetails>
