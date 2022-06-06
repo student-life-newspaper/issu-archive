@@ -59,7 +59,6 @@ const IndividualIssues = ({ issuesArray, specialCategory }) => {
     setModalOpen(true);
     const t = issueData;
     t.specialCategory = specialCategory;
-    console.log(t);
     setIssueSelected(t);
   };
 
