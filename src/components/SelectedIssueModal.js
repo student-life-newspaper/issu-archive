@@ -71,22 +71,6 @@ const SelectedIssueModal = ({
             {ReactHtmlParser(issueObj.embed)}
           </Box>
           <Box id="modal-buttons-wrapper">
-            <Button aria-describedby={id} variant="contained" onClick={handleLinkClick}>
-              Link to this issue
-            </Button>
-            <Popover
-              id={id}
-              open={open}
-              anchorEl={anchorEl}
-              onClose={handleLinkClose}
-              anchorOrigin={{
-                vertical: 'bottom',
-                horizontal: 'left',
-              }}
-            >
-              <Box p={2}>{generateLink()}</Box>
-            </Popover>
-
             <Tooltip
               PopperProps={{
                 disablePortal: true,
@@ -104,7 +88,7 @@ const SelectedIssueModal = ({
               >
                 <Box sx={{ ml: 2, display: 'inline' }}>
                   <Button aria-describedby="copy-to-clipboard" variant="contained">
-                    Copy link
+                    Copy The Link to This Issue 
                   </Button>
                 </Box>
               </CopyToClipboard>
