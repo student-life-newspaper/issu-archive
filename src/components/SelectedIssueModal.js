@@ -67,7 +67,8 @@ const SelectedIssueModal = ({
               <CloseIcon />
             </IconButton>
           </Box>
-          <Box sx={{ mb: 1 }} id="modal-embed-wrapper">
+          //<Box sx={{ mb: 1 }} id="modal-embed-wrapper">
+          <Box sx={{ mb: 1, overflowY: 'auto' }} id="modal-embed-wrapper">
             {ReactHtmlParser(issueObj.embed)}
           </Box>
           <Box id="modal-buttons-wrapper">
