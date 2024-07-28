@@ -54,7 +54,8 @@ const Main = () => {
         setIssues(pulledIssues);
         setIsLoaded(true);
       })
-      .catch(() => {
+      .catch((e) => {
+        console.error(e);
         setError(true);
       });
   }, []);
@@ -71,6 +72,7 @@ const Main = () => {
       <div>
         An error has occured loading this page
       </div>
+      
     );
   }
   if (!isLoaded) {
