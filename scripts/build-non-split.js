@@ -1,9 +1,8 @@
-// from https://mtm.dev/disable-code-splitting-create-react-app
 const rewire = require('rewire');
-
-const defaults = rewire('react-scripts/scripts/build.js'); // If you ejected, use this instead: const defaults = rewire('./build.js')
+const defaults = rewire('react-scripts/scripts/build.js');
 const config = defaults.__get__('config');
 
+// Disable code splitting
 config.optimization.splitChunks = {
   cacheGroups: {
     default: false,
@@ -15,6 +14,13 @@ config.optimization.runtimeChunk = false;
 // Renames main.00455bcf.js to main.js
 config.output.filename = 'static/js/[name].js';
 
-// Renames main.b100e6da.css to main.css
-config.plugins[5].options.filename = 'static/css/[name].css';
-config.plugins[5].options.moduleFilename = () => 'static/css/main.css';
+// Find the plugin that handles CSS extraction
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const cssPlugin = config.plugins.find(plugin => plugin instanceof MiniCssExtractPlugin);
+
+if (cssPlugin) {
+  cssPlugin.options.filename = 'static/css/[name].css';
+  cssPlugin.options.moduleFilename = () => 'static/css/main.css';
+} else {
+  console.error('MiniCssExtractPlugin not found in the Webpack plugins.');
+}

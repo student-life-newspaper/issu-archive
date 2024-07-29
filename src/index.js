@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './App.css';
 import Main from './components/Main';
 
 const target = document.getElementById('issu-archive');

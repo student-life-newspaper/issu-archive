@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import '../App.css';
 import CopyToClipboard from 'react-copy-to-clipboard';
-import ReactHtmlParser from 'react-html-parser';
 import {
   Box,
   Button,
@@ -12,6 +11,7 @@ import {
 } from '@material-ui/core';
 import CloseIcon from '@material-ui/icons/Close';
 import { issueSchoolYear, monthArr } from './utils';
+
 const style = {
   position: 'absolute',
   top: '50%',
@@ -101,7 +101,8 @@ const SelectedIssueModal = ({
             </Tooltip>
           </Box>
           <Box sx={{ mb: 1 }} id="modal-embed-wrapper">
-            {ReactHtmlParser(issueObj.embed)}
+            <span dangerouslySetInnerHTML={{ __html: issueObj.embed }} />
+
           </Box>
         </Box>
       </Modal>
