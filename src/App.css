@@ -1044,6 +1044,19 @@ and open the template in the editor.
     Created on : Aug 12, 2014, 3:36:40 PM
     Author     : emilysybrant
 */
+
+/**
+* Ensure all issuu embeds have the correct styling
+*/
+#issu-archive > div:not(.MuiPaper-root):not(.horizontal-divider-red) { 
+  position:relative;
+  padding-top: max(60%,326px);
+  height: 0;
+  width:100%;
+}
+
+
+
 .article-headline {
   margin: 10px 0 15px 0;
   font-family: Georgia, serif;

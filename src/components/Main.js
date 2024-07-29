@@ -46,8 +46,10 @@ const Main = () => {
     if (window.location.search && issues) parseQueryString(window.location.search);
   }, [issues]);
 
+  let issuesEndpoint = 'https://raw.githubusercontent.com/student-life-newspaper/issu-archive/main/public/issues.json';
+
   useEffect(() => {
-    fetch('https://raw.githubusercontent.com/student-life-newspaper/issu-archive/main/public/issues.json')
+    fetch(issuesEndpoint)
     // fetch(`${process.env.PUBLIC_URL}/issues.json`)
       .then((response) => response.json())
       .then((pulledIssues) => {
@@ -70,9 +72,8 @@ const Main = () => {
   if (error) {
     return (
       <div>
-        An error has occured loading this page
+        An error has occurred loading this page
       </div>
-      
     );
   }
   if (!isLoaded) {
@@ -80,14 +81,13 @@ const Main = () => {
   }
   return (
     <>
-      {(modalOpen && issueFromURL !== {}) && (
+      {(modalOpen && Object.keys(issueFromURL).length !== 0) && (
         <SelectedIssueModal
           issueObj={issueFromURL}
           modalOpen
           setModalOpen={setModalOpen}
         />
       )}
-      <FeaturedIssue issueName="Latest Issue" embed={issues['Latest Issue'].embed} />
       {issues['Featured Issues'] && listFeaturedIssues(issues['Featured Issues'])}
       {issues['Previous Issues']
         && <PreviousIssues issues={issues['Previous Issues']} />}
