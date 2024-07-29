@@ -50,7 +50,6 @@ const Main = () => {
 
   useEffect(() => {
     fetch(issuesEndpoint)
-    // fetch(`${process.env.PUBLIC_URL}/issues.json`)
       .then((response) => response.json())
       .then((pulledIssues) => {
         setIssues(pulledIssues);
