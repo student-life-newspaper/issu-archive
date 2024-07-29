@@ -16,6 +16,23 @@ code {
   padding-top: min(60vh, 500px) !important;
 }
 
+.MuiBox-root #modal-embed-wrapper {
+  height: 60vh;
+}
+
+.MuiBox-root #modal-embed-wrapper > div {
+  height: 100%;
+}
+
+.MuiBox-root #modal-embed-wrapper iframe {
+  position: relative !important;
+}
+
+.MuiBox-root #modal-embed-wrapper > span > div {
+  padding-top: 0 !important;
+  height: 100% !important;
+}
+
 #modal-buttons-wrapper {
   display: flex;
 }
