@@ -12,7 +12,6 @@ import {
 } from '@material-ui/core';
 import CloseIcon from '@material-ui/icons/Close';
 import { issueSchoolYear, monthArr } from './utils';
-
 const style = {
   position: 'absolute',
   top: '50%',
@@ -24,22 +23,18 @@ const style = {
   p: 2,
   maxHeight: '80vh',
 };
-
 const SelectedIssueModal = ({
   issueObj, modalOpen, setModalOpen,
 }) => {
   const handleClose = () => setModalOpen(false);
   const [anchorEl, setAnchorEl] = useState(null);
   const [copied, setCopied] = useState(false);
-
   const handleLinkClick = (event) => {
     setAnchorEl(event.currentTarget);
   };
-
   const handleLinkClose = () => {
     setAnchorEl(null);
   };
-
   const generateLink = () => {
     if (issueObj.specialCategory) {
       return `https://studlife.com/pdf?iaYear=${issueSchoolYear(issueObj.date)}&iaCategory=${issueObj.specialCategory}&iaDate=${issueObj.date}&iaIsSpecial=${true}`;
@@ -49,7 +44,6 @@ const SelectedIssueModal = ({
     const month = monthArr[issueJSDate.getMonth()];
     return `https://studlife.com/pdf?iaYear=${issueSchoolYear(issueObj.date)}&iaCategory=${semester}&iaMonth=${month}&iaDate=${issueObj.date}`;
   };
-
   const open = Boolean(anchorEl);
   const id = open ? 'link-popover' : undefined;
   return (
@@ -67,10 +61,7 @@ const SelectedIssueModal = ({
               <CloseIcon />
             </IconButton>
           </Box>
-          <Box sx={{ mb: 1 }} id="modal-embed-wrapper">
-            {ReactHtmlParser(issueObj.embed)}
-          </Box>
-          <Box id="modal-buttons-wrapper">
+          <Box id="modal-buttons-wrapper" sx={{ display: 'flex', justifyContent: 'flex-start', mb: 2 }}>
             <Button aria-describedby={id} variant="contained" onClick={handleLinkClick}>
               Link to this issue
             </Button>
@@ -86,7 +77,6 @@ const SelectedIssueModal = ({
             >
               <Box p={2}>{generateLink()}</Box>
             </Popover>
-
             <Tooltip
               PopperProps={{
                 disablePortal: true,
@@ -110,11 +100,12 @@ const SelectedIssueModal = ({
               </CopyToClipboard>
             </Tooltip>
           </Box>
-
+          <Box sx={{ mb: 1 }} id="modal-embed-wrapper">
+            {ReactHtmlParser(issueObj.embed)}
+          </Box>
         </Box>
       </Modal>
     </div>
   );
 };
-
 export default SelectedIssueModal;

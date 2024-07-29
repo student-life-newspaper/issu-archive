@@ -46,10 +46,8 @@ const Main = () => {
     if (window.location.search && issues) parseQueryString(window.location.search);
   }, [issues]);
 
-  let issuesEndpoint = 'https://raw.githubusercontent.com/student-life-newspaper/issu-archive/main/public/issues.json';
-
   useEffect(() => {
-    fetch(issuesEndpoint)
+    fetch('https://raw.githubusercontent.com/student-life-newspaper/issu-archive/main/public/issues.json')
       .then((response) => response.json())
       .then((pulledIssues) => {
         setIssues(pulledIssues);
