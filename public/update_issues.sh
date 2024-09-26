@@ -3,6 +3,7 @@
 # Script Name: update_issues.sh
 # Description: Updates the issues.json file by inserting a new "Latest Issue" and moving the previous "Latest Issue" to "Previous Issues" under the correct academic year.
 # Usage: ./update_issues.sh < new_embed.html
+# Created by: Dijkstra Liu
 
 # Set JSON file path
 JSON_FILE="issues.json"
@@ -19,7 +20,6 @@ if [ ! -f "$JSON_FILE" ]; then
     exit 1
 fi
 
-# Read the new embed content from stdin
 new_embed=$(cat)
 
 # Replace all double quotes " with single quotes '
@@ -49,18 +49,16 @@ if [ "$latest_month" -ge 1 ] && [ "$latest_month" -le 5 ]; then
 elif [ "$latest_month" -ge 9 ] && [ "$latest_month" -le 12 ]; then
     semester="Fall"
 else
-    # For months 6-8, you can define as needed. Here, default to Spring.
+    # For months 6-8, default to Spring.
     semester="Spring"
 fi
 
 # Get the month name, e.g., 09 -> September
 month_name=$(date -d "$latest_year/$latest_month/$latest_day" +"%B")
 
-# Calculate the next year for the academic year range
 next_year=$((latest_year + 1))
 year_range="${latest_year}-${next_year}"
 
-# Use jq to update the JSON
 jq --arg year_range "$year_range" \
    --arg semester "$semester" \
    --arg month "$month_name" \
@@ -82,7 +80,6 @@ jq --arg year_range "$year_range" \
   .["Featured Issues"][0].embed = $new_embed
 ' "$JSON_FILE" > tmp.json && mv tmp.json "$JSON_FILE"
 
-# Check if the operation was successful
 if [ $? -eq 0 ]; then
     echo "Success: 'Latest Issue' updated and previous issue moved to 'Previous Issues' under '$year_range'."
 else
