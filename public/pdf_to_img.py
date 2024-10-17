@@ -53,7 +53,7 @@ def pdf_first_page_to_jpg(pdf_path):
 if __name__ == "__main__":
     # Check if a PDF file path was provided as an argument
     if len(sys.argv) != 2:
-        print("Usage: python pdf_to_jpg.py /path/to/input.pdf")
+        print("Usage: python pdf_to_img.py /path/to/input.pdf")
         sys.exit(1)
 
     input_pdf = sys.argv[1]
