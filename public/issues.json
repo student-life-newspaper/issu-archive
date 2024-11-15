@@ -1,695 +1,696 @@
 {
-    "Featured Issues": [
-        {
-            "issueName": "Latest Issue",
+  "Featured Issues": [
+    {
+      "issueName": "Latest Issue",
+      "date": "2024/11/14",
+      "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write'\r\n        sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms'\r\n        allowfullscreen='true'\r\n        style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;'\r\n        src='https://e.issuu.com/embed.html?d=finalstudentlife11142024&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe>\r\n</div>"
+    },
+    {
+      "issueName": "Coupon Book",
+      "date": "2024/10/13",
+      "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write'\r\n        sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms'\r\n        allowfullscreen='true'\r\n        style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;'\r\n        src='https://e.issuu.com/embed.html?d=fall_coupon_book_2023_student_life_8_pages&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe>\r\n</div>"
+    }
+  ],
+  "Previous Issues": {
+    "2024-2025": {
+      "Fall": {
+        "September": [
+          {
+            "date": "2024/09/12",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=912finalstudlife_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2024/09/05",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=corrected_student_life_9-5-24_for_upload&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2024/09/19",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'> <iframe     allow='clipboard-write'     sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms'     allowfullscreen='true'     style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;'     src='https://e.issuu.com/embed.html?d=student_life_sept_19_2024_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'>  </iframe></div>"
+          },
+          {
+            "date": "2024/09/26",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write'\r\n    sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms'\r\n    allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;'\r\n    src='https://e.issuu.com/embed.html?d=student_life_9-26-24_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe>\r\n</div>"
+          }
+        ],
+        "August": [
+          {
+            "date": "2024/08/29",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_082924_as_uploaded_to_issuu&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          }
+        ],
+        "October": [
+          {
+            "date": "2024/10/03",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write'\r\n        sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms'\r\n        allowfullscreen='true'\r\n        style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;'\r\n        src='https://e.issuu.com/embed.html?d=studentlife_newspaper_10-3-24_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe>\r\n</div>"
+          },
+          {
+            "date": "2024/10/17",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write'\r\n        sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms'\r\n        allowfullscreen='true'\r\n        style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;'\r\n        src='https://e.issuu.com/embed.html?d=student_life_october_17_2024_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe>\r\n</div>"
+          },
+          {
+            "date": "2024/10/24",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write'\r\n        sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms'\r\n        allowfullscreen='true'\r\n        style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;'\r\n        src='https://e.issuu.com/embed.html?d=finaloctober24th2024&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe>\r\n</div>"
+          },
+          {
+            "date": "2024/10/31",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write'\r\n        sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms'\r\n        allowfullscreen='true'\r\n        style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;'\r\n        src='https://e.issuu.com/embed.html?d=sectionb_final&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe>\r\n</div>"
+          }
+        ],
+        "November": [
+          {
             "date": "2024/11/7",
             "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=finalstudentlife11072024&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          }
+        ]
+      },
+      "Special Issues": [
+        {
+          "issueName": "Starting Line",
+          "thumbURL": "special-starting-line-2024",
+          "date": "2024/07/28",
+          "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=reduced_size_final_starting_line_2024&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
         },
         {
-            "issueName": "Election Issue",
-            "date": "2024/10/31",
-            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=sectiona_student_life_10_31_2024_election_edition&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          "issueName": "Coupon Book",
+          "thumbURL": "special-fall-coupon",
+          "date": "2024/10/13",
+          "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write'\r\n        sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms'\r\n        allowfullscreen='true'\r\n        style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;'\r\n        src='https://e.issuu.com/embed.html?d=fall_coupon_book_2023_student_life_8_pages&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe>\r\n</div>"
         },
         {
-            "issueName": "Coupon Book",
-            "date": "2024/10/13",
-            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write'\r\n        sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms'\r\n        allowfullscreen='true'\r\n        style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;'\r\n        src='https://e.issuu.com/embed.html?d=fall_coupon_book_2023_student_life_8_pages&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe>\r\n</div>"
+          "issueName": "Election Issue",
+          "thumbURL": "special-election",
+          "date": "2024/10/31",
+          "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=sectiona_student_life_10_31_2024_election_edition&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
         }
-    ],
-    "Previous Issues": {
-        "2024-2025": {
-            "Fall": {
-                "September": [
-                    {
-                        "date": "2024/09/12",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=912finalstudlife_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2024/09/05",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=corrected_student_life_9-5-24_for_upload&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2024/09/19",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'> <iframe     allow='clipboard-write'     sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms'     allowfullscreen='true'     style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;'     src='https://e.issuu.com/embed.html?d=student_life_sept_19_2024_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'>  </iframe></div>"
-                    },
-                    {
-                        "date": "2024/09/26",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write'\r\n    sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms'\r\n    allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;'\r\n    src='https://e.issuu.com/embed.html?d=student_life_9-26-24_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe>\r\n</div>"
-                    }
-                ],
-                "August": [
-                    {
-                        "date": "2024/08/29",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_082924_as_uploaded_to_issuu&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    }
-                ],
-                "October": [
-                    {
-                        "date": "2024/10/03",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write'\r\n        sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms'\r\n        allowfullscreen='true'\r\n        style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;'\r\n        src='https://e.issuu.com/embed.html?d=studentlife_newspaper_10-3-24_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe>\r\n</div>"
-                    },
-                    {
-                        "date": "2024/10/17",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write'\r\n        sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms'\r\n        allowfullscreen='true'\r\n        style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;'\r\n        src='https://e.issuu.com/embed.html?d=student_life_october_17_2024_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe>\r\n</div>"
-                    },
-                    {
-                        "date": "2024/10/24",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write'\r\n        sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms'\r\n        allowfullscreen='true'\r\n        style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;'\r\n        src='https://e.issuu.com/embed.html?d=finaloctober24th2024&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe>\r\n</div>"
-                    },
-                    {
-                        "date": "2024/10/31",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write'\r\n        sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms'\r\n        allowfullscreen='true'\r\n        style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;'\r\n        src='https://e.issuu.com/embed.html?d=sectionb_final&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe>\r\n</div>"
-                    }
-                ]
-            },
-            "Special Issues": [
-                {
-                    "issueName": "Starting Line",
-                    "thumbURL": "special-starting-line-2024",
-                    "date": "2024/07/28",
-                    "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=reduced_size_final_starting_line_2024&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                },
-                {
-                    "issueName": "Coupon Book",
-                    "thumbURL": "special-fall-coupon",
-                    "date": "2024/10/13",
-                    "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write'\r\n        sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms'\r\n        allowfullscreen='true'\r\n        style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;'\r\n        src='https://e.issuu.com/embed.html?d=fall_coupon_book_2023_student_life_8_pages&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe>\r\n</div>"
-                },
-                {
-                    "issueName": "Election Issue",
-                    "thumbURL": "special-election",
-                    "date": "2024/10/31",
-                    "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=sectiona_student_life_10_31_2024_election_edition&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                }
-            ]
+      ]
+    },
+    "2023-2024": {
+      "Fall": {
+        "August": [
+          {
+            "date": "2023/08/31",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=uploaded_to_web_8-31-23&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          }
+        ],
+        "September": [
+          {
+            "date": "2023/09/07",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=sept7_combined_3&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2023/09/14",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=sept_14_2023_student_life_as_uploaded_to_website&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2023/09/21",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_september_21_2023_uploaded_online&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2023/09/28",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_news_9-28-23_for_upload&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          }
+        ],
+        "October": [
+          {
+            "date": "2023/10/05",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_october_5_2023_for_digital_uploadpdf&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2023/10/19",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_october_19_2023_digital_upload&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2023/10/26",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_newspaper_oct_26_2023_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          }
+        ],
+        "November": [
+          {
+            "date": "2023/11/03",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=corrected_november_2_2023_student_life_uploaded_on&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2023/11/09",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_newspaper_november_9_2023_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2023/11/16",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=corrected_by_breeze-proof1_student_life_111723&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2023/11/30",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=finalnov30&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          }
+        ],
+        "December": [
+          {
+            "date": "2023/12/07",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=finaldec7&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          }
+        ]
+      },
+      "Spring": {
+        "January": [
+          {
+            "date": "2024/01/25",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=january_25_2024_student_life_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          }
+        ],
+        "February": [
+          {
+            "date": "2024/02/01",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_february_1_2024_as_sent_to_printer_&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2024/02/08",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_february_8_2024_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2024/02/15",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_newspaper_february_15_2024_as_uploa&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2024/02/22",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_february_22_2024_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2024/02/29",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=february_29_2024_student_life_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          }
+        ],
+        "March": [
+          {
+            "date": "2024/03/07",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=final_2b78cfbfc1f307&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2024/03/28",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=studentlife_sectionb_march_28_2024_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          }
+        ],
+        "April": [
+          {
+            "date": "2024/04/04",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_newspaper_april_4_2024_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2024/04/11",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_newspaper_april_11_2024_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2024/04/18",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_april_18_2024_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2024/04/25",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=april_25_2024_student_life_newspaper_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          }
+        ]
+      },
+      "Special Issues": [
+        {
+          "issueName": "Finish Line",
+          "thumbURL": "special-finish-line",
+          "date": "2024/05/08",
+          "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=finish_line_2024_148_pages_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
         },
-        "2023-2024": {
-            "Fall": {
-                "August": [
-                    {
-                        "date": "2023/08/31",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=uploaded_to_web_8-31-23&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    }
-                ],
-                "September": [
-                    {
-                        "date": "2023/09/07",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=sept7_combined_3&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2023/09/14",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=sept_14_2023_student_life_as_uploaded_to_website&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2023/09/21",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_september_21_2023_uploaded_online&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2023/09/28",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_news_9-28-23_for_upload&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    }
-                ],
-                "October": [
-                    {
-                        "date": "2023/10/05",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_october_5_2023_for_digital_uploadpdf&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2023/10/19",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_october_19_2023_digital_upload&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2023/10/26",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_newspaper_oct_26_2023_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    }
-                ],
-                "November": [
-                    {
-                        "date": "2023/11/03",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=corrected_november_2_2023_student_life_uploaded_on&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2023/11/09",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_newspaper_november_9_2023_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2023/11/16",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=corrected_by_breeze-proof1_student_life_111723&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2023/11/30",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=finalnov30&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    }
-                ],
-                "December": [
-                    {
-                        "date": "2023/12/07",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=finaldec7&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    }
-                ]
-            },
-            "Spring": {
-                "January": [
-                    {
-                        "date": "2024/01/25",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=january_25_2024_student_life_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    }
-                ],
-                "February": [
-                    {
-                        "date": "2024/02/01",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_february_1_2024_as_sent_to_printer_&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2024/02/08",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_february_8_2024_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2024/02/15",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_newspaper_february_15_2024_as_uploa&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2024/02/22",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_february_22_2024_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2024/02/29",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=february_29_2024_student_life_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    }
-                ],
-                "March": [
-                    {
-                        "date": "2024/03/07",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=final_2b78cfbfc1f307&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2024/03/28",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=studentlife_sectionb_march_28_2024_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    }
-                ],
-                "April": [
-                    {
-                        "date": "2024/04/04",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_newspaper_april_4_2024_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2024/04/11",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_newspaper_april_11_2024_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2024/04/18",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_april_18_2024_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2024/04/25",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=april_25_2024_student_life_newspaper_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    }
-                ]
-            },
-            "Special Issues": [
-                {
-                    "issueName": "Finish Line",
-                    "thumbURL": "special-finish-line",
-                    "date": "2024/05/08",
-                    "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=finish_line_2024_148_pages_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                },
-                {
-                    "issueName": "Starting Line",
-                    "thumbURL": "special-starting-line-2023",
-                    "date": "2023/07/17",
-                    "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=for_website_upload-reduced-startingline23final_wp_&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                },
-                {
-                    "issueName": "Housing Guide",
-                    "thumbURL": "special-housing-guide-2024",
-                    "date": "2023/09/17",
-                    "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=finalhousingguide2023_reduced_size_for_digi&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                },
-                {
-                    "issueName": "Fall Coupon Book",
-                    "date": "2023/09/21",
-                    "thumbURL": "special-fall-coupon",
-                    "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=fall_coupon_book_2023_reduced_size_8_pages&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                },
-                {
-                    "issueName": "Student Love 2024",
-                    "date": "2024/02/15",
-                    "thumbURL": "special-student-love",
-                    "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?backgroundColor=%23c4c2c2&backgroundColorFullscreen=%23c4c2c2&d=student_love_2024_as_uploaded_online&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                },
-                {
-                    "issueName": "Best of STL 2024",
-                    "date": "2024/03/21",
-                    "thumbURL": "special-best-of-stl",
-                    "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=finalbestofstl2024_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                },
-                {
-                    "issueName": "Student Libel 2024",
-                    "date": "2024/04/01",
-                    "thumbURL": "special-student-libel",
-                    "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=studentlibel_april_1_2024_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                }
-            ]
+        {
+          "issueName": "Starting Line",
+          "thumbURL": "special-starting-line-2023",
+          "date": "2023/07/17",
+          "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=for_website_upload-reduced-startingline23final_wp_&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
         },
-        "2022-2023": {
-            "Fall": {
-                "September": [
-                    {
-                        "date": "2022/09/01",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=september_1_2022_student_life_combined_sections_p&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2022/09/08",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_newspaper_september_8_2022_online&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2022/09/15",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=100&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2022/09/22",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=sept_22_2022_sent_to_press_uploaded_online&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2022/09/29",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=sept_29_student_life_print_edition&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    }
-                ],
-                "October": [
-                    {
-                        "date": "2022/10/06",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=actual_final&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2022/10/20",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_oct_20_2022_for_digi_upload&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2022/10/27",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=oct27_finalissue&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    }
-                ],
-                "November": [
-                    {
-                        "date": "2022/11/03",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=_11-3-22_final_fully_combined_layout&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2022/11/10",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=_11-10-22_final_combined&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2022/11/17",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=combined_final_pdf_nov_17_2022_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    }
-                ],
-                "December": [
-                    {
-                        "date": "2022/12/08",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_paper_pdf_dec._8_issue&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    }
-                ]
-            },
-            "Spring": {
-                "January": [
-                    {
-                        "date": "2023/01/26",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=final_combined&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    }
-                ],
-                "February": [
-                    {
-                        "date": "2023/02/02",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=final_combined_feb_2&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2023/02/09",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_news_february_9_2023&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2023/02/23",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=feb_23_2023_student_life_uploaded_online&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    }
-                ],
-                "March": [
-                    {
-                        "date": "2023/03/02",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=final_combined_1-8_&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2023/03/09",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=corrected_issue_as_uploaded_and_printed_march_9_20&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2023/03/30",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_3_30_section_b&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    }
-                ],
-                "April": [
-                    {
-                        "date": "2023/04/06",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=april6_actualfinal&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2023/04/13",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=april13_final_pdf&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2023/04/20",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=actualfinal4-20&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2023/04/27",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=april_27_2023_student_life_newspaper&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    }
-                ]
-            },
-            "Special Issues": [
-                {
-                    "issueName": "Starting Line",
-                    "thumbURL": "special-starting-line-2022",
-                    "date": "2022/08/01",
-                    "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?backgroundColor=%239cc4de&backgroundColorFullscreen=%239cc4de&d=from_printer_corrected_for_press_web_upload_starti&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&showOtherPublicationsAsSuggestions=true&u=washustudentlife'></iframe></div>"
-                },
-                {
-                    "issueName": "Housing Guide 2022",
-                    "thumbURL": "special-housing-2022",
-                    "date": "2022/12/01",
-                    "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=housing_guide_2022_for_print&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                },
-                {
-                    "issueName": "Student Love 2023",
-                    "thumbURL": "student-love-2023",
-                    "date": "2023/02/09",
-                    "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_love_edition_of_student_life_feb_9_2023&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                },
-                {
-                    "issueName": "Best of St. Louis 2023",
-                    "thumbURL": "best-of-stl-2023",
-                    "date": "2023/03/22",
-                    "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=best_of_stl_2023_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                },
-                {
-                    "issueName": "Student Libel 2023",
-                    "thumbURL": "student-libel-2023",
-                    "date": "2023/04/01",
-                    "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=libel_2023_final&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                },
-                {
-                    "issueName": "Finish Line 2023",
-                    "thumbURL": "finish-line-2023",
-                    "date": "2023/05/09",
-                    "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?backgroundColor=%23959393&backgroundColorFullscreen=%23959393&d=finish_line_2023_116_pages_compressed_for_upload&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                }
-            ],
-            "Advertising": [
-                {
-                    "issueName": "Fall Coupon Book",
-                    "thumbURL": "advertising-coupon-fall-2022",
-                    "date": "2022/10/12",
-                    "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=fall_2022_coupon_book_sent_to_press&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                },
-                {
-                    "issueName": "Spring Coupon Book",
-                    "thumbURL": "advertising-coupon-spring-2023",
-                    "date": "2023/03/02",
-                    "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=for_digi_upload-entire_spring_2023_coupon_book&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                }
-            ]
+        {
+          "issueName": "Housing Guide",
+          "thumbURL": "special-housing-guide-2024",
+          "date": "2023/09/17",
+          "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=finalhousingguide2023_reduced_size_for_digi&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
         },
-        "2021-2022": {
-            "Fall": {
-                "September": [
-                    {
-                        "date": "2021/09/02",
-                        "embed": "<div style='position:relative;padding-top:max(60%,500px);height:0;width:100%'><iframe sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=september_2_2021_student_life_newspaper_at_washin&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2021/09/09",
-                        "embed": "<div style='position:relative;padding-top:max(60%,500px);height:0;width:100%'><iframe sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=newspaper_as_sent_to_printer_9-9-2021&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2021/09/16",
-                        "embed": "<div style='position:relative;padding-top:max(60%,500px);height:0;width:100%'><iframe sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=online-sept_16_2021_student_life_newspaper&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2021/09/23",
-                        "embed": "<div style='position:relative;padding-top:max(60%,500px);height:0;width:100%'><iframe sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=uploaded_to_issuu-studlife_september_23_2021&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2021/09/30",
-                        "embed": "<div style='position:relative;padding-top:max(60%,500px);height:0;width:100%'><iframe sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=studlife_september_30_2021-uploaded_online&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    }
-                ],
-                "October": [
-                    {
-                        "date": "2021/10/07",
-                        "embed": "<div style='position:relative;padding-top:max(60%,500px);height:0;width:100%'><iframe sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=october_7_studlife_uploaded_online-final&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2021/10/21",
-                        "embed": "<div style='position:relative;padding-top:max(60%,500px);height:0;width:100%'><iframe sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_october_21_2021_as_sent_to_printer&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2021/10/28",
-                        "embed": "<div style='position:relative;padding-top:max(60%,500px);height:0;width:100%'><iframe sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=corrected_proof-_reduced_size_for_upload-_from_pri&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    }
-                ],
-                "November": [
-                    {
-                        "date": "2021/11/04",
-                        "embed": "<div style='position:relative;padding-top:max(60%,500px);height:0;width:100%'><iframe sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_november_4_2021_pdf_uploaded_online&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2021/11/11",
-                        "embed": "<div style='position:relative;padding-top:max(60%,500px);height:0;width:100%'><iframe sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=updated-as_uploaded_online_nov_11_2021_&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2021/11/18",
-                        "embed": "<iframe allowfullscreen='true' allow='fullscreen' style='border:none;width:100%;height:500px;' src='https://e.issuu.com/embed.html?d=_combined_pdf_s_as_uploaded_online_november_18_2&amp;hideIssuuLogo=true&amp;logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&amp;u=washustudentlife'></iframe>"
-                    }
-                ],
-                "December": [
-                    {
-                        "date": "2021/12/02",
-                        "embed": "<iframe allowfullscreen='true' allow='fullscreen' style='border:none;width:100%;height:500px;' src='https://e.issuu.com/embed.html?d=student_life_december_2_2021_uploaded_online&amp;hideIssuuLogo=true&amp;logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&amp;u=washustudentlife'></iframe>"
-                    }
-                ]
-            },
-            "Spring": {
-                "February": [
-                    {
-                        "date": "2022/02/03",
-                        "embed": "<div style='position:relative;padding-top:max(60%,500px);height:0;width:100%'><iframe sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=upload-student_life_february_3_2022_&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    },
-                    {
-                        "date": "2022/02/10",
-                        "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=uploaded-february_10_2022_student_life_final_pdf&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                    }
-                ]
-            },
-            "Special Issues": [
-                {
-                    "issueName": "Starting Line",
-                    "thumbURL": "special-starting-line",
-                    "date": "2021/08/02",
-                    "embed": "<div style='position:relative;padding-top:max(60%,500px);height:0;width:100%'><iframe sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?backgroundColor=%239e9999&backgroundColorFullscreen=%239e9999&d=_ready_for_flipbook_upload_starting_line_2021&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                },
-                {
-                    "issueName": "Best of St. Louis",
-                    "thumbURL": "special-best-in-st-louis",
-                    "date": "2021/10/07",
-                    "embed": "<iframe allowfullscreen='true' allow='fullscreen' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?backgroundColor=%23a49fa1&backgroundColorFullscreen=%23a49fa1&d=studlife_best_of_st._louis_uploaded_online&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe>"
-                },
-                {
-                    "issueName": "Housing Guide",
-                    "thumbURL": "special-housing-guide",
-                    "date": "2021/08/15",
-                    "embed": "<iframe allowfullscreen='true' allow='fullscreen' style='border:none;width:100%;height:500px;' src='https://e.issuu.com/embed.html?d=housing_guide_2021_--_for_web_final_&amp;hideIssuuLogo=true&amp;logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&amp;u=washustudentlife'></iframe>"
-                },
-                {
-                    "issueName": "Student Love",
-                    "thumbURL": "special-student-love",
-                    "date": "2022/02/10",
-                    "embed": "<div style='position:relative;padding-top:max(60%,500px);height:0;width:100%'><iframe sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?backgroundColor=%23e73e0f&backgroundColorFullscreen=%23e73e0f&d=uploaded...student_love_edition_of_studlife_feb_10&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                },
-                {
-                    "issueName": "The Finish Line",
-                    "thumbURL": "special-finish-line-2022",
-                    "date": "2022/05/19",
-                    "embed": "<div style='position:relative;padding-top:max(60%,500px);height:0;width:100%'><iframe sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=finish_line_2022-rev3-from_printer-for-website&amp;hideIssuuLogo=true&amp;logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&amp;u=washustudentlife'></iframe></div>"
-                }
-            ],
-            "Advertising": [
-                {
-                    "issueName": "Fall Coupon Book",
-                    "thumbURL": "advertising-coupon-book-fall",
-                    "date": "2021/09/16",
-                    "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?backgroundColor=%2331ab6a&backgroundColorFullscreen=%2331ab6a&d=the_insider_coupon_book_online_fall_2021_student_l&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                }
-            ]
+        {
+          "issueName": "Fall Coupon Book",
+          "date": "2023/09/21",
+          "thumbURL": "special-fall-coupon",
+          "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=fall_coupon_book_2023_reduced_size_8_pages&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
         },
-        "2020-2021": {
-            "Fall": {
-                "September": [
-                    {
-                        "date": "2020/09/17",
-                        "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?d=sept_17_2020_combined_pdfs&amp;hideIssuuLogo=true&amp;u=washustudentlife'></iframe>"
-                    },
-                    {
-                        "date": "2020/09/24",
-                        "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?backgroundColor=%23d82b3b&amp;backgroundColorFullscreen=%23d82b3b&amp;d=student_life_sept_24_2020&amp;hideIssuuLogo=true&amp;u=washustudentlife'></iframe>"
-                    }
-                ],
-                "October": [
-                    {
-                        "date": "2020/10/01",
-                        "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?backgroundColor=%238d8787&amp;backgroundColorFullscreen=%238d8787&amp;d=oct_1_2020_issue&amp;hideIssuuLogo=true&amp;logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white.svg&amp;u=washustudentlife'></iframe>"
-                    },
-                    {
-                        "date": "2020/10/08",
-                        "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?backgroundColor=%237c8084&amp;backgroundColorFullscreen=%237c8084&amp;d=student_life_at_wash_u_october_8_2020_issue&amp;hideIssuuLogo=true&amp;u=washustudentlife'></iframe>"
-                    },
-                    {
-                        "date": "2020/10/15",
-                        "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?backgroundColor=%2396999b&amp;backgroundColorFullscreen=%2396999b&amp;backgroundImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white.png&amp;d=student_life_at_wash_u_october_15_2020&amp;hideIssuuLogo=true&amp;logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white.png&amp;u=washustudentlife'></iframe>"
-                    },
-                    {
-                        "date": "2020/10/22",
-                        "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?backgroundColor=%23696466&amp;backgroundColorFullscreen=%23696466&amp;backgroundImagePosition=stretch&amp;backgroundImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white.png&amp;d=student_life_at_wash_u_october_22_2020&amp;hideIssuuLogo=true&amp;u=washustudentlife'></iframe>"
-                    },
-                    {
-                        "date": "2020/10/29",
-                        "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?backgroundColor=%23b1acb2&amp;backgroundColorFullscreen=%23b1acb2&amp;d=student_life_at_wash_u_october_29__2020&amp;hideIssuuLogo=true&amp;logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white.png&amp;u=washustudentlife'></iframe>"
-                    }
-                ],
-                "November": [
-                    {
-                        "date": "2020/11/05",
-                        "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?d=student_20life_20at_20wash_20u_20november_205_2020&amp;hideIssuuLogo=true&amp;logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&amp;u=washustudentlife'></iframe>"
-                    },
-                    {
-                        "date": "2020/11/12",
-                        "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?d=student_life_at_wash_u_november_12_2020&amp;logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&amp;hideIssuuLogo=true&amp;u=washustudentlife'></iframe>"
-                    },
-                    {
-                        "date": "2020/11/19",
-                        "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?d=student_life_at_wash_u_november_19__2020&amp;hideIssuuLogo=true&amp;logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&amp;u=washustudentlif'></iframe>"
-                    }
-                ]
-            },
-            "Spring": {
-                "January": [
-                    {
-                        "date": "2021/01/28",
-                        "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?backgroundColor=%23a2a7b7&backgroundColorFullscreen=%23a2a7b7&d=student_life__january_28_2021__8_pages&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white.svg&u=washustudentlife'></iframe>"
-                    }
-                ],
-                "February": [
-                    {
-                        "date": "2021/02/04",
-                        "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?d=student_life__february_4__2021_&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white.png&u=washustudentlife'></iframe>"
-                    },
-                    {
-                        "date": "2021/02/11",
-                        "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='///e.issuu.com/embed.html?d=february_11__2021_student_life_at_washington_unive&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white.png&u=washustudentlife'></iframe>"
-                    },
-                    {
-                        "date": "2021/02/18",
-                        "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?backgroundColor=%23878582&backgroundColorFullscreen=%23878582&d=february_18__2021_student_life_at_washington_unive&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white.png&u=washustudentlife'></iframe>"
-                    },
-                    {
-                        "date": "2021/02/25",
-                        "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?d=february_25__2021_student_life_at_washington_unive&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white.png&u=washustudentlife'></iframe>"
-                    }
-                ],
-                "March": [
-                    {
-                        "date": "2021/03/04",
-                        "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?d=march_4_2021_student_life_newspaper_at_washington_&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white.png&u=washustudentlife'></iframe>"
-                    },
-                    {
-                        "date": "2021/03/11",
-                        "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?backgroundColor=%23747584&backgroundColorFullscreen=%23747584&d=march_11_2021_student_life_newspaper_at_washington&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white.png&u=washustudentlife'></iframe>"
-                    },
-                    {
-                        "date": "2021/03/18",
-                        "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?backgroundColor=%237e8186&backgroundColorFullscreen=%237e8186&d=march_18_2021_student_life_newspaper_washington_un&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe>"
-                    },
-                    {
-                        "date": "2021/03/25",
-                        "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?backgroundColor=%23b3b2b2&backgroundColorFullscreen=%23b3b2b2&d=student_life_newspaper_march_25_2021&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe>"
-                    }
-                ],
-                "April": [
-                    {
-                        "date": "2021/04/01",
-                        "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?backgroundColor=%23889092&amp;backgroundColorFullscreen=%23889092&amp;d=april_1_2021_student_life_newspaper_at_washington_&amp;hideIssuuLogo=true&amp;logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&amp;u=washustudentlife'></iframe>"
-                    },
-                    {
-                        "date": "2021/04/08",
-                        "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?d=april_8_2021_student_life_newspaper&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe>"
-                    },
-                    {
-                        "date": "2021/04/15",
-                        "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?d=april_15_print&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe>"
-                    },
-                    {
-                        "date": "2021/04/22",
-                        "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?backgroundColor=%238f8c8c&backgroundColorFullscreen=%238f8c8c&d=04-22-2021_student_life_newspaper&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe>"
-                    },
-                    {
-                        "date": "2021/04/29",
-                        "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?d=april_29_2021_student_life_newspaper_washington_un&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe>"
-                    }
-                ]
-            },
-            "Special Issues": [
-                {
-                    "issueName": "Housing Guide",
-                    "thumbURL": "special-housing-guide",
-                    "date": "2021/01/28",
-                    "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?backgroundColor=%23464063&backgroundColorFullscreen=%23464063&d=final&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white.png&u=washustudentlife'></iframe>"
-                },
-                {
-                    "issueName": "Student Love",
-                    "thumbURL": "special-sex-issue",
-                    "date": "2021/02/11",
-                    "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?backgroundColor=%23e45499&backgroundColorFullscreen=%23e45499&d=student_love_feb_11_2021_published_by_student_life&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white.png&u=washustudentlife'></iframe>"
-                },
-                {
-                    "issueName": "Student Libel",
-                    "thumbURL": "special-student-libel",
-                    "date": "2021/04/01",
-                    "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?backgroundColor=%238706f4&backgroundColorFullscreen=%238706f4&d=1-8____&hideIssuuLogo=true&u=washustudentlife'></iframe>"
-                },
-                {
-                    "issueName": "WU in Focus 2021",
-                    "thumbURL": "special-wu-in-focus",
-                    "date": "2021/04/22",
-                    "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?backgroundColor=%232a5930&backgroundColorFullscreen=%232a5930&d=final_layout&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe>"
-                },
-                {
-                    "issueName": "Finish Line",
-                    "thumbURL": "special-finish-line",
-                    "date": "2021/05/25",
-                    "embed": "<div style='position:relative;padding-top:max(60%,500px);height:0;width:100%'><iframe allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?backgroundColor=%23adafaf&backgroundColorFullscreen=%23adafaf&d=merged_entire_finish_line_2021_as_sent_to_printer&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
-                }
-            ],
-            "Advertising": [
-                {
-                    "issueName": "Fall Coupon Book",
-                    "thumbURL": "advertising-coupon-book-fall",
-                    "date": "2021/02/11",
-                    "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:326px;' src='//e.issuu.com/embed.html?d=fall_coupon_book_student_life_october_2020&amp;hideIssuuLogo=true&amp;u=washustudentlife'></iframe>"
-                },
-                {
-                    "issueName": "Spring Coupon Book",
-                    "thumbURL": "advertising-coupon-book-spring",
-                    "date": "2021/02/11",
-                    "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:326px;' src='//e.issuu.com/embed.html?backgroundColor=%238e8989&backgroundColorFullscreen=%238e8989&d=february_2021_coupon_book_student_life_at_washingt&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white.png&u=washustudentlife'></iframe>"
-                }
-            ]
+        {
+          "issueName": "Student Love 2024",
+          "date": "2024/02/15",
+          "thumbURL": "special-student-love",
+          "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?backgroundColor=%23c4c2c2&backgroundColorFullscreen=%23c4c2c2&d=student_love_2024_as_uploaded_online&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+        },
+        {
+          "issueName": "Best of STL 2024",
+          "date": "2024/03/21",
+          "thumbURL": "special-best-of-stl",
+          "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=finalbestofstl2024_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+        },
+        {
+          "issueName": "Student Libel 2024",
+          "date": "2024/04/01",
+          "thumbURL": "special-student-libel",
+          "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=studentlibel_april_1_2024_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
         }
+      ]
+    },
+    "2022-2023": {
+      "Fall": {
+        "September": [
+          {
+            "date": "2022/09/01",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=september_1_2022_student_life_combined_sections_p&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2022/09/08",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_newspaper_september_8_2022_online&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2022/09/15",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=100&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2022/09/22",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=sept_22_2022_sent_to_press_uploaded_online&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2022/09/29",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=sept_29_student_life_print_edition&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          }
+        ],
+        "October": [
+          {
+            "date": "2022/10/06",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=actual_final&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2022/10/20",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_oct_20_2022_for_digi_upload&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2022/10/27",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=oct27_finalissue&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          }
+        ],
+        "November": [
+          {
+            "date": "2022/11/03",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=_11-3-22_final_fully_combined_layout&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2022/11/10",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=_11-10-22_final_combined&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2022/11/17",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=combined_final_pdf_nov_17_2022_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          }
+        ],
+        "December": [
+          {
+            "date": "2022/12/08",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_paper_pdf_dec._8_issue&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          }
+        ]
+      },
+      "Spring": {
+        "January": [
+          {
+            "date": "2023/01/26",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=final_combined&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          }
+        ],
+        "February": [
+          {
+            "date": "2023/02/02",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=final_combined_feb_2&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2023/02/09",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_news_february_9_2023&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2023/02/23",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=feb_23_2023_student_life_uploaded_online&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          }
+        ],
+        "March": [
+          {
+            "date": "2023/03/02",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=final_combined_1-8_&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2023/03/09",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=corrected_issue_as_uploaded_and_printed_march_9_20&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2023/03/30",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_3_30_section_b&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          }
+        ],
+        "April": [
+          {
+            "date": "2023/04/06",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=april6_actualfinal&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2023/04/13",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=april13_final_pdf&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2023/04/20",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=actualfinal4-20&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2023/04/27",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=april_27_2023_student_life_newspaper&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          }
+        ]
+      },
+      "Special Issues": [
+        {
+          "issueName": "Starting Line",
+          "thumbURL": "special-starting-line-2022",
+          "date": "2022/08/01",
+          "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?backgroundColor=%239cc4de&backgroundColorFullscreen=%239cc4de&d=from_printer_corrected_for_press_web_upload_starti&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&showOtherPublicationsAsSuggestions=true&u=washustudentlife'></iframe></div>"
+        },
+        {
+          "issueName": "Housing Guide 2022",
+          "thumbURL": "special-housing-2022",
+          "date": "2022/12/01",
+          "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=housing_guide_2022_for_print&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+        },
+        {
+          "issueName": "Student Love 2023",
+          "thumbURL": "student-love-2023",
+          "date": "2023/02/09",
+          "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_love_edition_of_student_life_feb_9_2023&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+        },
+        {
+          "issueName": "Best of St. Louis 2023",
+          "thumbURL": "best-of-stl-2023",
+          "date": "2023/03/22",
+          "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=best_of_stl_2023_as_uploaded&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+        },
+        {
+          "issueName": "Student Libel 2023",
+          "thumbURL": "student-libel-2023",
+          "date": "2023/04/01",
+          "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=libel_2023_final&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+        },
+        {
+          "issueName": "Finish Line 2023",
+          "thumbURL": "finish-line-2023",
+          "date": "2023/05/09",
+          "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?backgroundColor=%23959393&backgroundColorFullscreen=%23959393&d=finish_line_2023_116_pages_compressed_for_upload&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+        }
+      ],
+      "Advertising": [
+        {
+          "issueName": "Fall Coupon Book",
+          "thumbURL": "advertising-coupon-fall-2022",
+          "date": "2022/10/12",
+          "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=fall_2022_coupon_book_sent_to_press&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+        },
+        {
+          "issueName": "Spring Coupon Book",
+          "thumbURL": "advertising-coupon-spring-2023",
+          "date": "2023/03/02",
+          "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=for_digi_upload-entire_spring_2023_coupon_book&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+        }
+      ]
+    },
+    "2021-2022": {
+      "Fall": {
+        "September": [
+          {
+            "date": "2021/09/02",
+            "embed": "<div style='position:relative;padding-top:max(60%,500px);height:0;width:100%'><iframe sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=september_2_2021_student_life_newspaper_at_washin&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2021/09/09",
+            "embed": "<div style='position:relative;padding-top:max(60%,500px);height:0;width:100%'><iframe sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=newspaper_as_sent_to_printer_9-9-2021&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2021/09/16",
+            "embed": "<div style='position:relative;padding-top:max(60%,500px);height:0;width:100%'><iframe sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=online-sept_16_2021_student_life_newspaper&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2021/09/23",
+            "embed": "<div style='position:relative;padding-top:max(60%,500px);height:0;width:100%'><iframe sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=uploaded_to_issuu-studlife_september_23_2021&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2021/09/30",
+            "embed": "<div style='position:relative;padding-top:max(60%,500px);height:0;width:100%'><iframe sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=studlife_september_30_2021-uploaded_online&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          }
+        ],
+        "October": [
+          {
+            "date": "2021/10/07",
+            "embed": "<div style='position:relative;padding-top:max(60%,500px);height:0;width:100%'><iframe sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=october_7_studlife_uploaded_online-final&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2021/10/21",
+            "embed": "<div style='position:relative;padding-top:max(60%,500px);height:0;width:100%'><iframe sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_october_21_2021_as_sent_to_printer&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2021/10/28",
+            "embed": "<div style='position:relative;padding-top:max(60%,500px);height:0;width:100%'><iframe sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=corrected_proof-_reduced_size_for_upload-_from_pri&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          }
+        ],
+        "November": [
+          {
+            "date": "2021/11/04",
+            "embed": "<div style='position:relative;padding-top:max(60%,500px);height:0;width:100%'><iframe sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=student_life_november_4_2021_pdf_uploaded_online&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2021/11/11",
+            "embed": "<div style='position:relative;padding-top:max(60%,500px);height:0;width:100%'><iframe sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=updated-as_uploaded_online_nov_11_2021_&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2021/11/18",
+            "embed": "<iframe allowfullscreen='true' allow='fullscreen' style='border:none;width:100%;height:500px;' src='https://e.issuu.com/embed.html?d=_combined_pdf_s_as_uploaded_online_november_18_2&amp;hideIssuuLogo=true&amp;logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&amp;u=washustudentlife'></iframe>"
+          }
+        ],
+        "December": [
+          {
+            "date": "2021/12/02",
+            "embed": "<iframe allowfullscreen='true' allow='fullscreen' style='border:none;width:100%;height:500px;' src='https://e.issuu.com/embed.html?d=student_life_december_2_2021_uploaded_online&amp;hideIssuuLogo=true&amp;logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&amp;u=washustudentlife'></iframe>"
+          }
+        ]
+      },
+      "Spring": {
+        "February": [
+          {
+            "date": "2022/02/03",
+            "embed": "<div style='position:relative;padding-top:max(60%,500px);height:0;width:100%'><iframe sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=upload-student_life_february_3_2022_&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          },
+          {
+            "date": "2022/02/10",
+            "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=uploaded-february_10_2022_student_life_final_pdf&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+          }
+        ]
+      },
+      "Special Issues": [
+        {
+          "issueName": "Starting Line",
+          "thumbURL": "special-starting-line",
+          "date": "2021/08/02",
+          "embed": "<div style='position:relative;padding-top:max(60%,500px);height:0;width:100%'><iframe sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?backgroundColor=%239e9999&backgroundColorFullscreen=%239e9999&d=_ready_for_flipbook_upload_starting_line_2021&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+        },
+        {
+          "issueName": "Best of St. Louis",
+          "thumbURL": "special-best-in-st-louis",
+          "date": "2021/10/07",
+          "embed": "<iframe allowfullscreen='true' allow='fullscreen' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?backgroundColor=%23a49fa1&backgroundColorFullscreen=%23a49fa1&d=studlife_best_of_st._louis_uploaded_online&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe>"
+        },
+        {
+          "issueName": "Housing Guide",
+          "thumbURL": "special-housing-guide",
+          "date": "2021/08/15",
+          "embed": "<iframe allowfullscreen='true' allow='fullscreen' style='border:none;width:100%;height:500px;' src='https://e.issuu.com/embed.html?d=housing_guide_2021_--_for_web_final_&amp;hideIssuuLogo=true&amp;logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&amp;u=washustudentlife'></iframe>"
+        },
+        {
+          "issueName": "Student Love",
+          "thumbURL": "special-student-love",
+          "date": "2022/02/10",
+          "embed": "<div style='position:relative;padding-top:max(60%,500px);height:0;width:100%'><iframe sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?backgroundColor=%23e73e0f&backgroundColorFullscreen=%23e73e0f&d=uploaded...student_love_edition_of_studlife_feb_10&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+        },
+        {
+          "issueName": "The Finish Line",
+          "thumbURL": "special-finish-line-2022",
+          "date": "2022/05/19",
+          "embed": "<div style='position:relative;padding-top:max(60%,500px);height:0;width:100%'><iframe sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=finish_line_2022-rev3-from_printer-for-website&amp;hideIssuuLogo=true&amp;logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&amp;u=washustudentlife'></iframe></div>"
+        }
+      ],
+      "Advertising": [
+        {
+          "issueName": "Fall Coupon Book",
+          "thumbURL": "advertising-coupon-book-fall",
+          "date": "2021/09/16",
+          "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?backgroundColor=%2331ab6a&backgroundColorFullscreen=%2331ab6a&d=the_insider_coupon_book_online_fall_2021_student_l&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+        }
+      ]
+    },
+    "2020-2021": {
+      "Fall": {
+        "September": [
+          {
+            "date": "2020/09/17",
+            "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?d=sept_17_2020_combined_pdfs&amp;hideIssuuLogo=true&amp;u=washustudentlife'></iframe>"
+          },
+          {
+            "date": "2020/09/24",
+            "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?backgroundColor=%23d82b3b&amp;backgroundColorFullscreen=%23d82b3b&amp;d=student_life_sept_24_2020&amp;hideIssuuLogo=true&amp;u=washustudentlife'></iframe>"
+          }
+        ],
+        "October": [
+          {
+            "date": "2020/10/01",
+            "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?backgroundColor=%238d8787&amp;backgroundColorFullscreen=%238d8787&amp;d=oct_1_2020_issue&amp;hideIssuuLogo=true&amp;logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white.svg&amp;u=washustudentlife'></iframe>"
+          },
+          {
+            "date": "2020/10/08",
+            "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?backgroundColor=%237c8084&amp;backgroundColorFullscreen=%237c8084&amp;d=student_life_at_wash_u_october_8_2020_issue&amp;hideIssuuLogo=true&amp;u=washustudentlife'></iframe>"
+          },
+          {
+            "date": "2020/10/15",
+            "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?backgroundColor=%2396999b&amp;backgroundColorFullscreen=%2396999b&amp;backgroundImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white.png&amp;d=student_life_at_wash_u_october_15_2020&amp;hideIssuuLogo=true&amp;logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white.png&amp;u=washustudentlife'></iframe>"
+          },
+          {
+            "date": "2020/10/22",
+            "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?backgroundColor=%23696466&amp;backgroundColorFullscreen=%23696466&amp;backgroundImagePosition=stretch&amp;backgroundImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white.png&amp;d=student_life_at_wash_u_october_22_2020&amp;hideIssuuLogo=true&amp;u=washustudentlife'></iframe>"
+          },
+          {
+            "date": "2020/10/29",
+            "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?backgroundColor=%23b1acb2&amp;backgroundColorFullscreen=%23b1acb2&amp;d=student_life_at_wash_u_october_29__2020&amp;hideIssuuLogo=true&amp;logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white.png&amp;u=washustudentlife'></iframe>"
+          }
+        ],
+        "November": [
+          {
+            "date": "2020/11/05",
+            "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?d=student_20life_20at_20wash_20u_20november_205_2020&amp;hideIssuuLogo=true&amp;logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&amp;u=washustudentlife'></iframe>"
+          },
+          {
+            "date": "2020/11/12",
+            "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?d=student_life_at_wash_u_november_12_2020&amp;logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&amp;hideIssuuLogo=true&amp;u=washustudentlife'></iframe>"
+          },
+          {
+            "date": "2020/11/19",
+            "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?d=student_life_at_wash_u_november_19__2020&amp;hideIssuuLogo=true&amp;logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&amp;u=washustudentlif'></iframe>"
+          }
+        ]
+      },
+      "Spring": {
+        "January": [
+          {
+            "date": "2021/01/28",
+            "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?backgroundColor=%23a2a7b7&backgroundColorFullscreen=%23a2a7b7&d=student_life__january_28_2021__8_pages&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white.svg&u=washustudentlife'></iframe>"
+          }
+        ],
+        "February": [
+          {
+            "date": "2021/02/04",
+            "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?d=student_life__february_4__2021_&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white.png&u=washustudentlife'></iframe>"
+          },
+          {
+            "date": "2021/02/11",
+            "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='///e.issuu.com/embed.html?d=february_11__2021_student_life_at_washington_unive&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white.png&u=washustudentlife'></iframe>"
+          },
+          {
+            "date": "2021/02/18",
+            "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?backgroundColor=%23878582&backgroundColorFullscreen=%23878582&d=february_18__2021_student_life_at_washington_unive&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white.png&u=washustudentlife'></iframe>"
+          },
+          {
+            "date": "2021/02/25",
+            "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?d=february_25__2021_student_life_at_washington_unive&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white.png&u=washustudentlife'></iframe>"
+          }
+        ],
+        "March": [
+          {
+            "date": "2021/03/04",
+            "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?d=march_4_2021_student_life_newspaper_at_washington_&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white.png&u=washustudentlife'></iframe>"
+          },
+          {
+            "date": "2021/03/11",
+            "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?backgroundColor=%23747584&backgroundColorFullscreen=%23747584&d=march_11_2021_student_life_newspaper_at_washington&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white.png&u=washustudentlife'></iframe>"
+          },
+          {
+            "date": "2021/03/18",
+            "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?backgroundColor=%237e8186&backgroundColorFullscreen=%237e8186&d=march_18_2021_student_life_newspaper_washington_un&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe>"
+          },
+          {
+            "date": "2021/03/25",
+            "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?backgroundColor=%23b3b2b2&backgroundColorFullscreen=%23b3b2b2&d=student_life_newspaper_march_25_2021&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe>"
+          }
+        ],
+        "April": [
+          {
+            "date": "2021/04/01",
+            "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?backgroundColor=%23889092&amp;backgroundColorFullscreen=%23889092&amp;d=april_1_2021_student_life_newspaper_at_washington_&amp;hideIssuuLogo=true&amp;logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&amp;u=washustudentlife'></iframe>"
+          },
+          {
+            "date": "2021/04/08",
+            "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?d=april_8_2021_student_life_newspaper&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe>"
+          },
+          {
+            "date": "2021/04/15",
+            "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?d=april_15_print&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe>"
+          },
+          {
+            "date": "2021/04/22",
+            "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?backgroundColor=%238f8c8c&backgroundColorFullscreen=%238f8c8c&d=04-22-2021_student_life_newspaper&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe>"
+          },
+          {
+            "date": "2021/04/29",
+            "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?d=april_29_2021_student_life_newspaper_washington_un&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe>"
+          }
+        ]
+      },
+      "Special Issues": [
+        {
+          "issueName": "Housing Guide",
+          "thumbURL": "special-housing-guide",
+          "date": "2021/01/28",
+          "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?backgroundColor=%23464063&backgroundColorFullscreen=%23464063&d=final&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white.png&u=washustudentlife'></iframe>"
+        },
+        {
+          "issueName": "Student Love",
+          "thumbURL": "special-sex-issue",
+          "date": "2021/02/11",
+          "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?backgroundColor=%23e45499&backgroundColorFullscreen=%23e45499&d=student_love_feb_11_2021_published_by_student_life&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white.png&u=washustudentlife'></iframe>"
+        },
+        {
+          "issueName": "Student Libel",
+          "thumbURL": "special-student-libel",
+          "date": "2021/04/01",
+          "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?backgroundColor=%238706f4&backgroundColorFullscreen=%238706f4&d=1-8____&hideIssuuLogo=true&u=washustudentlife'></iframe>"
+        },
+        {
+          "issueName": "WU in Focus 2021",
+          "thumbURL": "special-wu-in-focus",
+          "date": "2021/04/22",
+          "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:500px;' src='//e.issuu.com/embed.html?backgroundColor=%232a5930&backgroundColorFullscreen=%232a5930&d=final_layout&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe>"
+        },
+        {
+          "issueName": "Finish Line",
+          "thumbURL": "special-finish-line",
+          "date": "2021/05/25",
+          "embed": "<div style='position:relative;padding-top:max(60%,500px);height:0;width:100%'><iframe allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?backgroundColor=%23adafaf&backgroundColorFullscreen=%23adafaf&d=merged_entire_finish_line_2021_as_sent_to_printer&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white-issu-watermark.png&u=washustudentlife'></iframe></div>"
+        }
+      ],
+      "Advertising": [
+        {
+          "issueName": "Fall Coupon Book",
+          "thumbURL": "advertising-coupon-book-fall",
+          "date": "2021/02/11",
+          "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:326px;' src='//e.issuu.com/embed.html?d=fall_coupon_book_student_life_october_2020&amp;hideIssuuLogo=true&amp;u=washustudentlife'></iframe>"
+        },
+        {
+          "issueName": "Spring Coupon Book",
+          "thumbURL": "advertising-coupon-book-spring",
+          "date": "2021/02/11",
+          "embed": "<iframe allowfullscreen='true' style='border:none;width:100%;height:326px;' src='//e.issuu.com/embed.html?backgroundColor=%238e8989&backgroundColorFullscreen=%238e8989&d=february_2021_coupon_book_student_life_at_washingt&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fwww.studlife.com%2Fwp-content%2Fthemes%2Fstudent-life-2019%2Fimg%2Flogo-studentlife-white.png&u=washustudentlife'></iframe>"
+        }
+      ]
     }
+  }
 }
