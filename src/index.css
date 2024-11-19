@@ -37,3 +37,7 @@ code {
   display: flex;
 }
 
+.MuiBox-root.MuiBox-root-30 {
+  overflow: auto;
+}
+
