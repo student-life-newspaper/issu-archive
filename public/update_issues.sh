@@ -4,6 +4,7 @@
 # Description: Updates the issues.json file by inserting a new "Latest Issue" and moving the previous "Latest Issue" to "Previous Issues" under the correct academic year.
 # Usage: ./update_issues.sh < new_embed.html
 # Created by: Dijkstra Liu
+# Improved by: Jack Yang
 
 # Set JSON file path
 JSON_FILE="issues.json"
@@ -25,8 +26,17 @@ new_embed=$(cat)
 # Replace all double quotes " with single quotes '
 new_embed_modified=$(echo "$new_embed" | sed "s/\"/'/g")
 
-# Get the current date in Central Time (US/Central), format: YYYY/MM/DD
+# Get the current date in Central Time (US/Central)
 current_date=$(TZ="America/Chicago" date +"%Y/%m/%d")
+day_of_week=$(TZ="America/Chicago" date -d "$current_date" +%u) # 1=Monday, 7=Sunday
+
+# If today is not Thursday (4), adjust to the most recent Thursday
+if [ "$day_of_week" -ne 4 ]; then
+    # Calculate how many days to subtract to reach the last Thursday
+    days_to_subtract=$(( (day_of_week + 3) % 7 )) 
+    current_date=$(TZ="America/Chicago" date -d "$current_date - $days_to_subtract days" +"%Y/%m/%d")
+fi
+
 
 # Extract current "Latest Issue" date and embed code from the JSON file
 latest_issue_date=$(jq -r '.["Featured Issues"][0].date' "$JSON_FILE")
@@ -54,10 +64,29 @@ else
 fi
 
 # Get the month name, e.g., 09 -> September
-month_name=$(date -d "$latest_year/$latest_month/$latest_day" +"%B")
+OS_TYPE=$(uname)
 
-next_year=$((latest_year + 1))
-year_range="${latest_year}-${next_year}"
+# Choose the correct date command based on the OS type
+if [ "$OS_TYPE" = "Darwin" ]; then
+    # macOS uses the BSD version of date
+    month_name=$(date -j -f "%Y/%m/%d" "$latest_year/$latest_month/$latest_day" +"%B")
+elif [ "$OS_TYPE" = "Linux" ]; then
+    # Linux uses the GNU version of date
+    month_name=$(date -d "$latest_year/$latest_month/$latest_day" +"%B")
+else
+    echo "Error: Unsupported OS: $OS_TYPE"
+    exit 1
+fi
+
+
+if [ "$semester" = "Spring" ]; then
+    year_range="$((latest_year - 1))-${latest_year}"
+elif [ "$semester" = "Fall" ]; then
+    year_range="${latest_year}-${next_year}"
+else
+    echo "Error: Invalid semester value. Please use 'Spring' or 'Fall'."
+    exit 1
+fi
 
 jq --arg year_range "$year_range" \
    --arg semester "$semester" \
