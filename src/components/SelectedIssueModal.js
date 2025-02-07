@@ -23,29 +23,38 @@ const style = {
   p: 2,
   maxHeight: '80vh',
 };
-const SelectedIssueModal = ({
-  issueObj, modalOpen, setModalOpen,
-}) => {
+
+const SelectedIssueModal = ({ issueObj, modalOpen, setModalOpen }) => {
   const handleClose = () => setModalOpen(false);
   const [anchorEl, setAnchorEl] = useState(null);
   const [copied, setCopied] = useState(false);
+
   const handleLinkClick = (event) => {
     setAnchorEl(event.currentTarget);
   };
+
   const handleLinkClose = () => {
     setAnchorEl(null);
   };
+
+  const handleCopy = () => {
+    setCopied(true);
+    setTimeout(() => setCopied(false), 1500); // disappear after 1.5 seconds
+  };
+
   const generateLink = () => {
     if (issueObj.specialCategory) {
       return `https://www.studlife.com/pdf?iaYear=${issueSchoolYear(issueObj.date)}&iaCategory=${issueObj.specialCategory}&iaDate=${issueObj.date}&iaIsSpecial=${true}`;
     }
     const issueJSDate = new Date(issueObj.date);
-    const semester = (issueJSDate.getMonth() + 1) <= 6 ? 'Spring' : 'Fall';
+    const semester = issueJSDate.getMonth() + 1 <= 6 ? 'Spring' : 'Fall';
     const month = monthArr[issueJSDate.getMonth()];
     return `https://www.studlife.com/pdf?iaYear=${issueSchoolYear(issueObj.date)}&iaCategory=${semester}&iaMonth=${month}&iaDate=${issueObj.date}`;
   };
+
   const open = Boolean(anchorEl);
   const id = open ? 'link-popover' : undefined;
+
   return (
     <div>
       <Modal
@@ -88,10 +97,7 @@ const SelectedIssueModal = ({
               disableTouchListener
               title="Copied"
             >
-              <CopyToClipboard
-                text={generateLink()}
-                onCopy={() => setCopied(true)}
-              >
+              <CopyToClipboard text={generateLink()} onCopy={handleCopy}>
                 <Box sx={{ ml: 2, display: 'inline' }}>
                   <Button aria-describedby="copy-to-clipboard" variant="contained">
                     Copy Link
@@ -102,11 +108,11 @@ const SelectedIssueModal = ({
           </Box>
           <Box sx={{ mb: 1 }} id="modal-embed-wrapper">
             <span dangerouslySetInnerHTML={{ __html: issueObj.embed }} />
-
           </Box>
         </Box>
       </Modal>
     </div>
   );
 };
+
 export default SelectedIssueModal;
