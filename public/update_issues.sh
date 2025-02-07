@@ -82,7 +82,7 @@ fi
 if [ "$semester" = "Spring" ]; then
     year_range="$((latest_year - 1))-${latest_year}"
 elif [ "$semester" = "Fall" ]; then
-    year_range="${latest_year}-${next_year}"
+    year_range="${latest_year}-$((lastest_year + 1))"
 else
     echo "Error: Invalid semester value. Please use 'Spring' or 'Fall'."
     exit 1
