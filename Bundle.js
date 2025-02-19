@@ -2672,6 +2672,7 @@ var require_react_dom_development = __commonJS({
           }
           switch (typeof value) {
             case "function":
+            // $FlowIssue symbol is perfectly valid here
             case "symbol":
               return true;
             case "boolean": {
@@ -4638,6 +4639,10 @@ var require_react_dom_development = __commonJS({
             return typeof props.is === "string";
           }
           switch (tagName) {
+            // These are reserved SVG and MathML elements.
+            // We don't mind this list too much because we expect it to never grow.
+            // The alternative is to track the namespace in a few places which is convoluted.
+            // https://w3c.github.io/webcomponents/spec/custom/#custom-elements-core-concepts
             case "annotation-xml":
             case "color-profile":
             case "font-face":
@@ -6897,6 +6902,7 @@ var require_react_dom_development = __commonJS({
               return _lane3;
             }
             case TransitionPriority:
+            // Should be handled by findTransitionLane instead
             case RetryLanePriority:
               break;
             case IdleLanePriority:
@@ -8310,6 +8316,7 @@ var require_react_dom_development = __commonJS({
         function extractEvents$3(dispatchQueue, domEventName, targetInst, nativeEvent, nativeEventTarget, eventSystemFlags, targetContainer) {
           var targetNode = targetInst ? getNodeFromInstance(targetInst) : window;
           switch (domEventName) {
+            // Track the input node that has focus.
             case "focusin":
               if (isTextInputElement(targetNode) || targetNode.contentEditable === "true") {
                 activeElement$1 = targetNode;
@@ -8322,6 +8329,8 @@ var require_react_dom_development = __commonJS({
               activeElementInst$1 = null;
               lastSelection = null;
               break;
+            // Don't fire the event while the user is dragging. This matches the
+            // semantics of the native select event.
             case "mousedown":
               mouseDown = true;
               break;
@@ -8331,10 +8340,20 @@ var require_react_dom_development = __commonJS({
               mouseDown = false;
               constructSelectEvent(dispatchQueue, nativeEvent, nativeEventTarget);
               break;
+            // Chrome and IE fire non-standard event when selection is changed (and
+            // sometimes when it hasn't). IE's event fires out of order with respect
+            // to key and input events on deletion, so we discard it.
+            //
+            // Firefox doesn't support selectionchange, so check selection status
+            // after each key entry. The selection changes after keydown and before
+            // keyup, but we check on keydown as well in the case of holding down a
+            // key, when multiple keydown events are fired but only one keyup is.
+            // This is also our approach for IE handling, for the reason above.
             case "selectionchange":
               if (skipSelectionChangeEvent) {
                 break;
               }
+            // falls through
             case "keydown":
             case "keyup":
               constructSelectEvent(dispatchQueue, nativeEvent, nativeEventTarget);
@@ -8352,6 +8371,7 @@ var require_react_dom_development = __commonJS({
               if (getEventCharCode(nativeEvent) === 0) {
                 return;
               }
+            /* falls through */
             case "keydown":
             case "keyup":
               SyntheticEventCtor = SyntheticKeyboardEvent;
@@ -8372,11 +8392,14 @@ var require_react_dom_development = __commonJS({
               if (nativeEvent.button === 2) {
                 return;
               }
+            /* falls through */
             case "auxclick":
             case "dblclick":
             case "mousedown":
             case "mousemove":
             case "mouseup":
+            // TODO: Disabled elements should not respond to mouse events
+            /* falls through */
             case "mouseout":
             case "mouseover":
             case "contextmenu":
@@ -9293,8 +9316,11 @@ var require_react_dom_development = __commonJS({
             for (var _i = 0; _i < attributes.length; _i++) {
               var name = attributes[_i].name.toLowerCase();
               switch (name) {
+                // Built-in SSR attribute is allowed
                 case "data-reactroot":
                   break;
+                // Controlled attributes are not validated
+                // TODO: Only ignore them on controlled tags.
                 case "value":
                   break;
                 case "checked":
@@ -9563,24 +9589,37 @@ var require_react_dom_development = __commonJS({
           };
           var isTagValidWithParent = function(tag, parentTag) {
             switch (parentTag) {
+              // https://html.spec.whatwg.org/multipage/syntax.html#parsing-main-inselect
               case "select":
                 return tag === "option" || tag === "optgroup" || tag === "#text";
               case "optgroup":
                 return tag === "option" || tag === "#text";
+              // Strictly speaking, seeing an <option> doesn't mean we're in a <select>
+              // but
               case "option":
                 return tag === "#text";
+              // https://html.spec.whatwg.org/multipage/syntax.html#parsing-main-intd
+              // https://html.spec.whatwg.org/multipage/syntax.html#parsing-main-incaption
+              // No special behavior since these rules fall back to "in body" mode for
+              // all except special table nodes which cause bad parsing behavior anyway.
+              // https://html.spec.whatwg.org/multipage/syntax.html#parsing-main-intr
               case "tr":
                 return tag === "th" || tag === "td" || tag === "style" || tag === "script" || tag === "template";
+              // https://html.spec.whatwg.org/multipage/syntax.html#parsing-main-intbody
               case "tbody":
               case "thead":
               case "tfoot":
                 return tag === "tr" || tag === "style" || tag === "script" || tag === "template";
+              // https://html.spec.whatwg.org/multipage/syntax.html#parsing-main-incolgroup
               case "colgroup":
                 return tag === "col" || tag === "template";
+              // https://html.spec.whatwg.org/multipage/syntax.html#parsing-main-intable
               case "table":
                 return tag === "caption" || tag === "colgroup" || tag === "tbody" || tag === "tfoot" || tag === "thead" || tag === "style" || tag === "script" || tag === "template";
+              // https://html.spec.whatwg.org/multipage/syntax.html#parsing-main-inhead
               case "head":
                 return tag === "base" || tag === "basefont" || tag === "bgsound" || tag === "link" || tag === "meta" || tag === "title" || tag === "noscript" || tag === "noframes" || tag === "style" || tag === "script" || tag === "template";
+              // https://html.spec.whatwg.org/multipage/semantics.html#the-html-element
               case "html":
                 return tag === "head" || tag === "body" || tag === "frameset";
               case "frameset":
@@ -11190,6 +11229,7 @@ var require_react_dom_development = __commonJS({
             case CaptureUpdate: {
               workInProgress2.flags = workInProgress2.flags & ~ShouldCapture | DidCapture;
             }
+            // Intentional fallthrough
             case UpdateState: {
               var _payload = update2.payload;
               var partialState;
@@ -12536,6 +12576,8 @@ var require_react_dom_development = __commonJS({
                     break;
                   }
                   case Block:
+                  // We intentionally fallthrough here if enableBlocksAPI is not on.
+                  // eslint-disable-next-lined no-fallthrough
                   default: {
                     if (child.elementType === element.type || // Keep this check inline so it only runs on the false path:
                     isCompatibleFamilyForHotReloading(child, element)) {
@@ -12634,6 +12676,9 @@ var require_react_dom_development = __commonJS({
                     }
                   }
                 }
+                // Intentionally fall through to the next case, which handles both
+                // functions and classes
+                // eslint-disable-next-lined no-fallthrough
                 case Block:
                 case FunctionComponent:
                 case ForwardRef:
@@ -17539,6 +17584,7 @@ var require_react_dom_development = __commonJS({
               isContainer = true;
               break;
             case FundamentalComponent:
+            // eslint-disable-next-line-no-fallthrough
             default: {
               {
                 throw Error("Invalid host parent fiber. This error is likely caused by a bug in React. Please file an issue.");
@@ -18171,6 +18217,9 @@ var require_react_dom_development = __commonJS({
                 }
               }
             }
+            // Flow knows about invariant, so it complains if I add a break
+            // statement, but eslint doesn't know about invariant, so it complains
+            // if I do. eslint-disable-next-line no-fallthrough
             case RootErrored: {
               commitRoot(root2);
               break;
@@ -20084,6 +20133,7 @@ For more info, visit https://reactjs.org/link/mock-scheduler`);
               case REACT_LEGACY_HIDDEN_TYPE:
                 return createFiberFromLegacyHidden(pendingProps, mode, lanes, key);
               case REACT_SCOPE_TYPE:
+              // eslint-disable-next-line no-fallthrough
               default: {
                 if (typeof type === "object" && type !== null) {
                   switch (type.$$typeof) {
@@ -24131,7 +24181,7 @@ var require_objectWithoutPropertiesLoose = __commonJS({
       if (null == r) return {};
       var t = {};
       for (var n in r) if ({}.hasOwnProperty.call(r, n)) {
-        if (e.includes(n)) continue;
+        if (-1 !== e.indexOf(n)) continue;
         t[n] = r[n];
       }
       return t;
@@ -26643,8 +26693,8 @@ var require_objectWithoutProperties = __commonJS({
       if (null == e) return {};
       var o, r, i = objectWithoutPropertiesLoose(e, t);
       if (Object.getOwnPropertySymbols) {
-        var s = Object.getOwnPropertySymbols(e);
-        for (r = 0; r < s.length; r++) o = s[r], t.includes(o) || {}.propertyIsEnumerable.call(e, o) && (i[o] = e[o]);
+        var n = Object.getOwnPropertySymbols(e);
+        for (r = 0; r < n.length; r++) o = n[r], -1 === t.indexOf(o) && {}.propertyIsEnumerable.call(e, o) && (i[o] = e[o]);
       }
       return i;
     }
@@ -30283,6 +30333,7 @@ var require_toggle_selection = __commonJS({
         ranges.push(selection.getRangeAt(i));
       }
       switch (active.tagName.toUpperCase()) {
+        // .toUpperCase handles XHTML
         case "INPUT":
         case "TEXTAREA":
           active.blur();
@@ -30965,7 +31016,7 @@ function _objectWithoutPropertiesLoose(r, e) {
   if (null == r) return {};
   var t = {};
   for (var n in r) if ({}.hasOwnProperty.call(r, n)) {
-    if (e.includes(n)) continue;
+    if (-1 !== e.indexOf(n)) continue;
     t[n] = r[n];
   }
   return t;
@@ -30976,8 +31027,8 @@ function _objectWithoutProperties(e, t) {
   if (null == e) return {};
   var o, r, i = _objectWithoutPropertiesLoose(e, t);
   if (Object.getOwnPropertySymbols) {
-    var s = Object.getOwnPropertySymbols(e);
-    for (r = 0; r < s.length; r++) o = s[r], t.includes(o) || {}.propertyIsEnumerable.call(e, o) && (i[o] = e[o]);
+    var n = Object.getOwnPropertySymbols(e);
+    for (r = 0; r < n.length; r++) o = n[r], -1 === t.indexOf(o) && {}.propertyIsEnumerable.call(e, o) && (i[o] = e[o]);
   }
   return i;
 }
@@ -38578,11 +38629,7 @@ var style = {
   p: 2,
   maxHeight: "80vh"
 };
-var SelectedIssueModal = ({
-  issueObj,
-  modalOpen,
-  setModalOpen
-}) => {
+var SelectedIssueModal = ({ issueObj, modalOpen, setModalOpen }) => {
   const handleClose = () => setModalOpen(false);
   const [anchorEl, setAnchorEl] = (0, import_react7.useState)(null);
   const [copied, setCopied] = (0, import_react7.useState)(false);
@@ -38592,14 +38639,18 @@ var SelectedIssueModal = ({
   const handleLinkClose = () => {
     setAnchorEl(null);
   };
+  const handleCopy = () => {
+    setCopied(true);
+    setTimeout(() => setCopied(false), 1500);
+  };
   const generateLink = () => {
     if (issueObj.specialCategory) {
-      return `https://studlife.com/pdf?iaYear=${issueSchoolYear(issueObj.date)}&iaCategory=${issueObj.specialCategory}&iaDate=${issueObj.date}&iaIsSpecial=${true}`;
+      return `https://www.studlife.com/pdf?iaYear=${issueSchoolYear(issueObj.date)}&iaCategory=${issueObj.specialCategory}&iaDate=${issueObj.date}&iaIsSpecial=${true}`;
     }
     const issueJSDate = new Date(issueObj.date);
     const semester = issueJSDate.getMonth() + 1 <= 6 ? "Spring" : "Fall";
     const month = monthArr[issueJSDate.getMonth()];
-    return `https://studlife.com/pdf?iaYear=${issueSchoolYear(issueObj.date)}&iaCategory=${semester}&iaMonth=${month}&iaDate=${issueObj.date}`;
+    return `https://www.studlife.com/pdf?iaYear=${issueSchoolYear(issueObj.date)}&iaCategory=${semester}&iaMonth=${month}&iaDate=${issueObj.date}`;
   };
   const open = Boolean(anchorEl);
   const id = open ? "link-popover" : void 0;
@@ -38637,14 +38688,7 @@ var SelectedIssueModal = ({
         disableTouchListener: true,
         title: "Copied"
       },
-      /* @__PURE__ */ import_react7.default.createElement(
-        import_react_copy_to_clipboard.default,
-        {
-          text: generateLink(),
-          onCopy: () => setCopied(true)
-        },
-        /* @__PURE__ */ import_react7.default.createElement(Box_default, { sx: { ml: 2, display: "inline" } }, /* @__PURE__ */ import_react7.default.createElement(Button_default, { "aria-describedby": "copy-to-clipboard", variant: "contained" }, "Copy Link"))
-      )
+      /* @__PURE__ */ import_react7.default.createElement(import_react_copy_to_clipboard.default, { text: generateLink(), onCopy: handleCopy }, /* @__PURE__ */ import_react7.default.createElement(Box_default, { sx: { ml: 2, display: "inline" } }, /* @__PURE__ */ import_react7.default.createElement(Button_default, { "aria-describedby": "copy-to-clipboard", variant: "contained" }, "Copy Link")))
     )), /* @__PURE__ */ import_react7.default.createElement(Box_default, { sx: { mb: 1 }, id: "modal-embed-wrapper" }, /* @__PURE__ */ import_react7.default.createElement("span", { dangerouslySetInnerHTML: { __html: issueObj.embed } })))
   ));
 };
