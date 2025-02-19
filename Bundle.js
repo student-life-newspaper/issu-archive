@@ -38601,10 +38601,6 @@ var SelectedIssueModal = ({
     const month = monthArr[issueJSDate.getMonth()];
     return `https://studlife.com/pdf?iaYear=${issueSchoolYear(issueObj.date)}&iaCategory=${semester}&iaMonth=${month}&iaDate=${issueObj.date}`;
   };
-  const handleCopy = () => {
-    setCopied(true);
-    setTimeout(() => setCopied(false), 1500);
-  };
   const open = Boolean(anchorEl);
   const id = open ? "link-popover" : void 0;
   return /* @__PURE__ */ import_react7.default.createElement("div", null, /* @__PURE__ */ import_react7.default.createElement(
@@ -38645,7 +38641,7 @@ var SelectedIssueModal = ({
         import_react_copy_to_clipboard.default,
         {
           text: generateLink(),
-          onCopy: handleCopy()
+          onCopy: () => setCopied(true)
         },
         /* @__PURE__ */ import_react7.default.createElement(Box_default, { sx: { ml: 2, display: "inline" } }, /* @__PURE__ */ import_react7.default.createElement(Button_default, { "aria-describedby": "copy-to-clipboard", variant: "contained" }, "Copy Link"))
       )
