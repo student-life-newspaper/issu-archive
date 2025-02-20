@@ -39,7 +39,7 @@ const SelectedIssueModal = ({ issueObj, modalOpen, setModalOpen }) => {
 
   const handleCopy = () => {
     setCopied(true);
-    setTimeout(() => setCopied(false), 1500); // disappear after 1.5 seconds
+    setTimeout(() => setCopied(false), 1500);
   };
 
   const generateLink = () => {

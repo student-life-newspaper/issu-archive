@@ -28,7 +28,17 @@ new_embed_modified=$(echo "$new_embed" | sed "s/\"/'/g")
 
 # Get the current date in Central Time (US/Central)
 current_date=$(TZ="America/Chicago" date +"%Y/%m/%d")
-day_of_week=$(TZ="America/Chicago" date -d "$current_date" +%u) # 1=Monday, 7=Sunday
+if [ "$OS_TYPE" = "Darwin" ]; then
+    # macOS (BSD date) equivalent of getting day of the week
+    day_of_week=$(TZ="America/Chicago" date -j -f "%Y-%m-%d" "$current_date" +%u)
+elif [ "$OS_TYPE" = "Linux" ]; then
+    # Linux (GNU date)
+    day_of_week=$(TZ="America/Chicago" date -d "$current_date" +%u) # 1=Monday, 7=Sunday
+else
+    echo "Error: Unsupported OS: $OS_TYPE"
+    exit 1
+fi
+
 
 # If today is not Thursday (4), adjust to the most recent Thursday
 if [ "$day_of_week" -ne 4 ]; then
