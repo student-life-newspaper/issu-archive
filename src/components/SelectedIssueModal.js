@@ -29,6 +29,9 @@ const SelectedIssueModal = ({ issueObj, modalOpen, setModalOpen }) => {
   const [anchorEl, setAnchorEl] = useState(null);
   const [copied, setCopied] = useState(false);
 
+  document.querySelectorAll('.MuiBox-root #modal-embed-wrapper iframe')
+    .forEach(el => el.style.setProperty('overflow', 'hidden', 'important'));
+
   const handleLinkClick = (event) => {
     setAnchorEl(event.currentTarget);
   };
@@ -107,7 +110,7 @@ const SelectedIssueModal = ({ issueObj, modalOpen, setModalOpen }) => {
             </Tooltip>
           </Box>
           <Box sx={{ mb: 1 }} id="modal-embed-wrapper">
-            <div id="inner_issue_container" dangerouslySetInnerHTML={{ __html: issueObj.embed }} />
+            <span id="inner_issue_container" dangerouslySetInnerHTML={{ __html: issueObj.embed }} />
           </Box>
         </Box>
       </Modal>

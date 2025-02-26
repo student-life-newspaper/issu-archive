@@ -38633,6 +38633,7 @@ var SelectedIssueModal = ({ issueObj, modalOpen, setModalOpen }) => {
   const handleClose = () => setModalOpen(false);
   const [anchorEl, setAnchorEl] = (0, import_react7.useState)(null);
   const [copied, setCopied] = (0, import_react7.useState)(false);
+  document.querySelectorAll(".MuiBox-root #modal-embed-wrapper iframe").forEach((el) => el.style.setProperty("overflow", "hidden", "important"));
   const handleLinkClick = (event) => {
     setAnchorEl(event.currentTarget);
   };
@@ -38689,7 +38690,7 @@ var SelectedIssueModal = ({ issueObj, modalOpen, setModalOpen }) => {
         title: "Copied"
       },
       /* @__PURE__ */ import_react7.default.createElement(import_react_copy_to_clipboard.default, { text: generateLink(), onCopy: handleCopy }, /* @__PURE__ */ import_react7.default.createElement(Box_default, { sx: { ml: 2, display: "inline" } }, /* @__PURE__ */ import_react7.default.createElement(Button_default, { "aria-describedby": "copy-to-clipboard", variant: "contained" }, "Copy Link")))
-    )), /* @__PURE__ */ import_react7.default.createElement(Box_default, { sx: { mb: 1 }, id: "modal-embed-wrapper" }, /* @__PURE__ */ import_react7.default.createElement("div", { id: "inner_issue_container", dangerouslySetInnerHTML: { __html: issueObj.embed } })))
+    )), /* @__PURE__ */ import_react7.default.createElement(Box_default, { sx: { mb: 1 }, id: "modal-embed-wrapper" }, /* @__PURE__ */ import_react7.default.createElement("span", { id: "inner_issue_container", dangerouslySetInnerHTML: { __html: issueObj.embed } })))
   ));
 };
 var SelectedIssueModal_default = SelectedIssueModal;
