@@ -107,7 +107,7 @@ const SelectedIssueModal = ({ issueObj, modalOpen, setModalOpen }) => {
             </Tooltip>
           </Box>
           <Box sx={{ mb: 1 }} id="modal-embed-wrapper">
-            <span dangerouslySetInnerHTML={{ __html: issueObj.embed }} />
+            <div id="inner_issue_container" dangerouslySetInnerHTML={{ __html: issueObj.embed }} />
           </Box>
         </Box>
       </Modal>
