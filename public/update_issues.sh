@@ -8,6 +8,7 @@
 
 # Set JSON file path
 JSON_FILE="issues.json"
+OS_TYPE=$(uname)
 
 # Check if jq is installed
 if ! command -v jq &> /dev/null; then
@@ -74,7 +75,7 @@ else
 fi
 
 # Get the month name, e.g., 09 -> September
-OS_TYPE=$(uname)
+
 
 # Choose the correct date command based on the OS type
 if [ "$OS_TYPE" = "Darwin" ]; then
