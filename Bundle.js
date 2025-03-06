@@ -38627,13 +38627,13 @@ var style = {
   bgcolor: "background.paper",
   boxShadow: 24,
   p: 2,
-  maxHeight: "80vh"
+  maxHeight: "80vh",
+  overflowY: "scroll"
 };
 var SelectedIssueModal = ({ issueObj, modalOpen, setModalOpen }) => {
   const handleClose = () => setModalOpen(false);
   const [anchorEl, setAnchorEl] = (0, import_react7.useState)(null);
   const [copied, setCopied] = (0, import_react7.useState)(false);
-  document.querySelectorAll(".MuiBox-root #modal-embed-wrapper iframe").forEach((el) => el.style.setProperty("overflow", "hidden", "important"));
   const handleLinkClick = (event) => {
     setAnchorEl(event.currentTarget);
   };

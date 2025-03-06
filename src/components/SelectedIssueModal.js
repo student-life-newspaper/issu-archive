@@ -22,6 +22,7 @@ const style = {
   boxShadow: 24,
   p: 2,
   maxHeight: '80vh',
+  overflowY: 'scroll',
 };
 
 const SelectedIssueModal = ({ issueObj, modalOpen, setModalOpen }) => {
@@ -29,8 +30,6 @@ const SelectedIssueModal = ({ issueObj, modalOpen, setModalOpen }) => {
   const [anchorEl, setAnchorEl] = useState(null);
   const [copied, setCopied] = useState(false);
 
-  document.querySelectorAll('.MuiBox-root #modal-embed-wrapper iframe')
-    .forEach(el => el.style.setProperty('overflow', 'hidden', 'important'));
 
   const handleLinkClick = (event) => {
     setAnchorEl(event.currentTarget);

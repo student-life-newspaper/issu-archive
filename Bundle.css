@@ -68,9 +68,6 @@ code {
   flex-direction: column;
   max-height: 90vh;
 }
-.reader-container__wrapper {
-  overflow-y: hidden;
-}
 
 /* src/App.css */
 .top-border {
