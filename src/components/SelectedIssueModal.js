@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import '../App.css';
-import CopyToClipboard from 'react-copy-to-clipboard';
+import React, { useState } from 'react'
+import '../App.css'
+import CopyToClipboard from 'react-copy-to-clipboard'
 import {
   Box,
   Button,
@@ -8,9 +8,9 @@ import {
   Modal,
   Popover,
   Tooltip,
-} from '@material-ui/core';
-import CloseIcon from '@material-ui/icons/Close';
-import { issueSchoolYear, monthArr } from './utils';
+} from '@material-ui/core'
+import CloseIcon from '@material-ui/icons/Close'
+import { issueSchoolYear, monthArr } from './utils'
 
 const style = {
   position: 'absolute',
@@ -21,41 +21,41 @@ const style = {
   bgcolor: 'background.paper',
   boxShadow: 24,
   p: 2,
-  maxHeight: '80vh',
-  overflowY: 'scroll',
-};
+  padding: '16px',
+  height: '80vh',
+}
 
 const SelectedIssueModal = ({ issueObj, modalOpen, setModalOpen }) => {
-  const handleClose = () => setModalOpen(false);
-  const [anchorEl, setAnchorEl] = useState(null);
-  const [copied, setCopied] = useState(false);
+  const handleClose = () => setModalOpen(false)
+  const [anchorEl, setAnchorEl] = useState(null)
+  const [copied, setCopied] = useState(false)
 
 
   const handleLinkClick = (event) => {
-    setAnchorEl(event.currentTarget);
-  };
+    setAnchorEl(event.currentTarget)
+  }
 
   const handleLinkClose = () => {
-    setAnchorEl(null);
-  };
+    setAnchorEl(null)
+  }
 
   const handleCopy = () => {
-    setCopied(true);
-    setTimeout(() => setCopied(false), 1500);
-  };
+    setCopied(true)
+    setTimeout(() => setCopied(false), 1500)
+  }
 
   const generateLink = () => {
     if (issueObj.specialCategory) {
-      return `https://www.studlife.com/pdf?iaYear=${issueSchoolYear(issueObj.date)}&iaCategory=${issueObj.specialCategory}&iaDate=${issueObj.date}&iaIsSpecial=${true}`;
+      return `https://www.studlife.com/pdf?iaYear=${issueSchoolYear(issueObj.date)}&iaCategory=${issueObj.specialCategory}&iaDate=${issueObj.date}&iaIsSpecial=${true}`
     }
-    const issueJSDate = new Date(issueObj.date);
-    const semester = issueJSDate.getMonth() + 1 <= 6 ? 'Spring' : 'Fall';
-    const month = monthArr[issueJSDate.getMonth()];
-    return `https://www.studlife.com/pdf?iaYear=${issueSchoolYear(issueObj.date)}&iaCategory=${semester}&iaMonth=${month}&iaDate=${issueObj.date}`;
-  };
+    const issueJSDate = new Date(issueObj.date)
+    const semester = issueJSDate.getMonth() + 1 <= 6 ? 'Spring' : 'Fall'
+    const month = monthArr[issueJSDate.getMonth()]
+    return `https://www.studlife.com/pdf?iaYear=${issueSchoolYear(issueObj.date)}&iaCategory=${semester}&iaMonth=${month}&iaDate=${issueObj.date}`
+  }
 
-  const open = Boolean(anchorEl);
-  const id = open ? 'link-popover' : undefined;
+  const open = Boolean(anchorEl)
+  const id = open ? 'link-popover' : undefined
 
   return (
     <div>
@@ -108,13 +108,13 @@ const SelectedIssueModal = ({ issueObj, modalOpen, setModalOpen }) => {
               </CopyToClipboard>
             </Tooltip>
           </Box>
-          <Box sx={{ mb: 1 }} id="modal-embed-wrapper">
-            <span id="inner_issue_container" dangerouslySetInnerHTML={{ __html: issueObj.embed }} />
+          <Box sx={{ mb: 1, height: "80% !important" }} id="modal-embed-wrapper">
+            <span id="inner_issue_container" dangerouslySetInnerHTML={{ __html: issueObj.embed }} style={{ display: "block", height: "100%" }} />
           </Box>
         </Box>
       </Modal>
     </div>
-  );
-};
+  )
+}
 
-export default SelectedIssueModal;
+export default SelectedIssueModal

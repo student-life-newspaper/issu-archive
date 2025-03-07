@@ -38627,8 +38627,8 @@ var style = {
   bgcolor: "background.paper",
   boxShadow: 24,
   p: 2,
-  maxHeight: "80vh",
-  overflowY: "scroll"
+  padding: "16px",
+  height: "80vh"
 };
 var SelectedIssueModal = ({ issueObj, modalOpen, setModalOpen }) => {
   const handleClose = () => setModalOpen(false);
@@ -38690,7 +38690,7 @@ var SelectedIssueModal = ({ issueObj, modalOpen, setModalOpen }) => {
         title: "Copied"
       },
       /* @__PURE__ */ import_react7.default.createElement(import_react_copy_to_clipboard.default, { text: generateLink(), onCopy: handleCopy }, /* @__PURE__ */ import_react7.default.createElement(Box_default, { sx: { ml: 2, display: "inline" } }, /* @__PURE__ */ import_react7.default.createElement(Button_default, { "aria-describedby": "copy-to-clipboard", variant: "contained" }, "Copy Link")))
-    )), /* @__PURE__ */ import_react7.default.createElement(Box_default, { sx: { mb: 1 }, id: "modal-embed-wrapper" }, /* @__PURE__ */ import_react7.default.createElement("span", { id: "inner_issue_container", dangerouslySetInnerHTML: { __html: issueObj.embed } })))
+    )), /* @__PURE__ */ import_react7.default.createElement(Box_default, { sx: { mb: 1, height: "80% !important" }, id: "modal-embed-wrapper" }, /* @__PURE__ */ import_react7.default.createElement("span", { id: "inner_issue_container", dangerouslySetInnerHTML: { __html: issueObj.embed }, style: { display: "block", height: "100%" } })))
   ));
 };
 var SelectedIssueModal_default = SelectedIssueModal;
