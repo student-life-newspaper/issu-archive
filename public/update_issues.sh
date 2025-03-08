@@ -11,7 +11,7 @@ JSON_FILE="issues.json"
 OS_TYPE=$(uname)
 
 # Check if jq is installed
-if ! command -v jq &> /dev/null; then
+if [ ! command -v jq &> /dev/null] ; then
     echo "Error: jq is not installed. Please install jq to use this script."
     exit 1
 fi
@@ -28,13 +28,14 @@ new_embed=$(cat)
 new_embed_modified=$(echo "$new_embed" | sed "s/\"/'/g")
 
 # Get the current date in Central Time (US/Central)
+# 1=Monday, 7=Sunday
 current_date=$(TZ="America/Chicago" date +"%Y/%m/%d")
 if [ "$OS_TYPE" = "Darwin" ]; then
     # macOS (BSD date) equivalent of getting day of the week
-    day_of_week=$(TZ="America/Chicago" date -j -f "%Y-%m-%d" "$current_date" +%u)
+    day_of_week=$(TZ="America/Chicago" date -j -f "%Y/%m/%d" "$current_date" +"%u")
 elif [ "$OS_TYPE" = "Linux" ]; then
     # Linux (GNU date)
-    day_of_week=$(TZ="America/Chicago" date -d "$current_date" +%u) # 1=Monday, 7=Sunday
+    day_of_week=$(TZ="America/Chicago" date -d "$current_date" +%u)
 else
     echo "Error: Unsupported OS: $OS_TYPE"
     exit 1
@@ -45,13 +46,19 @@ fi
 if [ "$day_of_week" -ne 4 ]; then
     # Calculate how many days to subtract to reach the last Thursday
     days_to_subtract=$(( (day_of_week + 3) % 7 )) 
-    current_date=$(TZ="America/Chicago" date -d "$current_date - $days_to_subtract days" +"%Y/%m/%d")
+    if [ "$OS_TYPE" = "Darwin" ]; then
+        # macOS (BSD date) equivalent of getting day of the week
+        current_date=$(TZ="America/Chicago" date -j -v "-$days_to_subtract"d -f "%Y/%m/%d" "$current_date" +"%Y/%m/%d")
+    elif [ "$OS_TYPE" = "Linux" ]; then
+        # Linux (GNU date)
+        current_date=$(TZ="America/Chicago" date -d "$current_date - $days_to_subtract days" +"%Y/%m/%d")
 fi
 
 
 # Extract current "Latest Issue" date and embed code from the JSON file
 latest_issue_date=$(jq -r '.["Featured Issues"][0].date' "$JSON_FILE")
-latest_issue_embed=$(jq -r '.["Featured Issues"][0].embed' "$JSON_FILE")
+# Replace the padding-top style with height:100% to make the embed responsive
+latest_issue_embed=$(jq -r '.["Featured Issues"][0].embed' "$JSON_FILE" | sed 's/padding-top:max(60%,326px);height:0;/height:100%;/g')
 
 # Check if "Latest Issue" exists
 if [ -z "$latest_issue_date" ] || [ -z "$latest_issue_embed" ] || [ "$latest_issue_date" == "null" ] || [ "$latest_issue_embed" == "null" ]; then
@@ -73,9 +80,6 @@ else
     # For months 6-8, default to Spring.
     semester="Spring"
 fi
-
-# Get the month name, e.g., 09 -> September
-
 
 # Choose the correct date command based on the OS type
 if [ "$OS_TYPE" = "Darwin" ]; then
