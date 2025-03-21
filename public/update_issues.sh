@@ -11,7 +11,7 @@ JSON_FILE="issues.json"
 OS_TYPE=$(uname)
 
 # Check if jq is installed
-if [ ! command -v jq &> /dev/null] ; then
+if ! command -v jq &> /dev/null; then
     echo "Error: jq is not installed. Please install jq to use this script."
     exit 1
 fi
@@ -52,6 +52,7 @@ if [ "$day_of_week" -ne 4 ]; then
     elif [ "$OS_TYPE" = "Linux" ]; then
         # Linux (GNU date)
         current_date=$(TZ="America/Chicago" date -d "$current_date - $days_to_subtract days" +"%Y/%m/%d")
+    fi
 fi
 
 
