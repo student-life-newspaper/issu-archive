@@ -1,21 +1,19 @@
 {
   "Featured Issues": [
     {
+      "issueName": "Latest Issue",
+      "date": "2025/08/28",
+      "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src=https://e.issuu.com/embed.html?d=august_28_2025_student_life_newspaper_washu_in_s&u=washustudentlife></iframe></div>"
+    },
+    {
       "issueName": "Starting Line 2025",
       "date": "2025/07/31",
       "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=the_starting_line_new_student_welcome_magazine_st&u=washustudentlife'></iframe></div>"
-    },
-    {
-      "issueName": "Latest Issue",
-      "date": "2025/04/24",
-      "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src='https://e.issuu.com/embed.html?d=april_24_2025_student_life_newspaper_washington_&u=washustudentlife'></iframe></div>"
     }
   ],
   "Previous Issues": {
     "2025-2026": {
-      "Fall": {
-
-      },
+      "Fall": {},
       "Special Issues": [
         {
           "issueName": "Starting Line",
