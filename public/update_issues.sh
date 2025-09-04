@@ -75,7 +75,7 @@ latest_day=$(echo "$latest_issue_date" | cut -d'/' -f3)
 # Determine the semester based on month
 if [ "$latest_month" -ge 1 ] && [ "$latest_month" -le 5 ]; then
     semester="Spring"
-elif [ "$latest_month" -ge 9 ] && [ "$latest_month" -le 12 ]; then
+elif [ "$latest_month" -ge 8 ] && [ "$latest_month" -le 12 ]; then
     semester="Fall"
 else
     # For months 6-8, default to Spring.
