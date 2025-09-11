@@ -72,13 +72,15 @@ latest_year=$(echo "$latest_issue_date" | cut -d'/' -f1)
 latest_month=$(echo "$latest_issue_date" | cut -d'/' -f2 | sed 's/^0*//') # Remove leading zeros
 latest_day=$(echo "$latest_issue_date" | cut -d'/' -f3)
 
+echo "Info: Latest Issue date is $latest_issue_date (Year: $latest_year, Month: $latest_month, Day: $latest_day)"
+
 # Determine the semester based on month
 if [ "$latest_month" -ge 1 ] && [ "$latest_month" -le 5 ]; then
     semester="Spring"
 elif [ "$latest_month" -ge 8 ] && [ "$latest_month" -le 12 ]; then
     semester="Fall"
 else
-    # For months 6-8, default to Spring.
+    # For months 6-7, default to Spring.
     semester="Spring"
 fi
 
@@ -98,7 +100,7 @@ fi
 if [ "$semester" = "Spring" ]; then
     year_range="$((latest_year - 1))-${latest_year}"
 elif [ "$semester" = "Fall" ]; then
-    year_range="${latest_year}-$((lastest_year + 1))"
+    year_range="${latest_year}-$((latest_year + 1))"
 else
     echo "Error: Invalid semester value. Please use 'Spring' or 'Fall'."
     exit 1
