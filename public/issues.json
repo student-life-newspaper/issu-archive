@@ -1,14 +1,14 @@
 {
   "Featured Issues": [
     {
+      "issueName": "Finish Line 2026",
+      "date": "2026/05/07",
+      "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe title='FINISH LINE 2026 SIZE REDUCED FOR ISSUU UPLOAD' allow='clipboard-write; autoplay; encrypted-media; fullscreen; picture-in-picture' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src=https://e.issuu.com/embed.html?d=finish_line_2026_size_reduced_for_issuu_upload&u=washustudentlife></iframe></div>"
+    },
+    {
       "issueName": "Latest Issue",
       "date": "2026/05/04",
       "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe title='May 4, 2026 Student Life Newspaper, WashU in St. Louis' allow='clipboard-write; autoplay; encrypted-media; fullscreen; picture-in-picture' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src=https://e.issuu.com/embed.html?d=may_4_2026_student_life_newspaper_washu_in_st._l&u=washustudentlife></iframe></div>"
-    },
-    {
-      "issueName": "Best of St. Louis 2026",
-      "date": "2026/03/12",
-      "embed": "<div style='position:relative;padding-top:max(60%,326px);height:0;width:100%'><iframe title='March 17, 2026- Best Of St. Louis 2026 Edition-STUDENT LIFE at WashU in St. Louis' allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src=https://e.issuu.com/embed.html?d=march_17_2026-_best_of_st._louis_2026_edition-stu&u=washustudentlife></iframe></div>"
     }
   ],
   "Previous Issues": {
@@ -167,6 +167,12 @@
           "thumbURL": "special-washu-student-love-2026",
           "date": "2026/02/12",
           "embed": "<div style='position:relative;height:100%;width:100%'><iframe allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src=https://e.issuu.com/embed.html?d=february_12_2026_student_love_edition_of_student_&u=washustudentlife></iframe></div>"
+        },
+        {
+          "issueName": "Best of St. Louis 2026",
+          "thumbURL": "special-washu-best-of-st-louis-2026.pdf",
+          "date": "2026/03/12",
+          "embed": "<div style='position:relative;height:100%;width:100%'><iframe title='March 17, 2026- Best Of St. Louis 2026 Edition-STUDENT LIFE at WashU in St. Louis' allow='clipboard-write' sandbox='allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms' allowfullscreen='true' style='position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;' src=https://e.issuu.com/embed.html?d=march_17_2026-_best_of_st._louis_2026_edition-stu&u=washustudentlife></iframe></div>"
         },
         {
           "issueName": "Student Libel 2026",
