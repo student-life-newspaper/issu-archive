@@ -1128,7 +1128,7 @@ var require_react_development = __commonJS({
           }
           return dispatcher.useContext(Context, unstable_observedBits);
         }
-        function useState13(initialState) {
+        function useState14(initialState) {
           var dispatcher = resolveDispatcher();
           return dispatcher.useState(initialState);
         }
@@ -1718,7 +1718,7 @@ var require_react_development = __commonJS({
         exports.useMemo = useMemo4;
         exports.useReducer = useReducer;
         exports.useRef = useRef12;
-        exports.useState = useState13;
+        exports.useState = useState14;
         exports.version = ReactVersion;
       })();
     }
@@ -2531,11 +2531,11 @@ var require_react_dom_development = __commonJS({
     if (true) {
       (function() {
         "use strict";
-        var React36 = require_react();
+        var React37 = require_react();
         var _assign = require_object_assign();
         var Scheduler = require_scheduler();
         var tracing = require_tracing();
-        var ReactSharedInternals = React36.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+        var ReactSharedInternals = React37.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
         function warn(format) {
           {
             for (var _len = arguments.length, args = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
@@ -2567,7 +2567,7 @@ var require_react_dom_development = __commonJS({
             Function.prototype.apply.call(console[level], console, argsWithFormat);
           }
         }
-        if (!React36) {
+        if (!React37) {
           {
             throw Error("ReactDOM was loaded before React. Make sure you load the React package before loading ReactDOM.");
           }
@@ -3988,7 +3988,7 @@ var require_react_dom_development = __commonJS({
         var didWarnInvalidChild = false;
         function flattenChildren(children) {
           var content = "";
-          React36.Children.forEach(children, function(child) {
+          React37.Children.forEach(children, function(child) {
             if (child == null) {
               return;
             }
@@ -3999,7 +3999,7 @@ var require_react_dom_development = __commonJS({
         function validateProps(element, props) {
           {
             if (typeof props.children === "object" && props.children !== null) {
-              React36.Children.forEach(props.children, function(child) {
+              React37.Children.forEach(props.children, function(child) {
                 if (child == null) {
                   return;
                 }
@@ -11414,7 +11414,7 @@ var require_react_dom_development = __commonJS({
         }
         var fakeInternalInstance = {};
         var isArray = Array.isArray;
-        var emptyRefsObject = new React36.Component().refs;
+        var emptyRefsObject = new React37.Component().refs;
         var didWarnAboutStateAssignmentForComponent;
         var didWarnAboutUninitializedState;
         var didWarnAboutGetSnapshotBeforeUpdateWithoutDidUpdate;
@@ -22008,7 +22008,7 @@ var require_elementTypeAcceptingRef = __commonJS({
       value: true
     });
     exports.default = void 0;
-    var PropTypes24 = _interopRequireWildcard(require_prop_types());
+    var PropTypes25 = _interopRequireWildcard(require_prop_types());
     var _chainPropTypes = _interopRequireDefault(require_chainPropTypes());
     function isClassComponent(elementType) {
       var _elementType$prototyp = elementType.prototype, prototype = _elementType$prototyp === void 0 ? {} : _elementType$prototyp;
@@ -22029,7 +22029,7 @@ var require_elementTypeAcceptingRef = __commonJS({
       }
       return null;
     }
-    var _default = (0, _chainPropTypes.default)(PropTypes24.elementType, elementTypeAcceptingRef3);
+    var _default = (0, _chainPropTypes.default)(PropTypes25.elementType, elementTypeAcceptingRef3);
     exports.default = _default;
   }
 });
@@ -29412,7 +29412,7 @@ var require_SvgIcon = __commonJS({
     exports.default = exports.styles = void 0;
     var _extends22 = _interopRequireDefault(require_extends());
     var _objectWithoutProperties2 = _interopRequireDefault(require_objectWithoutProperties());
-    var React36 = _interopRequireWildcard(require_react());
+    var React37 = _interopRequireWildcard(require_react());
     var _propTypes = _interopRequireDefault(require_prop_types());
     var _clsx = _interopRequireDefault(require_clsx());
     var _utils = require_utils();
@@ -29468,9 +29468,9 @@ var require_SvgIcon = __commonJS({
       };
     };
     exports.styles = styles29;
-    var SvgIcon = /* @__PURE__ */ React36.forwardRef(function SvgIcon2(props, ref) {
+    var SvgIcon = /* @__PURE__ */ React37.forwardRef(function SvgIcon2(props, ref) {
       var children = props.children, classes = props.classes, className = props.className, _props$color = props.color, color = _props$color === void 0 ? "inherit" : _props$color, _props$component = props.component, Component5 = _props$component === void 0 ? "svg" : _props$component, _props$fontSize = props.fontSize, fontSize = _props$fontSize === void 0 ? "medium" : _props$fontSize, htmlColor = props.htmlColor, titleAccess = props.titleAccess, _props$viewBox = props.viewBox, viewBox = _props$viewBox === void 0 ? "0 0 24 24" : _props$viewBox, other = (0, _objectWithoutProperties2.default)(props, ["children", "classes", "className", "color", "component", "fontSize", "htmlColor", "titleAccess", "viewBox"]);
-      return /* @__PURE__ */ React36.createElement(Component5, (0, _extends22.default)({
+      return /* @__PURE__ */ React37.createElement(Component5, (0, _extends22.default)({
         className: (0, _clsx.default)(classes.root, className, color !== "inherit" && classes["color".concat((0, _capitalize.default)(color))], fontSize !== "default" && fontSize !== "medium" && classes["fontSize".concat((0, _capitalize.default)(fontSize))]),
         focusable: "false",
         viewBox,
@@ -29478,7 +29478,7 @@ var require_SvgIcon = __commonJS({
         "aria-hidden": titleAccess ? void 0 : true,
         role: titleAccess ? "img" : void 0,
         ref
-      }, other), children, titleAccess ? /* @__PURE__ */ React36.createElement("title", null, titleAccess) : null);
+      }, other), children, titleAccess ? /* @__PURE__ */ React37.createElement("title", null, titleAccess) : null);
     });
     true ? SvgIcon.propTypes = {
       // ----------------------------- Warning --------------------------------
@@ -29660,9 +29660,9 @@ var require_isMuiElement = __commonJS({
       value: true
     });
     exports.default = isMuiElement;
-    var React36 = _interopRequireWildcard(require_react());
+    var React37 = _interopRequireWildcard(require_react());
     function isMuiElement(element, muiNames) {
-      return /* @__PURE__ */ React36.isValidElement(element) && muiNames.indexOf(element.type.muiName) !== -1;
+      return /* @__PURE__ */ React37.isValidElement(element) && muiNames.indexOf(element.type.muiName) !== -1;
     }
   }
 });
@@ -29774,26 +29774,26 @@ var require_useControlled = __commonJS({
       value: true
     });
     exports.default = useControlled2;
-    var React36 = _interopRequireWildcard(require_react());
+    var React37 = _interopRequireWildcard(require_react());
     function useControlled2(_ref) {
       var controlled = _ref.controlled, defaultProp = _ref.default, name = _ref.name, _ref$state = _ref.state, state = _ref$state === void 0 ? "value" : _ref$state;
-      var _React$useRef = React36.useRef(controlled !== void 0), isControlled = _React$useRef.current;
-      var _React$useState = React36.useState(defaultProp), valueState = _React$useState[0], setValue = _React$useState[1];
+      var _React$useRef = React37.useRef(controlled !== void 0), isControlled = _React$useRef.current;
+      var _React$useState = React37.useState(defaultProp), valueState = _React$useState[0], setValue = _React$useState[1];
       var value = isControlled ? controlled : valueState;
       if (true) {
-        React36.useEffect(function() {
+        React37.useEffect(function() {
           if (isControlled !== (controlled !== void 0)) {
             console.error(["Material-UI: A component is changing the ".concat(isControlled ? "" : "un", "controlled ").concat(state, " state of ").concat(name, " to be ").concat(isControlled ? "un" : "", "controlled."), "Elements should not switch from uncontrolled to controlled (or vice versa).", "Decide between using a controlled or uncontrolled ".concat(name, " ") + "element for the lifetime of the component.", "The nature of the state is determined during the first render, it's considered controlled if the value is not `undefined`.", "More info: https://fb.me/react-controlled-components"].join("\n"));
           }
         }, [controlled]);
-        var _React$useRef2 = React36.useRef(defaultProp), defaultValue = _React$useRef2.current;
-        React36.useEffect(function() {
+        var _React$useRef2 = React37.useRef(defaultProp), defaultValue = _React$useRef2.current;
+        React37.useEffect(function() {
           if (!isControlled && defaultValue !== defaultProp) {
             console.error(["Material-UI: A component is changing the default ".concat(state, " state of an uncontrolled ").concat(name, " after being initialized. ") + "To suppress this warning opt to use a controlled ".concat(name, ".")].join("\n"));
           }
         }, [JSON.stringify(defaultProp)]);
       }
-      var setValueIfUncontrolled = React36.useCallback(function(newValue) {
+      var setValueIfUncontrolled = React37.useCallback(function(newValue) {
         if (!isControlled) {
           setValue(newValue);
         }
@@ -29812,14 +29812,14 @@ var require_useEventCallback = __commonJS({
       value: true
     });
     exports.default = useEventCallback2;
-    var React36 = _interopRequireWildcard(require_react());
-    var useEnhancedEffect5 = typeof window !== "undefined" ? React36.useLayoutEffect : React36.useEffect;
+    var React37 = _interopRequireWildcard(require_react());
+    var useEnhancedEffect5 = typeof window !== "undefined" ? React37.useLayoutEffect : React37.useEffect;
     function useEventCallback2(fn) {
-      var ref = React36.useRef(fn);
+      var ref = React37.useRef(fn);
       useEnhancedEffect5(function() {
         ref.current = fn;
       });
-      return React36.useCallback(function() {
+      return React37.useCallback(function() {
         return (0, ref.current).apply(void 0, arguments);
       }, []);
     }
@@ -29836,10 +29836,10 @@ var require_useForkRef = __commonJS({
       value: true
     });
     exports.default = useForkRef2;
-    var React36 = _interopRequireWildcard(require_react());
+    var React37 = _interopRequireWildcard(require_react());
     var _setRef = _interopRequireDefault(require_setRef());
     function useForkRef2(refA, refB) {
-      return React36.useMemo(function() {
+      return React37.useMemo(function() {
         if (refA == null && refB == null) {
           return null;
         }
@@ -29861,11 +29861,11 @@ var require_unstable_useId = __commonJS({
       value: true
     });
     exports.default = useId2;
-    var React36 = _interopRequireWildcard(require_react());
+    var React37 = _interopRequireWildcard(require_react());
     function useId2(idOverride) {
-      var _React$useState = React36.useState(idOverride), defaultId = _React$useState[0], setDefaultId = _React$useState[1];
+      var _React$useState = React37.useState(idOverride), defaultId = _React$useState[0], setDefaultId = _React$useState[1];
       var id = idOverride || defaultId;
-      React36.useEffect(function() {
+      React37.useEffect(function() {
         if (defaultId == null) {
           setDefaultId("mui-".concat(Math.round(Math.random() * 1e5)));
         }
@@ -29885,7 +29885,7 @@ var require_useIsFocusVisible = __commonJS({
     });
     exports.teardown = teardown;
     exports.default = useIsFocusVisible2;
-    var React36 = _interopRequireWildcard(require_react());
+    var React37 = _interopRequireWildcard(require_react());
     var ReactDOM10 = _interopRequireWildcard(require_react_dom());
     var hadKeyboardEvent2 = true;
     var hadFocusVisibleRecently2 = false;
@@ -29964,14 +29964,14 @@ var require_useIsFocusVisible = __commonJS({
       }, 100);
     }
     function useIsFocusVisible2() {
-      var ref = React36.useCallback(function(instance) {
+      var ref = React37.useCallback(function(instance) {
         var node = ReactDOM10.findDOMNode(instance);
         if (node != null) {
           prepare2(node.ownerDocument);
         }
       }, []);
       if (true) {
-        React36.useDebugValue(isFocusVisible2);
+        React37.useDebugValue(isFocusVisible2);
       }
       return {
         isFocusVisible: isFocusVisible2,
@@ -30132,9 +30132,9 @@ var require_ExpandMore = __commonJS({
       value: true
     });
     exports.default = void 0;
-    var React36 = _interopRequireWildcard(require_react());
+    var React37 = _interopRequireWildcard(require_react());
     var _createSvgIcon = _interopRequireDefault(require_createSvgIcon2());
-    var _default = (0, _createSvgIcon.default)(/* @__PURE__ */ React36.createElement("path", {
+    var _default = (0, _createSvgIcon.default)(/* @__PURE__ */ React37.createElement("path", {
       d: "M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
     }), "ExpandMore");
     exports.default = _default;
@@ -30434,12 +30434,12 @@ var require_Component = __commonJS({
       }
       return obj;
     }
-    var CopyToClipboard2 = /* @__PURE__ */ (function(_React$PureComponent) {
-      _inherits(CopyToClipboard3, _React$PureComponent);
-      var _super = _createSuper(CopyToClipboard3);
-      function CopyToClipboard3() {
+    var CopyToClipboard3 = /* @__PURE__ */ (function(_React$PureComponent) {
+      _inherits(CopyToClipboard4, _React$PureComponent);
+      var _super = _createSuper(CopyToClipboard4);
+      function CopyToClipboard4() {
         var _this;
-        _classCallCheck2(this, CopyToClipboard3);
+        _classCallCheck2(this, CopyToClipboard4);
         for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
           args[_key] = arguments[_key];
         }
@@ -30457,7 +30457,7 @@ var require_Component = __commonJS({
         });
         return _this;
       }
-      _createClass2(CopyToClipboard3, [{
+      _createClass2(CopyToClipboard4, [{
         key: "render",
         value: function render() {
           var _this$props2 = this.props, _text = _this$props2.text, _onCopy = _this$props2.onCopy, _options = _this$props2.options, children = _this$props2.children, props = _objectWithoutProperties2(_this$props2, _excluded);
@@ -30467,10 +30467,10 @@ var require_Component = __commonJS({
           }));
         }
       }]);
-      return CopyToClipboard3;
+      return CopyToClipboard4;
     })(_react["default"].PureComponent);
-    exports.CopyToClipboard = CopyToClipboard2;
-    _defineProperty2(CopyToClipboard2, "defaultProps", {
+    exports.CopyToClipboard = CopyToClipboard3;
+    _defineProperty2(CopyToClipboard3, "defaultProps", {
       onCopy: void 0,
       options: void 0
     });
@@ -30482,9 +30482,9 @@ var require_lib = __commonJS({
   "node_modules/react-copy-to-clipboard/lib/index.js"(exports, module2) {
     "use strict";
     var _require = require_Component();
-    var CopyToClipboard2 = _require.CopyToClipboard;
-    CopyToClipboard2.CopyToClipboard = CopyToClipboard2;
-    module2.exports = CopyToClipboard2;
+    var CopyToClipboard3 = _require.CopyToClipboard;
+    CopyToClipboard3.CopyToClipboard = CopyToClipboard3;
+    module2.exports = CopyToClipboard3;
   }
 });
 
@@ -30498,9 +30498,9 @@ var require_Close = __commonJS({
       value: true
     });
     exports.default = void 0;
-    var React36 = _interopRequireWildcard(require_react());
+    var React37 = _interopRequireWildcard(require_react());
     var _createSvgIcon = _interopRequireDefault(require_createSvgIcon2());
-    var _default = (0, _createSvgIcon.default)(/* @__PURE__ */ React36.createElement("path", {
+    var _default = (0, _createSvgIcon.default)(/* @__PURE__ */ React37.createElement("path", {
       d: "M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
     }), "Close");
     exports.default = _default;
@@ -30508,11 +30508,11 @@ var require_Close = __commonJS({
 });
 
 // src/pages/special-issue/index.js
-var import_react10 = __toESM(require_react());
+var import_react11 = __toESM(require_react());
 var import_react_dom2 = __toESM(require_react_dom());
 
 // src/pages/special-issue/SpecialIssue.js
-var import_react9 = __toESM(require_react());
+var import_react10 = __toESM(require_react());
 
 // src/components/PreviousIssues.js
 var import_react7 = __toESM(require_react());
@@ -38701,8 +38701,62 @@ var PreviousIssues = ({ issues, isSpecial, onSpecialIssueSelect }) => {
 var PreviousIssues_default = PreviousIssues;
 
 // src/pages/special-issue/SpecialIssueDetail.js
+var import_react9 = __toESM(require_react());
+var import_react_copy_to_clipboard2 = __toESM(require_lib());
+
+// src/components/FeaturedIssue.js
 var import_react8 = __toESM(require_react());
-var SpecialIssueDetail = ({ issue, onBack }) => /* @__PURE__ */ import_react8.default.createElement("article", { className: "special-issue-detail" }, /* @__PURE__ */ import_react8.default.createElement("button", { type: "button", className: "special-issue-detail__back", onClick: onBack }, "Back to special issues"), /* @__PURE__ */ import_react8.default.createElement("header", null, /* @__PURE__ */ import_react8.default.createElement("p", { className: "special-issue-detail__eyebrow" }, "Special Issue"), /* @__PURE__ */ import_react8.default.createElement("h1", null, issue.issueName), /* @__PURE__ */ import_react8.default.createElement("p", null, issue.date)), /* @__PURE__ */ import_react8.default.createElement("section", { className: "special-issue-detail__content" }, /* @__PURE__ */ import_react8.default.createElement("div", { dangerouslySetInnerHTML: { __html: issue.embed } })));
+var import_prop_types24 = __toESM(require_prop_types());
+var FeaturedIssue = ({ issueName, embed }) => /* @__PURE__ */ import_react8.default.createElement(import_react8.default.Fragment, null, /* @__PURE__ */ import_react8.default.createElement("h1", { className: "article-headline" }, issueName), /* @__PURE__ */ import_react8.default.createElement("span", { dangerouslySetInnerHTML: { __html: embed } }));
+FeaturedIssue.propTypes = {
+  issueName: import_prop_types24.default.string.isRequired,
+  embed: import_prop_types24.default.string.isRequired
+};
+var FeaturedIssue_default = FeaturedIssue;
+
+// src/pages/special-issue/SpecialIssueDetail.js
+var SpecialIssueDetail = ({ issue, onBack }) => {
+  const [anchorEl, setAnchorEl] = (0, import_react9.useState)(null);
+  const [copied, setCopied] = (0, import_react9.useState)(false);
+  const issueLink = window.location.href;
+  const popoverOpen = Boolean(anchorEl);
+  const popoverId = popoverOpen ? "special-issue-link-popover" : void 0;
+  const handleCopy = () => {
+    setCopied(true);
+    setTimeout(() => setCopied(false), 1500);
+  };
+  return /* @__PURE__ */ import_react9.default.createElement("article", { className: "special-issue-detail" }, /* @__PURE__ */ import_react9.default.createElement("button", { type: "button", className: "special-issue-detail__back", onClick: onBack }, "Back to special issues"), /* @__PURE__ */ import_react9.default.createElement("div", { className: "special-issue-detail__embed" }, /* @__PURE__ */ import_react9.default.createElement(FeaturedIssue_default, { issueName: issue.issueName, embed: issue.embed })), /* @__PURE__ */ import_react9.default.createElement(Box_default, { className: "special-issue-detail__buttons" }, /* @__PURE__ */ import_react9.default.createElement(
+    Button_default,
+    {
+      "aria-describedby": popoverId,
+      variant: "contained",
+      onClick: (event) => setAnchorEl(event.currentTarget)
+    },
+    "Link to this issue"
+  ), /* @__PURE__ */ import_react9.default.createElement(
+    Popover_default,
+    {
+      id: popoverId,
+      open: popoverOpen,
+      anchorEl,
+      onClose: () => setAnchorEl(null),
+      anchorOrigin: { vertical: "bottom", horizontal: "left" }
+    },
+    /* @__PURE__ */ import_react9.default.createElement(Box_default, { p: 2 }, issueLink)
+  ), /* @__PURE__ */ import_react9.default.createElement(
+    Tooltip_default,
+    {
+      PopperProps: { disablePortal: true },
+      onClose: () => setCopied(false),
+      open: copied,
+      disableFocusListener: true,
+      disableHoverListener: true,
+      disableTouchListener: true,
+      title: "Copied"
+    },
+    /* @__PURE__ */ import_react9.default.createElement(import_react_copy_to_clipboard2.default, { text: issueLink, onCopy: handleCopy }, /* @__PURE__ */ import_react9.default.createElement(Button_default, { "aria-describedby": "copy-special-issue-link", variant: "contained" }, "Copy Link"))
+  )));
+};
 var SpecialIssueDetail_default = SpecialIssueDetail;
 
 // src/pages/special-issue/SpecialIssue.js
@@ -38722,12 +38776,12 @@ var findSpecialIssue = (issues, slug) => {
   return allSpecialIssues.find((issue) => getSpecialIssueSlug(issue) === slug) || null;
 };
 var SpecialIssue = () => {
-  const [error, setError] = (0, import_react9.useState)(null);
-  const [isLoaded, setIsLoaded] = (0, import_react9.useState)(false);
-  const [issues, setIssues] = (0, import_react9.useState)(null);
-  const [selectedSpecialIssue, setSelectedSpecialIssue] = (0, import_react9.useState)(null);
-  (0, import_react9.useEffect)(() => {
-    const issuesUrl = `${process.env.PUBLIC_URL}/issues-special.json`;
+  const [error, setError] = (0, import_react10.useState)(null);
+  const [isLoaded, setIsLoaded] = (0, import_react10.useState)(false);
+  const [issues, setIssues] = (0, import_react10.useState)(null);
+  const [selectedSpecialIssue, setSelectedSpecialIssue] = (0, import_react10.useState)(null);
+  (0, import_react10.useEffect)(() => {
+    const issuesUrl = "https://raw.githubusercontent.com/student-life-newspaper/issu-archive/main/public/issues-special.json";
     fetch(issuesUrl).then((response) => {
       if (!response.ok) {
         throw new Error(`Failed to fetch ${issuesUrl}: ${response.status}`);
@@ -38741,7 +38795,7 @@ var SpecialIssue = () => {
       setError(e.message);
     });
   }, []);
-  (0, import_react9.useEffect)(() => {
+  (0, import_react10.useEffect)(() => {
     if (!issues) return void 0;
     const syncRoute = () => {
       setSelectedSpecialIssue(findSpecialIssue(issues, getSlugFromPath()));
@@ -38761,24 +38815,22 @@ var SpecialIssue = () => {
     setSelectedSpecialIssue(null);
     window.scrollTo(0, 0);
   };
-  const listSpecialIssues = (specialIssues) => {
-    return /* @__PURE__ */ import_react9.default.createElement(import_react9.default.Fragment, null, /* @__PURE__ */ import_react9.default.createElement("h1", { className: "article-headline" }, "Special Issues"), /* @__PURE__ */ import_react9.default.createElement(
-      IndividualIssues,
-      {
-        issuesArray: specialIssues,
-        specialCategory: "Special Issues",
-        onSpecialIssueSelect: openSpecialIssue
-      }
-    ));
-  };
+  const listSpecialIssues = (specialIssues) => /* @__PURE__ */ import_react10.default.createElement(import_react10.default.Fragment, null, /* @__PURE__ */ import_react10.default.createElement("h1", { className: "article-headline" }, "Special Issues"), /* @__PURE__ */ import_react10.default.createElement(
+    IndividualIssues,
+    {
+      issuesArray: specialIssues,
+      specialCategory: "Special Issues",
+      onSpecialIssueSelect: openSpecialIssue
+    }
+  ));
   if (error) {
-    return /* @__PURE__ */ import_react9.default.createElement("div", null, "An error occurred loading this page:", " ", error);
+    return /* @__PURE__ */ import_react10.default.createElement("div", null, "An error occurred loading this page:", " ", error);
   }
   if (!isLoaded) {
-    return /* @__PURE__ */ import_react9.default.createElement("div", null, "Loading...");
+    return /* @__PURE__ */ import_react10.default.createElement("div", null, "Loading...");
   }
   if (selectedSpecialIssue) {
-    return /* @__PURE__ */ import_react9.default.createElement(
+    return /* @__PURE__ */ import_react10.default.createElement(
       SpecialIssueDetail_default,
       {
         issue: selectedSpecialIssue,
@@ -38786,7 +38838,7 @@ var SpecialIssue = () => {
       }
     );
   }
-  return /* @__PURE__ */ import_react9.default.createElement(import_react9.default.Fragment, null, issues["Special Issues"] && listSpecialIssues(issues["Special Issues"]), issues["Previous Special Issues"] && /* @__PURE__ */ import_react9.default.createElement(
+  return /* @__PURE__ */ import_react10.default.createElement(import_react10.default.Fragment, null, issues["Special Issues"] && listSpecialIssues(issues["Special Issues"]), issues["Previous Special Issues"] && /* @__PURE__ */ import_react10.default.createElement(
     PreviousIssues_default,
     {
       issues: issues["Previous Special Issues"],
@@ -38801,7 +38853,7 @@ var SpecialIssue_default = SpecialIssue;
 var target = document.getElementById("special-issue");
 if (target) {
   import_react_dom2.default.render(
-    /* @__PURE__ */ import_react10.default.createElement(import_react10.default.StrictMode, null, /* @__PURE__ */ import_react10.default.createElement(SpecialIssue_default, null)),
+    /* @__PURE__ */ import_react11.default.createElement(import_react11.default.StrictMode, null, /* @__PURE__ */ import_react11.default.createElement(SpecialIssue_default, null)),
     target
   );
 }

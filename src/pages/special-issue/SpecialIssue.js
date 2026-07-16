@@ -35,8 +35,8 @@ const SpecialIssue = () => {
   const [selectedSpecialIssue, setSelectedSpecialIssue] = useState(null);
 
   useEffect(() => {
-    const issuesUrl = `${process.env.PUBLIC_URL}/issues-special.json`;
-    // const issuesUrl = 'https://raw.githubusercontent.com/student-life-newspaper/issu-archive/main/public/issues-latest.json';
+    // const issuesUrl = `${process.env.PUBLIC_URL}/issues-special.json`;
+    const issuesUrl = 'https://raw.githubusercontent.com/student-life-newspaper/issu-archive/main/public/issues-special.json';
 
     fetch(issuesUrl)
       .then((response) => {

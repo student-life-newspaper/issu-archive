@@ -38928,7 +38928,7 @@ var LatestIssue = () => {
     if (window.location.search && issues) parseQueryString(window.location.search);
   }, [issues]);
   (0, import_react9.useEffect)(() => {
-    fetch("/issues-latest.json").then((response) => response.json()).then((pulledIssues) => {
+    fetch("https://raw.githubusercontent.com/student-life-newspaper/issu-archive/main/public/issues-latest.json").then((response) => response.json()).then((pulledIssues) => {
       setIssues(pulledIssues);
       setIsLoaded(true);
     }).catch((e) => {

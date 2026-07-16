@@ -7,24 +7,6 @@
   max-width: 1200px;
   padding: 2rem 1rem;
 }
-.special-issue__header {
-  border-bottom: 1px solid #d8d8d8;
-  padding-bottom: 1.5rem;
-}
-.special-issue__header h1 {
-  margin: 0.25rem 0;
-}
-.special-issue__eyebrow {
-  color: #b1170f;
-  font-size: 0.75rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  margin: 0;
-  text-transform: uppercase;
-}
-.special-issue__content {
-  padding-top: 1.5rem;
-}
 .special-issue-detail {
   box-sizing: border-box;
   margin: 0 auto;
@@ -36,20 +18,39 @@
   border: 0;
   color: #b1170f;
   cursor: pointer;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   padding: 0;
+  font-size: 1.5rem;
   text-decoration: underline;
 }
-.special-issue-detail__eyebrow {
-  color: #b1170f;
-  font-size: 0.75rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  margin: 0 0 0.5rem;
-  text-transform: uppercase;
+.special-issue-detail__embed > span {
+  display: block;
 }
-.special-issue-detail__content {
-  margin-top: 2rem;
+.special-issue-detail__embed > span > div {
+  height: 0 !important;
+  min-height: 326px;
+  padding-top: min(60%, 700px) !important;
+  position: relative;
+  width: 100%;
+}
+.special-issue-detail__embed iframe {
+  border: 0;
+  height: 100% !important;
+  left: 0;
+  padding-top: 0 !important;
+  position: absolute;
+  top: 0;
+  width: 100% !important;
+}
+.special-issue-detail__embed > span > iframe {
+  min-height: 500px;
+  position: relative;
+}
+.special-issue-detail__buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1.25rem;
 }
 
 /* src/App.css */
