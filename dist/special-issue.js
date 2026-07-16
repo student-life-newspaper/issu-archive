@@ -38457,13 +38457,10 @@ var SelectedIssueModal = ({ issueObj, modalOpen, setModalOpen }) => {
     setTimeout(() => setCopied(false), 1500);
   };
   const generateLink = () => {
-    if (issueObj.specialCategory) {
-      return `https://www.studlife.com/pdf?iaYear=${issueSchoolYear(issueObj.date)}&iaCategory=${issueObj.specialCategory}&iaDate=${issueObj.date}&iaIsSpecial=${true}`;
-    }
     const issueJSDate = new Date(issueObj.date);
     const semester = issueJSDate.getMonth() + 1 <= 6 ? "Spring" : "Fall";
     const month = monthArr[issueJSDate.getMonth()];
-    return `https://www.studlife.com/pdf?iaYear=${issueSchoolYear(issueObj.date)}&iaCategory=${semester}&iaMonth=${month}&iaDate=${issueObj.date}`;
+    return `https://www.studlife.com/latest-issue?iaYear=${issueSchoolYear(issueObj.date)}&iaCategory=${semester}&iaMonth=${month}&iaDate=${issueObj.date}`;
   };
   const open = Boolean(anchorEl);
   const id = open ? "link-popover" : void 0;
