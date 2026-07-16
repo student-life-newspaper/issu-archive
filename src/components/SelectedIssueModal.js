@@ -30,7 +30,6 @@ const SelectedIssueModal = ({ issueObj, modalOpen, setModalOpen }) => {
   const [anchorEl, setAnchorEl] = useState(null);
   const [copied, setCopied] = useState(false);
 
-
   const handleLinkClick = (event) => {
     setAnchorEl(event.currentTarget);
   };
@@ -108,8 +107,8 @@ const SelectedIssueModal = ({ issueObj, modalOpen, setModalOpen }) => {
               </CopyToClipboard>
             </Tooltip>
           </Box>
-          <Box sx={{ mb: 1, height: "80% !important" }} id="modal-embed-wrapper">
-            <span id="inner_issue_container" dangerouslySetInnerHTML={{ __html: issueObj.embed }} style={{ display: "block", height: "100%" }} />
+          <Box sx={{ mb: 1, height: '80% !important' }} id="modal-embed-wrapper">
+            <span id="inner_issue_container" dangerouslySetInnerHTML={{ __html: issueObj.embed }} style={{ display: 'block', height: '100%' }} />
           </Box>
         </Box>
       </Modal>

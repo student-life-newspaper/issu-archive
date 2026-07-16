@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import '../App.css';
+import '../../App.css';
 import queryString from 'query-string';
-import FeaturedIssue from './FeaturedIssue';
-import PreviousIssues from './PreviousIssues';
-import SelectedIssueModal from './SelectedIssueModal';
+import FeaturedIssue from '../../components/FeaturedIssue';
+import PreviousIssues from '../../components/PreviousIssues';
+import SelectedIssueModal from '../../components/SelectedIssueModal';
 
-const Main = () => {
+const LatestIssue = () => {
   const [error, setError] = useState(null);
   const [isLoaded, setIsLoaded] = useState(false);
   const [issues, setIssues] = useState(null);
@@ -47,7 +47,8 @@ const Main = () => {
   }, [issues]);
 
   useEffect(() => {
-    fetch('https://raw.githubusercontent.com/student-life-newspaper/issu-archive/main/public/issues.json')
+    fetch('https://raw.githubusercontent.com/student-life-newspaper/issu-archive/main/public/issues-latest.json')
+      // fetch('/issues-latest.json')
       .then((response) => response.json())
       .then((pulledIssues) => {
         setIssues(pulledIssues);
@@ -87,9 +88,9 @@ const Main = () => {
       )}
       {issues['Featured Issues'] && listFeaturedIssues(issues['Featured Issues'])}
       {issues['Previous Issues']
-        && <PreviousIssues issues={issues['Previous Issues']} />}
+        && <PreviousIssues issues={issues['Previous Issues']} isSpecial={false} />}
     </>
   );
 };
 
-export default Main;
+export default LatestIssue;

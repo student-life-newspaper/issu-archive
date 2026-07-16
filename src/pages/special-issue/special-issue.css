@@ -1,0 +1,58 @@
+.special-issue {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 2rem 1rem;
+}
+
+.special-issue__header {
+  border-bottom: 1px solid #d8d8d8;
+  padding-bottom: 1.5rem;
+}
+
+.special-issue__header h1 {
+  margin: 0.25rem 0;
+}
+
+.special-issue__eyebrow {
+  color: #b1170f;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.special-issue__content {
+  padding-top: 1.5rem;
+}
+
+.special-issue-detail {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 2rem 1rem;
+}
+
+.special-issue-detail__back {
+  background: none;
+  border: 0;
+  color: #b1170f;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  padding: 0;
+  text-decoration: underline;
+}
+
+.special-issue-detail__eyebrow {
+  color: #b1170f;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  margin: 0 0 0.5rem;
+  text-transform: uppercase;
+}
+
+.special-issue-detail__content {
+  margin-top: 2rem;
+}

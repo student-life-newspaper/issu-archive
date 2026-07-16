@@ -1,13 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import './App.css';
-import Main from './components/Main';
+const page = process.env.REACT_APP_PAGE || 'latest-issue';
 
-const target = document.getElementById('issu-archive');
-ReactDOM.render(
-  <React.StrictMode>
-    <Main />
-  </React.StrictMode>,
-  target,
-);
+if (page === 'special-issue') {
+  import('./pages/special-issue');
+} else {
+  import('./pages/latest-issue');
+}

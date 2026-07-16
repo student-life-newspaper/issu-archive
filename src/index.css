@@ -12,7 +12,7 @@ code {
     monospace;
 }
 
-#modal-embed-wrapper > div {
+#modal-embed-wrapper>div {
   padding-top: min(60vh, 500px) !important;
 }
 
@@ -20,7 +20,7 @@ code {
   height: 60vh;
 }
 
-.MuiBox-root #modal-embed-wrapper > div {
+.MuiBox-root #modal-embed-wrapper>div {
   height: 100%;
 }
 
@@ -28,7 +28,7 @@ code {
   position: relative !important;
 }
 
-.MuiBox-root #modal-embed-wrapper > span > div {
+.MuiBox-root #modal-embed-wrapper>span>div {
   padding-top: 0 !important;
   height: 100% !important;
 }
@@ -41,3 +41,6 @@ code {
   overflow: auto;
 }
 
+.MuiAccordion-root {
+  background: #d9d9d933;
+}

@@ -50,12 +50,19 @@ const columnAccordionTheme = makeStyles({
   },
 });
 
-const IndividualIssues = ({ issuesArray, specialCategory }) => {
+export const IndividualIssues = ({
+  issuesArray, specialCategory, onSpecialIssueSelect,
+}) => {
   const [modalOpen, setModalOpen] = useState(false);
   const [issueSelected, setIssueSelected] = useState({});
   const classes = columnAccordionTheme();
 
   const handleIssueSelect = (issueData) => {
+    if (onSpecialIssueSelect) {
+      onSpecialIssueSelect(issueData);
+      return;
+    }
+
     setModalOpen(true);
     const t = issueData;
     t.specialCategory = specialCategory;
@@ -68,7 +75,7 @@ const IndividualIssues = ({ issuesArray, specialCategory }) => {
   const dateString = (date) => new Date(date).toLocaleDateString('en-US', options);
   const issues = issuesArray.map((e) => {
     const { date } = e;
-    const thumbnailUrl = (specialCategory)
+    const thumbnailUrl = (specialCategory && e.thumbURL)
       ? `url(${THUMBNAIL_URL}${issueSchoolYear(date)}/thumbs/${e.thumbURL}.jpg)`
       : `url(${THUMBNAIL_URL}${issueSchoolYear(date)}/thumbs/${issueArchiveDate(date)}.jpg)`;
     e.issueName = (specialCategory) ? e.issueName : dateString(date);
@@ -186,7 +193,7 @@ const SubdivisionAccordion = ({ subdivisions, year }) => {
   );
 };
 
-const PreviousIssues = ({ issues }) => {
+const PreviousIssues = ({ issues, isSpecial, onSpecialIssueSelect }) => {
   const [expanded, setExpanded] = useState(false);
   const classes = columnAccordionTheme();
 
@@ -197,6 +204,7 @@ const PreviousIssues = ({ issues }) => {
   const yearsAccordion = () => {
     const elements = Object.entries(issues).map((e) => {
       const year = e[0];
+
       return (
         <Accordion expanded={expanded === `panel-${year}`} onChange={() => handleChange(`panel-${year}`)} key={`panel-${year}`}>
           <AccordionSummary
@@ -208,12 +216,18 @@ const PreviousIssues = ({ issues }) => {
           </AccordionSummary>
           <AccordionDetails className={classes.flexColumn}>
             {expanded === `panel-${year}`
-              && (
+              && (isSpecial ? (
+                <IndividualIssues
+                  issuesArray={e[1]['Special Issues']}
+                  specialCategory="Special Issues"
+                  onSpecialIssueSelect={onSpecialIssueSelect}
+                />
+              ) : (
                 <SubdivisionAccordion
                   subdivisions={e[1]}
                   year={year}
                 />
-              )}
+              ))}
           </AccordionDetails>
         </Accordion>
       );
@@ -223,8 +237,10 @@ const PreviousIssues = ({ issues }) => {
 
   return (
     <>
-      <h1 className="article-headline" style={{ marginTop: '50px', marginBottom: 0 }}>Previous Issues</h1>
-      <div className="horizontal-divider-red" />
+      <h1 className="article-headline" style={{ marginTop: '50px', marginBottom: '20px' }}>
+        {isSpecial ? 'Previous Special Issues' : 'Previous Issues'}
+      </h1>
+      {/* <div className="horizontal-divider-red" /> */}
       {yearsAccordion()}
       <p style={{ marginTop: '2em' }}>
         <em>
