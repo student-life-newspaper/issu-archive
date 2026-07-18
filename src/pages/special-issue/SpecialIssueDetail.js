@@ -24,7 +24,7 @@ const SpecialIssueDetail = ({ issue, onBack }) => {
       </button>
 
       <div className="special-issue-detail__embed">
-        <FeaturedIssue issueName={issue.issueName} embed={issue.embed} />
+        <FeaturedIssue issueName={"Special Issue: " + issue.issueName} embed={issue.embed} />
       </div>
 
       <Box className="special-issue-detail__buttons">

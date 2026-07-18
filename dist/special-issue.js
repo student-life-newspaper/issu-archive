@@ -38722,7 +38722,7 @@ var SpecialIssueDetail = ({ issue, onBack }) => {
     setCopied(true);
     setTimeout(() => setCopied(false), 1500);
   };
-  return /* @__PURE__ */ import_react9.default.createElement("article", { className: "special-issue-detail" }, /* @__PURE__ */ import_react9.default.createElement("button", { type: "button", className: "special-issue-detail__back", onClick: onBack }, "Back to special issues"), /* @__PURE__ */ import_react9.default.createElement("div", { className: "special-issue-detail__embed" }, /* @__PURE__ */ import_react9.default.createElement(FeaturedIssue_default, { issueName: issue.issueName, embed: issue.embed })), /* @__PURE__ */ import_react9.default.createElement(Box_default, { className: "special-issue-detail__buttons" }, /* @__PURE__ */ import_react9.default.createElement(
+  return /* @__PURE__ */ import_react9.default.createElement("article", { className: "special-issue-detail" }, /* @__PURE__ */ import_react9.default.createElement("button", { type: "button", className: "special-issue-detail__back", onClick: onBack }, "Back to special issues"), /* @__PURE__ */ import_react9.default.createElement("div", { className: "special-issue-detail__embed" }, /* @__PURE__ */ import_react9.default.createElement(FeaturedIssue_default, { issueName: "Special Issue: " + issue.issueName, embed: issue.embed })), /* @__PURE__ */ import_react9.default.createElement(Box_default, { className: "special-issue-detail__buttons" }, /* @__PURE__ */ import_react9.default.createElement(
     Button_default,
     {
       "aria-describedby": popoverId,

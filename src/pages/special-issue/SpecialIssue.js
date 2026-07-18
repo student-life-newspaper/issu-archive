@@ -69,15 +69,11 @@ const SpecialIssue = () => {
 
   const openSpecialIssue = (issue) => {
     const slug = getSpecialIssueSlug(issue);
-    window.history.pushState({}, '', `${SPECIAL_ISSUES_PATH}/${encodeURIComponent(slug)}`);
-    setSelectedSpecialIssue(issue);
-    window.scrollTo(0, 0);
+    window.location.assign(`${SPECIAL_ISSUES_PATH}/${encodeURIComponent(slug)}`);
   };
 
   const closeSpecialIssue = () => {
-    window.history.pushState({}, '', SPECIAL_ISSUES_PATH);
-    setSelectedSpecialIssue(null);
-    window.scrollTo(0, 0);
+    window.location.assign("/special-issue");
   };
 
   const listSpecialIssues = (specialIssues) => (
