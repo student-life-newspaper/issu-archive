@@ -19,12 +19,10 @@ const SpecialIssueDetail = ({ issue, onBack }) => {
 
   return (
     <article className="special-issue-detail">
-      <button type="button" className="special-issue-detail__back" onClick={onBack}>
-        Back to special issues
-      </button>
+      <button type="button" className="special-issue-detail__back" onClick={onBack}></button>
 
       <div className="special-issue-detail__embed">
-        <FeaturedIssue issueName={"Special Issue: " + issue.issueName} embed={issue.embed} />
+        <FeaturedIssue issueName={"Special Issues: " + issue.issueName} embed={issue.embed} />
       </div>
 
       <Box className="special-issue-detail__buttons">

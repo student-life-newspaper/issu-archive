@@ -246,7 +246,7 @@ const PreviousIssues = ({ issues, isSpecial, onSpecialIssueSelect }) => {
         <em>
           For PDFs before the 2020-2021 school year, visit the
           {' '}
-          <a href="/pdf-archive" style={{ textDecoration: 'underline' }}>PDF archive</a>
+          <a href="/pdf-archive" className='communication'>PDF archive</a>
           .
         </em>
       </p>

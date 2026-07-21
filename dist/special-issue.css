@@ -27,17 +27,31 @@
   box-sizing: border-box;
   margin: 0 auto;
   max-width: 1200px;
-  padding: 2rem 1rem;
+  padding: .5rem;
 }
 .special-issue-detail__back {
   background: none;
   border: 0;
   color: #b1170f;
   cursor: pointer;
-  margin-bottom: 1rem;
-  padding: 0;
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+.special-issue-detail__back::before {
+  content: "\2190 Back";
   font-size: 1.5rem;
-  text-decoration: underline;
+  transition: transform 0.2s ease;
+}
+.special-issue-detail__back:hover {
+  color: #88120c;
+}
+.special-issue-detail__back:hover::before {
+  transform: translateX(-4px);
 }
 .special-issue-detail__embed > span {
   display: block;

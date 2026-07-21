@@ -38693,7 +38693,7 @@ var PreviousIssues = ({ issues, isSpecial, onSpecialIssueSelect }) => {
     });
     return elements;
   };
-  return /* @__PURE__ */ import_react7.default.createElement(import_react7.default.Fragment, null, /* @__PURE__ */ import_react7.default.createElement("h1", { className: "article-headline", style: { marginTop: "50px", marginBottom: "20px" } }, isSpecial ? "Previous Special Issues" : "Previous Issues"), yearsAccordion(), /* @__PURE__ */ import_react7.default.createElement("p", { style: { marginTop: "2em" } }, /* @__PURE__ */ import_react7.default.createElement("em", null, "For PDFs before the 2020-2021 school year, visit the", " ", /* @__PURE__ */ import_react7.default.createElement("a", { href: "/pdf-archive", style: { textDecoration: "underline" } }, "PDF archive"), ".")));
+  return /* @__PURE__ */ import_react7.default.createElement(import_react7.default.Fragment, null, /* @__PURE__ */ import_react7.default.createElement("h1", { className: "article-headline", style: { marginTop: "50px", marginBottom: "20px" } }, isSpecial ? "Previous Special Issues" : "Previous Issues"), yearsAccordion(), /* @__PURE__ */ import_react7.default.createElement("p", { style: { marginTop: "2em" } }, /* @__PURE__ */ import_react7.default.createElement("em", null, "For PDFs before the 2020-2021 school year, visit the", " ", /* @__PURE__ */ import_react7.default.createElement("a", { href: "/pdf-archive", className: "communication" }, "PDF archive"), ".")));
 };
 var PreviousIssues_default = PreviousIssues;
 
@@ -38722,7 +38722,7 @@ var SpecialIssueDetail = ({ issue, onBack }) => {
     setCopied(true);
     setTimeout(() => setCopied(false), 1500);
   };
-  return /* @__PURE__ */ import_react9.default.createElement("article", { className: "special-issue-detail" }, /* @__PURE__ */ import_react9.default.createElement("button", { type: "button", className: "special-issue-detail__back", onClick: onBack }, "Back to special issues"), /* @__PURE__ */ import_react9.default.createElement("div", { className: "special-issue-detail__embed" }, /* @__PURE__ */ import_react9.default.createElement(FeaturedIssue_default, { issueName: "Special Issue: " + issue.issueName, embed: issue.embed })), /* @__PURE__ */ import_react9.default.createElement(Box_default, { className: "special-issue-detail__buttons" }, /* @__PURE__ */ import_react9.default.createElement(
+  return /* @__PURE__ */ import_react9.default.createElement("article", { className: "special-issue-detail" }, /* @__PURE__ */ import_react9.default.createElement("button", { type: "button", className: "special-issue-detail__back", onClick: onBack }), /* @__PURE__ */ import_react9.default.createElement("div", { className: "special-issue-detail__embed" }, /* @__PURE__ */ import_react9.default.createElement(FeaturedIssue_default, { issueName: "Special Issues: " + issue.issueName, embed: issue.embed })), /* @__PURE__ */ import_react9.default.createElement(Box_default, { className: "special-issue-detail__buttons" }, /* @__PURE__ */ import_react9.default.createElement(
     Button_default,
     {
       "aria-describedby": popoverId,
@@ -38803,14 +38803,10 @@ var SpecialIssue = () => {
   }, [issues]);
   const openSpecialIssue = (issue) => {
     const slug = getSpecialIssueSlug(issue);
-    window.history.pushState({}, "", `${SPECIAL_ISSUES_PATH}/${encodeURIComponent(slug)}`);
-    setSelectedSpecialIssue(issue);
-    window.scrollTo(0, 0);
+    window.location.assign(`${SPECIAL_ISSUES_PATH}/${encodeURIComponent(slug)}`);
   };
   const closeSpecialIssue = () => {
-    window.history.pushState({}, "", SPECIAL_ISSUES_PATH);
-    setSelectedSpecialIssue(null);
-    window.scrollTo(0, 0);
+    window.location.assign("/special-issue");
   };
   const listSpecialIssues = (specialIssues) => /* @__PURE__ */ import_react10.default.createElement(import_react10.default.Fragment, null, /* @__PURE__ */ import_react10.default.createElement("h1", { className: "article-headline" }, "Special Issues"), /* @__PURE__ */ import_react10.default.createElement(
     IndividualIssues,

@@ -32,7 +32,7 @@
   box-sizing: border-box;
   margin: 0 auto;
   max-width: 1200px;
-  padding: 2rem 1rem;
+  padding: .5rem;
 }
 
 .special-issue-detail__back {
@@ -40,10 +40,30 @@
   border: 0;
   color: #b1170f;
   cursor: pointer;
-  margin-bottom: 1rem;
-  padding: 0;
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+/* Adds a CSS arrow dynamically so you don't need to change your HTML */
+.special-issue-detail__back::before {
+  content: "←Back";
   font-size: 1.5rem;
-  text-decoration: underline;
+  transition: transform 0.2s ease;
+}
+
+.special-issue-detail__back:hover {
+  color: #88120c;
+  /* Slightly darker shade on hover */
+}
+
+/* Smooth arrow shift on hover */
+.special-issue-detail__back:hover::before {
+  transform: translateX(-4px);
 }
 
 .special-issue-detail__embed>span {

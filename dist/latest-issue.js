@@ -38879,7 +38879,7 @@ var PreviousIssues = ({ issues, isSpecial, onSpecialIssueSelect }) => {
     });
     return elements;
   };
-  return /* @__PURE__ */ import_react8.default.createElement(import_react8.default.Fragment, null, /* @__PURE__ */ import_react8.default.createElement("h1", { className: "article-headline", style: { marginTop: "50px", marginBottom: "20px" } }, isSpecial ? "Previous Special Issues" : "Previous Issues"), yearsAccordion(), /* @__PURE__ */ import_react8.default.createElement("p", { style: { marginTop: "2em" } }, /* @__PURE__ */ import_react8.default.createElement("em", null, "For PDFs before the 2020-2021 school year, visit the", " ", /* @__PURE__ */ import_react8.default.createElement("a", { href: "/pdf-archive", style: { textDecoration: "underline" } }, "PDF archive"), ".")));
+  return /* @__PURE__ */ import_react8.default.createElement(import_react8.default.Fragment, null, /* @__PURE__ */ import_react8.default.createElement("h1", { className: "article-headline", style: { marginTop: "50px", marginBottom: "20px" } }, isSpecial ? "Previous Special Issues" : "Previous Issues"), yearsAccordion(), /* @__PURE__ */ import_react8.default.createElement("p", { style: { marginTop: "2em" } }, /* @__PURE__ */ import_react8.default.createElement("em", null, "For PDFs before the 2020-2021 school year, visit the", " ", /* @__PURE__ */ import_react8.default.createElement("a", { href: "/pdf-archive", className: "communication" }, "PDF archive"), ".")));
 };
 var PreviousIssues_default = PreviousIssues;
 
