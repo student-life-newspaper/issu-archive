@@ -133,7 +133,11 @@ if [ "$MODE" -eq 1 ]; then
 
         # Append the unchanged item to the bottom of its history list.
         ."Previous Special Issues"[$year_range]."Special Issues" |=
-            (. // []) + [$oldest]
+            (. // []) + [$oldest]|
+
+        # Keep academic years ordered newest to oldest.
+        ."Previous Special Issues" |=
+            (to_entries | sort_by(.key) | reverse | from_entries)
     ' "$JSON_FILE" > "$TMP_FILE" && mv "$TMP_FILE" "$JSON_FILE"; then
         trap - EXIT
         echo "Success: '$issue_name' added to the top of 'Special Issues'; oldest issue dated $oldest_issue_date moved unchanged to 'Previous Special Issues' under '$year_range'."
@@ -250,6 +254,10 @@ if jq --arg year_range "$year_range" \
                     "embed": $embed
                 }
             ] |
+
+        # Keep academic years ordered newest to oldest.
+        ."Previous Issues" |=
+            (to_entries | sort_by(.key) | reverse | from_entries) |
 
         # Replace the current latest issue.
         ."Featured Issues"[0].date = $new_date |
